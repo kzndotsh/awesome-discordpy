@@ -3,7 +3,7 @@
 <!-- title -->
 
 <!--lint ignore no-dead-urls-->
-<!--lint disable remark-lint:awesome-heading-->
+<!--lint disable awesome-heading-->
 # Awesome Discord.py List
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/kzndotsh/awesome-discordpy/actions/workflows/lint.yaml/badge.svg)](https://github.com/kzndotsh/awesome-discordpy/actions/workflows/lint.yaml)
