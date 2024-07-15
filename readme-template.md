@@ -4,23 +4,23 @@
 
 <!--lint ignore no-dead-urls-->
 
-# Awesome List Template [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/kzndotsh/awesome-discordpy/actions/workflows/lint.yaml/badge.svg)](https://github.com/kzndotsh/awesome-discordpy/actions/workflows/lint.yaml)
+# Awesome Discord.py [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/kzndotsh/awesome-discordpy/actions/workflows/lint.yaml/badge.svg)](https://github.com/kzndotsh/awesome-discordpy/actions/workflows/lint.yaml)
 
 <!-- subtitle -->
 
-A template for an awesome list with required conventions out of the box!
+An Awesome list for all things Discord.py
 
 <!-- image -->
 
 <a href="" target="_blank" rel="noopener noreferrer">
-  <img src="" />
+  <img style="width: 50%" src="https://discordpy.readthedocs.io/en/stable/_images/snake_dark.svg" />
 </a>
 
 <!-- description -->
+<br>
+<br>
 
-A one line description of the product or tool. See
-[awesome-firebase](https://github.com/jthegedus/awesome-firebase) for an
-example.
+[Discord.py](https://discordpy.readthedocs.io/en/stable/) is a modern, easy to use, feature-rich, and async ready API wrapper for Discord.
 
 </div>
 
