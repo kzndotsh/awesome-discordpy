@@ -30,27 +30,15 @@ An Awesome list for all things Discord.py
 
 ## Contents
 
-- [Featured (new releases)](#featured-new-releases)
 - [Section 1](#section-1)
-- [Follow](#follow)
 
 <!-- CONTENT -->
-
-## Featured (new releases)
-
-- [Apple](https://apple.com) - Apple as a placeholder.
 
 ## Section 1
 
 - [Microsoft](https://www.microsoft.com/) - Microsoft as an example.
 
 <!-- END CONTENT -->
-
-## Follow
-
-<!-- list people worth following on social sites (Twitter, LinkedIn, GitHub, YouTube etc.) -->
-
-Who else should we be following!?
 
 ## Contributing
 
