@@ -1,5 +1,3 @@
-<div align="center">
-
 <!-- title -->
 
 <!--lint ignore no-dead-urls-->
@@ -14,31 +12,26 @@ An Awesome list for all things Discord.py
 
 <!-- image -->
 
-<a href="" target="_blank" rel="noopener noreferrer">
-  <img style="width: 50%" src="https://discordpy.readthedocs.io/en/stable/_images/snake_dark.svg" />
-</a>
+![Discord.py Logo](https://discordpy.readthedocs.io/en/stable/_images/snake_dark.svg)
 
 <!-- description -->
-<br>
-<br>
 
 [Discord.py](https://discordpy.readthedocs.io/en/stable/) is a modern, easy to use, feature-rich, and async ready API wrapper for Discord.
 
-</div>
+<!-- TOC -->
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+## Contents
 
-- [Gists](#gists)
-- [Contributing](#contributing)
-  - [Contributors](#contributors)
+- [Awesome Discord.py List](#awesome-discordpy-list)
+  - [Contents](#contents)
+  - [Gists](#gists)
+  - [Contributing](#contributing)
+    - [Contributors](#contributors)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-<!-- START CONTENT -->
+<!-- CONTENT -->
 
 ## Gists
+
 - [A list of all special cog methods](https://gist.github.com/Ikusaba-san/69115b79d33e05ed07ec4a4f14db83b1) - A list of all special cog methods
 
 <!-- END CONTENT -->
