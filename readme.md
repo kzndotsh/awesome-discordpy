@@ -26,13 +26,9 @@ An Awesome list for all things Discord.py
 
 </div>
 
-<!-- TOC -->
+<!-- START doctoc -->
 
-## Contents
-
-- [Section 1](#section-1)
-
-<!-- CONTENT -->
+<!-- END doctoc -->
 
 ## Section 1
 
