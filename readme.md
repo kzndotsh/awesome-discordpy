@@ -24,13 +24,26 @@ An Awesome list for all things Discord.py
 
 - [Awesome Discord.py List](#awesome-discordpy-list)
   - [Contents](#contents)
-  - [Gists](#gists)
+  - [Official Links](#official-links)
+  - [External Libraries](#external-libraries)
+  - [Community Gists](#community-gists)
   - [Contributing](#contributing)
     - [Contributors](#contributors)
 
 <!-- CONTENT -->
 
-## Gists
+## Official Links
+
+- [Discord.py Documentation](https://discordpy.readthedocs.io/en/latest/)
+- [Discord.py GitHub](https://github.com/Rapptz/discord.py)
+- [Discord.py Discord Server](https://discord.gg/dpy)
+
+## External Libraries
+
+- [discord-ext-prometheus](https://pypi.org/project/discord-ext-prometheus/) - An extension for the discord.py library that enables Prometheus metrics.
+- [loguru-discord](https://pypi.org/project/loguru-discord/) - Lightweight sink for Loguru that sends logs to Discord via webhook.
+
+## Community Gists
 
 - <https://gist.github.com/scragly/095b5278a354d46e86f02d643fc3d64b>
 - <https://gist.github.com/1oonie/500eafdad0aaf278b94c612764688976>
