@@ -29,6 +29,7 @@ An Awesome list for all things Discord.py
   - [Forks](#forks)
   - [Libraries and Extensions](#libraries-and-extensions)
   - [Examples](#examples)
+  - [Guides and Tutorials](#guides-and-tutorials)
   - [Community Gists](#community-gists)
   - [Contributing](#contributing)
     - [Contributors](#contributors)
@@ -46,17 +47,24 @@ An Awesome list for all things Discord.py
 
 - [disnake](https://github.com/DisnakeDev/disnake) - A modern, easy to use, feature-rich, and async-ready API wrapper for Discord written in Python.
 - [nextcord](https://github.com/nextcord/nextcord) - A Python wrapper for the Discord API forked from discord.py.
+- [Novus](https://github.com/Voxel-Fox-Ltd/Novus) - An asyncio Python wrapper around the Discord API, forked off of Rapptz's Discord.py.
 - [pycord](https://github.com/Pycord-Development/pycord) - Pycord, a maintained fork of discord.py, is a python wrapper for the Discord API.
 
 ## Libraries and Extensions
 
-- [starlight-dpy](https://github.com/InterStella0/starlight-dpy) - A utility library for discord.py.
-- [reactionmenu](https://github.com/Defxult/reactionmenu) - A library to create a discord.py 2.0+ paginator. Supports pagination with buttons, reactions, and category selection using selects.
-- [jishaku](https://github.com/Gorialis/jishaku) - A debugging and testing cog for discord.py rewrite bots.
+- [InterStella0/starlight-dpy](https://github.com/InterStella0/starlight-dpy) - A utility library for discord.py.
+- [Defxult/reactionmenu](https://github.com/Defxult/reactionmenu) - A library to create a discord.py 2.0+ paginator. Supports pagination with buttons, reactions, and category selection using selects.
+- [Gorialis/jishaku](https://github.com/Gorialis/jishaku) - A debugging and testing cog for discord.py rewrite bots.
 - [discord-ext-prometheus](https://pypi.org/project/discord-ext-prometheus/) - An extension for the discord.py library that enables Prometheus metrics.
 - [loguru-discord](https://pypi.org/project/loguru-discord/) - Lightweight sink for Loguru that sends logs to Discord via webhook.
-- [Discord Anti Spam](https://github.com/Skelmis/Discord-Anti-Spam) - DPY Anti-Spam is a package aimed to handle all required logic under the hood for handling spammers.
-- [discord-qalib](https://github.com/YousefEZ/discord-qalib) - Discord library built on discord.py to simplify source code by rendering markup (xml) templates of embeds and menus (Pagination).
+- [Skelmis/Discord-Anti-Spam](https://github.com/Skelmis/Discord-Anti-Spam) - DPY Anti-Spam is a package aimed to handle all required logic under the hood for handling spammers.
+- [YousefEZ/discord-qalib](https://github.com/YousefEZ/discord-qalib) - Discord library built on discord.py to simplify source code by rendering markup (xml) templates of embeds and menus (Pagination).
+- [MiroslavRosenov/better-ipc](https://github.com/MiroslavRosenov/better-ipc) - High-performance inter-process communication library designed to work with the latest version of discord.py.
+- [CasuallyCalm/discord-pretty-help](https://github.com/CasuallyCalm/discord-pretty-help) - An embed version of the built in help command for discord.py.
+- [discord-ext-voice-recv](https://github.com/imayhaveborkedit/discord-ext-voice-recv) - Voice receive extension package for discord.py.
+- [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord.
+- [robertwayne/cogwatch](https://github.com/robertwayne/cogwatch) - Hot-reloading for discord.py-based command files.
+- [treeben77/discord-oauth2.py](https://github.com/treeben77/discord-oauth2.py) - API Wrapper for Discord OAuth2 & Linked Roles in Python.
 
 ## Examples
 
@@ -66,6 +74,10 @@ An Awesome list for all things Discord.py
 - [DeJayDev/speedboat](https://github.com/DeJayDev/speedboat) - A Discord bot for managing large communities.
 - [joinemm/miso-bot](https://github.com/joinemm/miso-bot) - Miso is a multipurpose Discord bot with over 100 commands and features.
 - [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - A simple discord bot that helps you getting started within discord.py.
+
+## Guides and Tutorials
+
+- [Discord.py Masterclass](https://fallendeity.github.io/discord.py-masterclass/)- A tutorial/guide explaining all features in discord.py and how to make a discord bot from scratch.
 
 ## Community Gists
 
