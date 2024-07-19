@@ -25,7 +25,8 @@ An Awesome list for all things Discord.py
 - [Awesome Discord.py List](#awesome-discordpy-list)
   - [Contents](#contents)
   - [Official Links](#official-links)
-  - [External Libraries](#external-libraries)
+  - [Forks](#forks)
+  - [Libraries and Extensions](#libraries-and-extensions)
   - [Community Gists](#community-gists)
   - [Contributing](#contributing)
     - [Contributors](#contributors)
@@ -34,12 +35,19 @@ An Awesome list for all things Discord.py
 
 ## Official Links
 
-- [Discord.py Documentation](https://discordpy.readthedocs.io/en/latest/)
-- [Discord.py GitHub](https://github.com/Rapptz/discord.py)
-- [Discord.py Discord Server](https://discord.gg/dpy)
+- [Discord.py Documentation](https://discordpy.readthedocs.io/en/latest/) - Official documentation for Discord.py.
+- [Discord.py Changelog](https://discordpy.readthedocs.io/en/latest/whats_new.html) - Official changelog for Discord.py.
+- [Discord.py GitHub](https://github.com/Rapptz/discord.py) - Official GitHub repository for Discord.py.
+- [Discord.py Discord Server](https://discord.gg/dpy) - Official Discord server for Discord.py.
 
-## External Libraries
+## Forks
 
+- [pycord](https://github.com/Pycord-Development/pycord) - Pycord, a maintained fork of discord.py, is a python wrapper for the Discord API.
+- [nextcord](https://github.com/nextcord/nextcord) - A Python wrapper for the Discord API forked from discord.py.
+
+## Libraries and Extensions
+
+- [jishaku](https://github.com/Gorialis/jishaku) - A debugging and testing cog for discord.py rewrite bots.
 - [discord-ext-prometheus](https://pypi.org/project/discord-ext-prometheus/) - An extension for the discord.py library that enables Prometheus metrics.
 - [loguru-discord](https://pypi.org/project/loguru-discord/) - Lightweight sink for Loguru that sends logs to Discord via webhook.
 
