@@ -44,8 +44,9 @@ An Awesome list for all things Discord.py
 
 ## Forks
 
-- [pycord](https://github.com/Pycord-Development/pycord) - Pycord, a maintained fork of discord.py, is a python wrapper for the Discord API.
+- [disnake](https://github.com/DisnakeDev/disnake) - A modern, easy to use, feature-rich, and async-ready API wrapper for Discord written in Python.
 - [nextcord](https://github.com/nextcord/nextcord) - A Python wrapper for the Discord API forked from discord.py.
+- [pycord](https://github.com/Pycord-Development/pycord) - Pycord, a maintained fork of discord.py, is a python wrapper for the Discord API.
 
 ## Libraries and Extensions
 
