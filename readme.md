@@ -27,12 +27,12 @@ An Awesome list for all things Discord.py
 </div>
 
 <!-- START doctoc -->
-
 <!-- END doctoc -->
 
-## Section 1
+<!-- START CONTENT -->
 
-- [Microsoft](https://www.microsoft.com/) - Microsoft as an example.
+## Gists
+- [A list of all special cog methods](https://gist.github.com/Ikusaba-san/69115b79d33e05ed07ec4a4f14db83b1)
 
 <!-- END CONTENT -->
 
