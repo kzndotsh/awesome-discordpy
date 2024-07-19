@@ -31,6 +31,7 @@ An Awesome list for all things Discord.py
   - [Examples](#examples)
   - [Guides and Tutorials](#guides-and-tutorials)
   - [Community Gists](#community-gists)
+  - [Miscellaneous](#miscellaneous)
   - [Contributing](#contributing)
     - [Contributors](#contributors)
 
@@ -49,6 +50,7 @@ An Awesome list for all things Discord.py
 - [nextcord](https://github.com/nextcord/nextcord) - A Python wrapper for the Discord API forked from discord.py.
 - [Novus](https://github.com/Voxel-Fox-Ltd/Novus) - An asyncio Python wrapper around the Discord API, forked off of Rapptz's Discord.py.
 - [pycord](https://github.com/Pycord-Development/pycord) - Pycord, a maintained fork of discord.py, is a python wrapper for the Discord API.
+- [mccoderpy/discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components) - A "fork" of discord.py library made by Rapptz with implementation of the Discord Message-Components & many other features by mccoderpy.
 
 ## Libraries and Extensions
 
@@ -66,15 +68,21 @@ An Awesome list for all things Discord.py
 - [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord.
 - [robertwayne/cogwatch](https://github.com/robertwayne/cogwatch) - Hot-reloading for discord.py-based command files.
 - [treeben77/discord-oauth2.py](https://github.com/treeben77/discord-oauth2.py) - API Wrapper for Discord OAuth2 & Linked Roles in Python.
+- [Soheab/modal-paginator](https://github.com/Soheab/modal-paginator) - An extension for discord.py that allows you to paginate a Modal using buttons.
+- [Soheab/discord-py-paginators](https://github.com/Soheab/discord-py-paginators) - An extension for discord.py that provides various paginators.
+- [Soheab/discord-ext-embeds](https://github.com/Soheab/discord-ext-embeds) - An extension for discord.py that adds a few nice-to-have features to discord.py's embed.
 
 ## Examples
 
 - [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - A discord bot written by Rapptz, the creator of discord.py.
 - [python-discord/bot](https://github.com/python-discord/bot) - The community bot for the Python Discord community.
 - [python-discord/metricity](https://github.com/python-discord/metricity) - Advanced metric collection for the Python Discord server.
+- [alllthingslinux/tux](https://github.com/allthingslinux/tux) - Tux is an all in one bot for the All Things Linux discord server.
 - [DeJayDev/speedboat](https://github.com/DeJayDev/speedboat) - A Discord bot for managing large communities.
 - [joinemm/miso-bot](https://github.com/joinemm/miso-bot) - Miso is a multipurpose Discord bot with over 100 commands and features.
 - [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - A simple discord bot that helps you getting started within discord.py.
+- [ZRunner/Axobot](https://github.com/ZRunner/Axobot) - A cool multipurpose Discord bot made in Python.
+- [MikeyUsersREC/ERM](https://github.com/MikeyUsersREC/ERM) - A discord bot primarily focused on improving the Roblox staff experience.
 
 ## Guides and Tutorials
 
@@ -119,6 +127,10 @@ An Awesome list for all things Discord.py
 - <https://gist.github.com/vipinkarthic/5ebde9b760a5ac82fbbdc0eaeaaf92c7>
 - <https://gist.github.com/mikeshardmind/bff6f937032455d83b8f1724ef73575a>
 - <https://gist.github.com/quackbarc/31e5cd789d232ad0d263511bb1a506e8/>
+
+## Miscellaneous
+
+- [Permissions Calculator](https://discordapi.com/permissions.html) - Create invite links for bots with specific permissions.
 
 <!-- END CONTENT -->
 
