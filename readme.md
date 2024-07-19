@@ -77,7 +77,12 @@ An Awesome list for all things Discord.py
 
 ## Guides and Tutorials
 
-- [Discord.py Masterclass](https://fallendeity.github.io/discord.py-masterclass/)- A tutorial/guide explaining all features in discord.py and how to make a discord bot from scratch.
+- [User Installable Applications - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2024/04/11/user-installable-applications.html) - This post is all about User Installable Applications and how to set them up.
+- [All about selects - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2023/09/25/selects.html) - This post is about the different types of select menus and how to use them.
+- [Application Command definition examples - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2023/01/30/app-command-examples.html) - This post is about the different types of application commands and how to use them.
+- [Application command basics - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2023/01/30/app-command-basics.html) - In this guide, you'll cover everything from regular ol’ slash commands all the way to Modals and the other component goodies.
+- [Umbra's Sync Command - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2023/01/29/sync-command-example.html) - A full featured command and explanation for syncing your CommandTree.
+- [Discord.py Masterclass](https://fallendeity.github.io/discord.py-masterclass/) - A tutorial/guide explaining all features in discord.py and how to make a discord bot from scratch.
 
 ## Community Gists
 
