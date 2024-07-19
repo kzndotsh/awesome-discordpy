@@ -12,7 +12,7 @@ An Awesome list for all things Discord.py
 
 <!-- image -->
 
-![Discord.py Logo](https://discordpy.readthedocs.io/en/stable/_images/snake_dark.svg)
+![Discord.py Logo](assets/banner.png)
 
 <!-- description -->
 
