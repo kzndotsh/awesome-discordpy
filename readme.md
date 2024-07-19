@@ -39,7 +39,7 @@ An Awesome list for all things Discord.py
 <!-- START CONTENT -->
 
 ## Gists
-- [A list of all special cog methods](https://gist.github.com/Ikusaba-san/69115b79d33e05ed07ec4a4f14db83b1)
+- [A list of all special cog methods](https://gist.github.com/Ikusaba-san/69115b79d33e05ed07ec4a4f14db83b1) - A list of all special cog methods
 
 <!-- END CONTENT -->
 
