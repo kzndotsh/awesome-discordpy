@@ -22,6 +22,7 @@ An Awesome list for all things Discord.py
 
 ## Contents
 
+<!--lint disable awesome-toc-->
 - [Awesome Discord.py List](#awesome-discordpy-list)
   - [Contents](#contents)
   - [Official Links](#official-links)
