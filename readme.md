@@ -27,6 +27,7 @@ An Awesome list for all things Discord.py
   - [Official Links](#official-links)
   - [Forks](#forks)
   - [Libraries and Extensions](#libraries-and-extensions)
+  - [Examples](#examples)
   - [Community Gists](#community-gists)
   - [Contributing](#contributing)
     - [Contributors](#contributors)
@@ -47,11 +48,22 @@ An Awesome list for all things Discord.py
 
 ## Libraries and Extensions
 
+- [starlight-dpy](https://github.com/InterStella0/starlight-dpy) - A utility library for discord.py.
+- [reactionmenu](https://github.com/Defxult/reactionmenu) - A library to create a discord.py 2.0+ paginator. Supports pagination with buttons, reactions, and category selection using selects.
 - [jishaku](https://github.com/Gorialis/jishaku) - A debugging and testing cog for discord.py rewrite bots.
 - [discord-ext-prometheus](https://pypi.org/project/discord-ext-prometheus/) - An extension for the discord.py library that enables Prometheus metrics.
 - [loguru-discord](https://pypi.org/project/loguru-discord/) - Lightweight sink for Loguru that sends logs to Discord via webhook.
 - [Discord Anti Spam](https://github.com/Skelmis/Discord-Anti-Spam) - DPY Anti-Spam is a package aimed to handle all required logic under the hood for handling spammers.
 - [discord-qalib](https://github.com/YousefEZ/discord-qalib) - Discord library built on discord.py to simplify source code by rendering markup (xml) templates of embeds and menus (Pagination).
+
+## Examples
+
+- [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - A discord bot written by Rapptz, the creator of discord.py.
+- [python-discord/bot](https://github.com/python-discord/bot) - The community bot for the Python Discord community.
+- [python-discord/metricity](https://github.com/python-discord/metricity) - Advanced metric collection for the Python Discord server.
+- [DeJayDev/speedboat](https://github.com/DeJayDev/speedboat) - A Discord bot for managing large communities.
+- [joinemm/miso-bot](https://github.com/joinemm/miso-bot) - Miso is a multipurpose Discord bot with over 100 commands and features.
+- [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - A simple discord bot that helps you getting started within discord.py.
 
 ## Community Gists
 
@@ -87,8 +99,6 @@ An Awesome list for all things Discord.py
 - <https://gist.github.com/vipinkarthic/5ebde9b760a5ac82fbbdc0eaeaaf92c7>
 - <https://gist.github.com/mikeshardmind/bff6f937032455d83b8f1724ef73575a>
 - <https://gist.github.com/quackbarc/31e5cd789d232ad0d263511bb1a506e8/>
--
--
 
 <!-- END CONTENT -->
 
