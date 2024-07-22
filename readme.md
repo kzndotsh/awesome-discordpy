@@ -95,7 +95,7 @@ An Awesome list for all things Discord.py
 
 ## Community Gists
 
-- <https://gist.github.com/scragly/095b5278a354d46e86f02d643fc3d64b>
+- [Learning discord.py](https://gist.github.com/scragly/095b5278a354d46e86f02d643fc3d64b) - Comprehensive guide and resource list for learning and building Discord bots using discord.py, including setup, essential concepts, and examples.
 - <https://gist.github.com/1oonie/500eafdad0aaf278b94c612764688976>
 - <https://gist.github.com/advaith1/e69bcc1cdd6d0087322734451f15aa2f>
 - <https://gist.github.com/cibere/7e1356575780e716d2e3a23ea2bcf6da>
