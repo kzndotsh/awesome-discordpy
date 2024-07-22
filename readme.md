@@ -32,6 +32,7 @@ An Awesome list for all things Discord.py
   - [Guides and Tutorials](#guides-and-tutorials)
   - [Community Gists](#community-gists)
   - [Miscellaneous](#miscellaneous)
+  - [Archived/Deprecated](#archiveddeprecated)
   - [Contributing](#contributing)
     - [Contributors](#contributors)
 
@@ -63,6 +64,7 @@ An Awesome list for all things Discord.py
 - [Skelmis/Discord-Anti-Spam](https://github.com/Skelmis/Discord-Anti-Spam) - DPY Anti-Spam is a package aimed to handle all required logic under the hood for handling spammers.
 - [YousefEZ/discord-qalib](https://github.com/YousefEZ/discord-qalib) - Discord library built on discord.py to simplify source code by rendering markup (xml) templates of embeds and menus (Pagination).
 - [MiroslavRosenov/better-ipc](https://github.com/MiroslavRosenov/better-ipc) - High-performance inter-process communication library designed to work with the latest version of discord.py.
+- [Sheppsu/discord-ext-listening](https://github.com/Sheppsu/discord-ext-listening) - Voice receive extension for discord.py built on multiprocessing and designed to be flexible.
 - [CasuallyCalm/discord-pretty-help](https://github.com/CasuallyCalm/discord-pretty-help) - An embed version of the built in help command for discord.py.
 - [discord-ext-voice-recv](https://github.com/imayhaveborkedit/discord-ext-voice-recv) - Voice receive extension package for discord.py.
 - [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord.
@@ -101,6 +103,13 @@ An Awesome list for all things Discord.py
 ## Miscellaneous
 
 - [Permissions Calculator](https://discordapi.com/permissions.html) - Create invite links for bots with specific permissions.
+
+## Archived/Deprecated
+
+- [thrzl/discord-ext-forms](https://github.com/thrzl/discord-ext-forms) - A simpler way to make forms, surveys, and reaction input using discord.py.
+- [Ext-Creators/discord-ext-events](https://github.com/Ext-Creators/discord-ext-events) - A discord.py extension with additional events.
+- [Ext-Creators/discord-ext-converters](https://github.com/Ext-Creators/discord-ext-converters) - A discord.py extension with a collection of useful converters.
+- [Ext-Creators/discord-ext-rx](https://github.com/Ext-Creators/discord-ext-rx) - A discord.py extension with a reactive events implementation.
 
 <!-- END CONTENT -->
 
