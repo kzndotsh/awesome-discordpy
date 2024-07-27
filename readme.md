@@ -85,6 +85,7 @@ An Awesome list for all things Discord.py
 - [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - A simple discord bot that helps you getting started within discord.py.
 - [ZRunner/Axobot](https://github.com/ZRunner/Axobot) - A cool multipurpose Discord bot made in Python.
 - [MikeyUsersREC/ERM](https://github.com/MikeyUsersREC/ERM) - A discord bot primarily focused on improving the Roblox staff experience.
+- [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Spruce is a multi-functional open source Discord bot, designed to streamline the management of Discord tournaments and servers.
 
 ## Guides and Tutorials
 
