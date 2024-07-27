@@ -100,6 +100,7 @@ An Awesome list for all things Discord.py
 
 - [scragly/Learning discord.py](https://gist.github.com/scragly/095b5278a354d46e86f02d643fc3d64b) - Comprehensive guide and resource list for learning and building Discord bots using discord.py, including setup, essential concepts, and examples.
 - [1oonie/Message Components](https://gist.github.com/1oonie/500eafdad0aaf278b94c612764688976) - This gist shows you how to use message components in discord.py 2.0.
+- [advaith1/Intents Explainer](https://gist.github.com/advaith1/e69bcc1cdd6d0087322734451f15aa2f) - If you're wondering what Gateway Intents are, what Privileged Intents are, why your bot can't see statuses, or why your bot can't see member joins anymore, then this page should explain it to you!
 
 ## Miscellaneous
 
