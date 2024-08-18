@@ -73,6 +73,8 @@ An Awesome list for all things Discord.py
 - [Soheab/modal-paginator](https://github.com/Soheab/modal-paginator) - An extension for discord.py that allows you to paginate a Modal using buttons.
 - [Soheab/discord-py-paginators](https://github.com/Soheab/discord-py-paginators) - An extension for discord.py that provides various paginators.
 - [Soheab/discord-ext-embeds](https://github.com/Soheab/discord-ext-embeds) - An extension for discord.py that adds a few nice-to-have features to discord.py's embed.
+- [sizumita/discord-ext-ui](https://github.com/sizumita/discord-ext-ui) - An extension of discord-ui that adds some quality-of-life features.
+- [Ikusaba-san/dpy-ui](https://github.com/Ikusaba-san/dpy-ui) - An extension of discord.py that makes prompting users and pagination easier.
 
 ## Examples
 
@@ -103,6 +105,7 @@ An Awesome list for all things Discord.py
 - [1oonie/Message Components](https://gist.github.com/1oonie/500eafdad0aaf278b94c612764688976) - This gist shows you how to use message components in discord.py 2.0.
 - [advaith1/Intents Explainer](https://gist.github.com/advaith1/e69bcc1cdd6d0087322734451f15aa2f) - If you're wondering what Gateway Intents are, what Privileged Intents are, why your bot can't see statuses, or why your bot can't see member joins anymore, then this page should explain it to you!
 - [cibere/Defer Response](https://gist.github.com/cibere/7e1356575780e716d2e3a23ea2bcf6da) - The defer response, defers the interaction response. This is typically used when the interaction is acknowledged and an optional secondary action will be done later. When deferring, you get up to 15 minutes to respond instead of the normal 3 seconds.
+- [Jeftaei/AppCommandErrorhandler.py](https://gist.github.com/Jeftaei/d0bad5044f1192a4c454f95a6b591d53) - A robust error handler for discord.py commands, including app commands.
 
 ## Miscellaneous
 
@@ -114,6 +117,7 @@ An Awesome list for all things Discord.py
 - [Ext-Creators/discord-ext-events](https://github.com/Ext-Creators/discord-ext-events) - A discord.py extension with additional events.
 - [Ext-Creators/discord-ext-converters](https://github.com/Ext-Creators/discord-ext-converters) - A discord.py extension with a collection of useful converters.
 - [Ext-Creators/discord-ext-rx](https://github.com/Ext-Creators/discord-ext-rx) - A discord.py extension with a reactive events implementation.
+- [discord-py-ui/discord-ui](https://github.com/discord-py-ui/discord-ui) - A discord.py extension that allows you to create and manage buttons, slash commands, and more.
 
 <!-- END CONTENT -->
 
