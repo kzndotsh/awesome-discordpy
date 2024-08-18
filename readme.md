@@ -28,6 +28,8 @@ An Awesome list for all things Discord.py
   - [Official Links](#official-links)
   - [Forks](#forks)
   - [Libraries and Extensions](#libraries-and-extensions)
+    - [Pagination](#pagination)
+    - [IPC - Inter-Process Communication](#ipc---inter-process-communication)
   - [Examples](#examples)
   - [Guides and Tutorials](#guides-and-tutorials)
   - [Community Gists](#community-gists)
@@ -56,25 +58,32 @@ An Awesome list for all things Discord.py
 ## Libraries and Extensions
 
 - [InterStella0/starlight-dpy](https://github.com/InterStella0/starlight-dpy) - A utility library for discord.py.
-- [Defxult/reactionmenu](https://github.com/Defxult/reactionmenu) - A library to create a discord.py 2.0+ paginator. Supports pagination with buttons, reactions, and category selection using selects.
-- [philskillz-coder/discord-py-paginator](https://github.com/philskillz-coder/discord-py-paginator) - A view paginator for discord.py.
 - [Gorialis/jishaku](https://github.com/Gorialis/jishaku) - A debugging and testing cog for discord.py rewrite bots.
 - [discord-ext-prometheus](https://pypi.org/project/discord-ext-prometheus/) - An extension for the discord.py library that enables Prometheus metrics.
 - [loguru-discord](https://pypi.org/project/loguru-discord/) - Lightweight sink for Loguru that sends logs to Discord via webhook.
 - [Skelmis/Discord-Anti-Spam](https://github.com/Skelmis/Discord-Anti-Spam) - DPY Anti-Spam is a package aimed to handle all required logic under the hood for handling spammers.
 - [YousefEZ/discord-qalib](https://github.com/YousefEZ/discord-qalib) - Discord library built on discord.py to simplify source code by rendering markup (xml) templates of embeds and menus (Pagination).
-- [MiroslavRosenov/better-ipc](https://github.com/MiroslavRosenov/better-ipc) - High-performance inter-process communication library designed to work with the latest version of discord.py.
 - [Sheppsu/discord-ext-listening](https://github.com/Sheppsu/discord-ext-listening) - Voice receive extension for discord.py built on multiprocessing and designed to be flexible.
 - [CasuallyCalm/discord-pretty-help](https://github.com/CasuallyCalm/discord-pretty-help) - An embed version of the built in help command for discord.py.
 - [discord-ext-voice-recv](https://github.com/imayhaveborkedit/discord-ext-voice-recv) - Voice receive extension package for discord.py.
 - [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord.
 - [robertwayne/cogwatch](https://github.com/robertwayne/cogwatch) - Hot-reloading for discord.py-based command files.
 - [treeben77/discord-oauth2.py](https://github.com/treeben77/discord-oauth2.py) - API Wrapper for Discord OAuth2 & Linked Roles in Python.
-- [Soheab/modal-paginator](https://github.com/Soheab/modal-paginator) - An extension for discord.py that allows you to paginate a Modal using buttons.
-- [Soheab/discord-py-paginators](https://github.com/Soheab/discord-py-paginators) - An extension for discord.py that provides various paginators.
 - [Soheab/discord-ext-embeds](https://github.com/Soheab/discord-ext-embeds) - An extension for discord.py that adds a few nice-to-have features to discord.py's embed.
 - [sizumita/discord-ext-ui](https://github.com/sizumita/discord-ext-ui) - An extension of discord-ui that adds some quality-of-life features.
 - [Ikusaba-san/dpy-ui](https://github.com/Ikusaba-san/dpy-ui) - An extension of discord.py that makes prompting users and pagination easier.
+
+### Pagination
+
+- [Defxult/reactionmenu](https://github.com/Defxult/reactionmenu) - A library to create a discord.py 2.0+ paginator. Supports pagination with buttons, reactions, and category selection using selects.
+- [Soheab/discord-py-paginators](https://github.com/Soheab/discord-py-paginators) - An extension for discord.py that provides various paginators.
+- [Soheab/modal-paginator](https://github.com/Soheab/modal-paginator) - An extension for discord.py that allows you to paginate a Modal using buttons.
+- [philskillz-coder/discord-py-paginator](https://github.com/philskillz-coder/discord-py-paginator) - A view paginator for discord.py.
+
+### IPC - Inter-Process Communication
+
+- [MiroslavRosenov/better-ipc](https://github.com/MiroslavRosenov/better-ipc) - High-performance inter-process communication library designed to work with the latest version of discord.py.
+- [No767/discord-ext-ipcx](https://github.com/No767/discord-ext-ipcx) - An maintained discord.py extension for inter-process communication.
 
 ## Examples
 
