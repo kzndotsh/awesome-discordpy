@@ -37,8 +37,8 @@ An Awesome list for all things Discord.py
     - [Metrics, Monitoring, and Logging](#metrics-monitoring-and-logging)
     - [Miscellaneous](#miscellaneous)
   - [Example Bots](#example-bots)
-  - [Guides and Tutorials](#guides-and-tutorials)
-  - [Community Gists](#community-gists)
+  - [Blog Posts, Guides and Tutorials](#blog-posts-guides-and-tutorials)
+  - [Community Gists and Snippets](#community-gists-and-snippets)
   - [Additional Resources](#additional-resources)
   - [Archived/Deprecated](#archiveddeprecated)
   - [Contributing](#contributing)
@@ -131,7 +131,7 @@ An Awesome list for all things Discord.py
 - [poketwo/poketwo](https://github.com/poketwo/poketwo) - A Pokémon-oriented Discord bot that lets you collect pokémon. Catch pokémon in the wild, level your pokémon, compete with your friends, and more.
 - [wasi-master/wm_bot](https://github.com/wasi-master/wm_bot) - A multipurpose discord bot with more than 220 commands.
 
-## Guides and Tutorials
+## Blog Posts, Guides and Tutorials
 
 - [User Installable Applications - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2024/04/11/user-installable-applications.html) - This post is all about User Installable Applications and how to set them up.
 - [All about selects - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2023/09/25/selects.html) - This post is about the different types of select menus and how to use them.
@@ -140,7 +140,7 @@ An Awesome list for all things Discord.py
 - [Umbra's Sync Command - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2023/01/29/sync-command-example.html) - A full featured command and explanation for syncing your CommandTree.
 - [Discord.py Masterclass](https://fallendeity.github.io/discord.py-masterclass/) - A tutorial/guide explaining all features in discord.py and how to make a discord bot from scratch.
 
-## Community Gists
+## Community Gists and Snippets
 
 - [scragly/Learning discord.py](https://gist.github.com/scragly/095b5278a354d46e86f02d643fc3d64b) - Comprehensive guide and resource list for learning and building Discord bots using discord.py, including setup, essential concepts, and examples.
 - [1oonie/Message Components](https://gist.github.com/1oonie/500eafdad0aaf278b94c612764688976) - This gist shows you how to use message components in discord.py 2.0.
@@ -148,6 +148,7 @@ An Awesome list for all things Discord.py
 - [cibere/Defer Response](https://gist.github.com/cibere/7e1356575780e716d2e3a23ea2bcf6da) - The defer response, defers the interaction response. This is typically used when the interaction is acknowledged and an optional secondary action will be done later. When deferring, you get up to 15 minutes to respond instead of the normal 3 seconds.
 - [Jeftaei/AppCommandErrorhandler.py](https://gist.github.com/Jeftaei/d0bad5044f1192a4c454f95a6b591d53) - A robust error handler for discord.py commands, including app commands.
 - [mikeshardmind/SQLite Examples](https://gist.github.com/mikeshardmind/d7d2c6cb19b53ab76b7d401b2716df5d) - "Common" discord bot sqlite examples.
+- [AkshuAgarwal/Interactions](https://gist.github.com/AkshuAgarwal/bc7d45bcecd5d29de4d6d7904e8b8bd8) - A Basic guide about Discord Interactions and how to use them in discord.py.
 
 ## Additional Resources
 
