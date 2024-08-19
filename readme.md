@@ -142,6 +142,7 @@ An Awesome list for all things Discord.py
 - [AkshuAgarwal/Interactions](https://gist.github.com/AkshuAgarwal/bc7d45bcecd5d29de4d6d7904e8b8bd8) - A Basic guide about Discord Interactions and how to use them in discord.py.
 - [LeoCx1000/MentionableTree implementation](https://gist.github.com/LeoCx1000/021dc52981299b95ea7790416e4f5ca4) - Mentionable CommandTree implementation to allow mentioning slash commands in discord.py.
 - [lykn/Buttons](https://gist.github.com/lykn/bac99b06d45ff8eed34c2220d86b6bf4) - A gist which shows/tells you how to make buttons using discord.py v2.
+- [lykn/Selects or Dropdowns](https://gist.github.com/lykn/a2b68cb790d6dad8ecff75b2aa450f23) -  A gist explaining the right way to make drop down menus/select menus/selects in discord.py v2.
 
 ## Additional Resources
 
