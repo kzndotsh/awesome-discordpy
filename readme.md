@@ -86,6 +86,8 @@ An Awesome list for all things Discord.py
 - [Soheab/modal-paginator](https://github.com/Soheab/modal-paginator) - An extension for discord.py that allows you to paginate a Modal using buttons.
 - [philskillz-coder/discord-py-paginator](https://github.com/philskillz-coder/discord-py-paginator) - A view paginator for discord.py.
 - [Ikusaba-san/dpy-ui](https://github.com/Ikusaba-san/dpy-ui) - An extension of discord.py that makes prompting users and pagination easier.
+- [thegamecracks/discord-ext-pager](https://github.com/thegamecracks/discord-ext-pager) - A discord.py 2.0 paginator library with a similar interface to discord-ext-menus.
+- [OnceYT/dpy-paginator](https://github.com/OnceYT/dpy-paginator) - A discord.py utility with no external dependencies that makes paginating embeds easier.
 
 ### IPC - Inter-Process Communication
 
