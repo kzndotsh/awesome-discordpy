@@ -72,6 +72,8 @@ An Awesome list for all things Discord.py
 - [sizumita/discord-ext-ui](https://github.com/sizumita/discord-ext-ui) - An extension of discord-ui that adds some quality-of-life features.
 - [keizaiya/discord-ext-flow](https://github.com/keizaiya/discord-ext-flow) - This library extends discord.ui, providing UI control based on state flows.
 - [clari7744/DPyUtils](https://github.com/clari7744/DPyUtils) - Some extra discord.py additions such as duration utilities, converters, a context editor and more.
+- [CraftSpider/dpytest](https://github.com/CraftSpider/dpytest) - A package that assists in writing tests for discord.py.
+- [tanrbobanr/dpy-check](https://github.com/tanrbobanr/dpy-check) - A system for making more dynamic and complex checks on discord.py commands.
 
 ### Pagination and Menus
 
