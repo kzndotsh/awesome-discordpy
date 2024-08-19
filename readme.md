@@ -88,6 +88,7 @@ An Awesome list for all things Discord.py
 - [Soheab/discord-ext-embeds](https://github.com/Soheab/discord-ext-embeds) - An extension for discord.py that adds a few nice-to-have features to discord.py's embed.
 - [keizaiya/discord-ext-flow](https://github.com/keizaiya/discord-ext-flow) - This library extends discord.ui, providing UI control based on state flows.
 - [sizumita/discord-ext-ui](https://github.com/sizumita/discord-ext-ui) - An extension of discord-ui that adds some quality-of-life features.
+- [Seniatical/dpy-paginator](https://github.com/Seniatical/dpy-paginator) -  A simple pagination library for discord.py, comes with support for dropdown, button based pagination.
 
 ### Inter-Process Communication
 
