@@ -26,17 +26,20 @@ An Awesome list for all things Discord.py
 - [Awesome Discord.py List](#awesome-discordpy-list)
   - [Contents](#contents)
   - [Official Links](#official-links)
-  - [Forks](#forks)
+  - [Forks and Wrappers](#forks-and-wrappers)
   - [Libraries and Extensions](#libraries-and-extensions)
-    - [Testing](#testing)
-    - [Pagination and Menus](#pagination-and-menus)
-    - [IPC - Inter-Process Communication](#ipc---inter-process-communication)
+    - [Utilities](#utilities)
+    - [Testing and Debugging](#testing-and-debugging)
+    - [UI - Pagination, Menus, Embeds and similar](#ui---pagination-menus-embeds-and-similar)
+    - [Inter-Process Communication](#inter-process-communication)
     - [Voice and Audio](#voice-and-audio)
     - [Authentication](#authentication)
-  - [Examples](#examples)
+    - [Metrics, Monitoring, and Logging](#metrics-monitoring-and-logging)
+    - [Miscellaneous](#miscellaneous)
+  - [Example Bots](#example-bots)
   - [Guides and Tutorials](#guides-and-tutorials)
   - [Community Gists](#community-gists)
-  - [Miscellaneous](#miscellaneous)
+  - [Additional Resources](#additional-resources)
   - [Archived/Deprecated](#archiveddeprecated)
   - [Contributing](#contributing)
     - [Contributors](#contributors)
@@ -50,36 +53,30 @@ An Awesome list for all things Discord.py
 - [Discord.py GitHub](https://github.com/Rapptz/discord.py) - Official GitHub repository for Discord.py.
 - [Discord.py Discord Server](https://discord.gg/dpy) - Official Discord server for Discord.py.
 
-## Forks
+## Forks and Wrappers
 
 - [disnake](https://github.com/DisnakeDev/disnake) - A modern, easy to use, feature-rich, and async-ready API wrapper for Discord written in Python.
 - [nextcord](https://github.com/nextcord/nextcord) - A Python wrapper for the Discord API forked from discord.py.
 - [Novus](https://github.com/Voxel-Fox-Ltd/Novus) - An asyncio Python wrapper around the Discord API, forked off of Rapptz's Discord.py.
 - [pycord](https://github.com/Pycord-Development/pycord) - Pycord, a maintained fork of discord.py, is a python wrapper for the Discord API.
 - [mccoderpy/discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components) - A "fork" of discord.py library made by Rapptz with implementation of the Discord Message-Components & many other features by mccoderpy.
+- [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord.
 
 ## Libraries and Extensions
 
+### Utilities
+
 - [InterStella0/starlight-dpy](https://github.com/InterStella0/starlight-dpy) - A utility library for discord.py.
-- [discord-ext-prometheus](https://pypi.org/project/discord-ext-prometheus/) - An extension for the discord.py library that enables Prometheus metrics.
-- [loguru-discord](https://pypi.org/project/loguru-discord/) - Lightweight sink for Loguru that sends logs to Discord via webhook.
-- [Skelmis/Discord-Anti-Spam](https://github.com/Skelmis/Discord-Anti-Spam) - DPY Anti-Spam is a package aimed to handle all required logic under the hood for handling spammers.
-- [YousefEZ/discord-qalib](https://github.com/YousefEZ/discord-qalib) - Discord library built on discord.py to simplify source code by rendering markup (xml) templates of embeds and menus (Pagination).
-- [CasuallyCalm/discord-pretty-help](https://github.com/CasuallyCalm/discord-pretty-help) - An embed version of the built in help command for discord.py.
-- [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord.
-- [robertwayne/cogwatch](https://github.com/robertwayne/cogwatch) - Hot-reloading for discord.py-based command files.
-- [Soheab/discord-ext-embeds](https://github.com/Soheab/discord-ext-embeds) - An extension for discord.py that adds a few nice-to-have features to discord.py's embed.
-- [sizumita/discord-ext-ui](https://github.com/sizumita/discord-ext-ui) - An extension of discord-ui that adds some quality-of-life features.
-- [keizaiya/discord-ext-flow](https://github.com/keizaiya/discord-ext-flow) - This library extends discord.ui, providing UI control based on state flows.
 - [clari7744/DPyUtils](https://github.com/clari7744/DPyUtils) - Some extra discord.py additions such as duration utilities, converters, a context editor and more.
 - [tanrbobanr/dpy-check](https://github.com/tanrbobanr/dpy-check) - A system for making more dynamic and complex checks on discord.py commands.
+- [robertwayne/cogwatch](https://github.com/robertwayne/cogwatch) - Hot-reloading for discord.py-based command files.
 
-### Testing
+### Testing and Debugging
 
 - [Gorialis/jishaku](https://github.com/Gorialis/jishaku) - A debugging and testing cog for discord.py rewrite bots.
 - [CraftSpider/dpytest](https://github.com/CraftSpider/dpytest) - A package that assists in writing tests for discord.py.
 
-### Pagination and Menus
+### UI - Pagination, Menus, Embeds and similar
 
 - [Defxult/reactionmenu](https://github.com/Defxult/reactionmenu) - A library to create a discord.py 2.0+ paginator. Supports pagination with buttons, reactions, and category selection using selects.
 - [Soheab/discord-py-paginators](https://github.com/Soheab/discord-py-paginators) - An extension for discord.py that provides various paginators.
@@ -88,8 +85,11 @@ An Awesome list for all things Discord.py
 - [Ikusaba-san/dpy-ui](https://github.com/Ikusaba-san/dpy-ui) - An extension of discord.py that makes prompting users and pagination easier.
 - [thegamecracks/discord-ext-pager](https://github.com/thegamecracks/discord-ext-pager) - A discord.py 2.0 paginator library with a similar interface to discord-ext-menus.
 - [OnceYT/dpy-paginator](https://github.com/OnceYT/dpy-paginator) - A discord.py utility with no external dependencies that makes paginating embeds easier.
+- [Soheab/discord-ext-embeds](https://github.com/Soheab/discord-ext-embeds) - An extension for discord.py that adds a few nice-to-have features to discord.py's embed.
+- [keizaiya/discord-ext-flow](https://github.com/keizaiya/discord-ext-flow) - This library extends discord.ui, providing UI control based on state flows.
+- [sizumita/discord-ext-ui](https://github.com/sizumita/discord-ext-ui) - An extension of discord-ui that adds some quality-of-life features.
 
-### IPC - Inter-Process Communication
+### Inter-Process Communication
 
 - [MiroslavRosenov/better-ipc](https://github.com/MiroslavRosenov/better-ipc) - High-performance inter-process communication library designed to work with the latest version of discord.py.
 - [No767/discord-ext-ipcx](https://github.com/No767/discord-ext-ipcx) - An maintained discord.py extension for inter-process communication.
@@ -103,7 +103,18 @@ An Awesome list for all things Discord.py
 
 - [treeben77/discord-oauth2.py](https://github.com/treeben77/discord-oauth2.py) - API Wrapper for Discord OAuth2 & Linked Roles in Python.
 
-## Examples
+### Metrics, Monitoring, and Logging
+
+- [discord-ext-prometheus](https://pypi.org/project/discord-ext-prometheus/) - An extension for the discord.py library that enables Prometheus metrics.
+- [loguru-discord](https://pypi.org/project/loguru-discord/) - Lightweight sink for Loguru that sends logs to Discord via webhook.
+
+### Miscellaneous
+
+- [Skelmis/Discord-Anti-Spam](https://github.com/Skelmis/Discord-Anti-Spam) - DPY Anti-Spam is a package aimed to handle all required logic under the hood for handling spammers.
+- [YousefEZ/discord-qalib](https://github.com/YousefEZ/discord-qalib) - Discord library built on discord.py to simplify source code by rendering markup (xml) templates of embeds and menus (Pagination).
+- [CasuallyCalm/discord-pretty-help](https://github.com/CasuallyCalm/discord-pretty-help) - An embed version of the built in help command for discord.py.
+
+## Example Bots
 
 - [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - A discord bot written by Rapptz, the creator of discord.py.
 - [python-discord/bot](https://github.com/python-discord/bot) - The community bot for the Python Discord community.
@@ -134,7 +145,7 @@ An Awesome list for all things Discord.py
 - [cibere/Defer Response](https://gist.github.com/cibere/7e1356575780e716d2e3a23ea2bcf6da) - The defer response, defers the interaction response. This is typically used when the interaction is acknowledged and an optional secondary action will be done later. When deferring, you get up to 15 minutes to respond instead of the normal 3 seconds.
 - [Jeftaei/AppCommandErrorhandler.py](https://gist.github.com/Jeftaei/d0bad5044f1192a4c454f95a6b591d53) - A robust error handler for discord.py commands, including app commands.
 
-## Miscellaneous
+## Additional Resources
 
 - [Permissions Calculator](https://discordapi.com/permissions.html) - Create invite links for bots with specific permissions.
 
