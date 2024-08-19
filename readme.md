@@ -144,6 +144,7 @@ An Awesome list for all things Discord.py
 - [advaith1/Intents Explainer](https://gist.github.com/advaith1/e69bcc1cdd6d0087322734451f15aa2f) - If you're wondering what Gateway Intents are, what Privileged Intents are, why your bot can't see statuses, or why your bot can't see member joins anymore, then this page should explain it to you!
 - [cibere/Defer Response](https://gist.github.com/cibere/7e1356575780e716d2e3a23ea2bcf6da) - The defer response, defers the interaction response. This is typically used when the interaction is acknowledged and an optional secondary action will be done later. When deferring, you get up to 15 minutes to respond instead of the normal 3 seconds.
 - [Jeftaei/AppCommandErrorhandler.py](https://gist.github.com/Jeftaei/d0bad5044f1192a4c454f95a6b591d53) - A robust error handler for discord.py commands, including app commands.
+- [mikeshardmind/SQLite Examples](https://gist.github.com/mikeshardmind/d7d2c6cb19b53ab76b7d401b2716df5d) - "Common" discord bot sqlite examples.
 
 ## Additional Resources
 
