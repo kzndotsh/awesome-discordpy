@@ -28,9 +28,11 @@ An Awesome list for all things Discord.py
   - [Official Links](#official-links)
   - [Forks](#forks)
   - [Libraries and Extensions](#libraries-and-extensions)
+    - [Testing](#testing)
     - [Pagination and Menus](#pagination-and-menus)
     - [IPC - Inter-Process Communication](#ipc---inter-process-communication)
     - [Voice and Audio](#voice-and-audio)
+    - [Authentication](#authentication)
   - [Examples](#examples)
   - [Guides and Tutorials](#guides-and-tutorials)
   - [Community Gists](#community-gists)
@@ -59,7 +61,6 @@ An Awesome list for all things Discord.py
 ## Libraries and Extensions
 
 - [InterStella0/starlight-dpy](https://github.com/InterStella0/starlight-dpy) - A utility library for discord.py.
-- [Gorialis/jishaku](https://github.com/Gorialis/jishaku) - A debugging and testing cog for discord.py rewrite bots.
 - [discord-ext-prometheus](https://pypi.org/project/discord-ext-prometheus/) - An extension for the discord.py library that enables Prometheus metrics.
 - [loguru-discord](https://pypi.org/project/loguru-discord/) - Lightweight sink for Loguru that sends logs to Discord via webhook.
 - [Skelmis/Discord-Anti-Spam](https://github.com/Skelmis/Discord-Anti-Spam) - DPY Anti-Spam is a package aimed to handle all required logic under the hood for handling spammers.
@@ -67,13 +68,16 @@ An Awesome list for all things Discord.py
 - [CasuallyCalm/discord-pretty-help](https://github.com/CasuallyCalm/discord-pretty-help) - An embed version of the built in help command for discord.py.
 - [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord.
 - [robertwayne/cogwatch](https://github.com/robertwayne/cogwatch) - Hot-reloading for discord.py-based command files.
-- [treeben77/discord-oauth2.py](https://github.com/treeben77/discord-oauth2.py) - API Wrapper for Discord OAuth2 & Linked Roles in Python.
 - [Soheab/discord-ext-embeds](https://github.com/Soheab/discord-ext-embeds) - An extension for discord.py that adds a few nice-to-have features to discord.py's embed.
 - [sizumita/discord-ext-ui](https://github.com/sizumita/discord-ext-ui) - An extension of discord-ui that adds some quality-of-life features.
 - [keizaiya/discord-ext-flow](https://github.com/keizaiya/discord-ext-flow) - This library extends discord.ui, providing UI control based on state flows.
 - [clari7744/DPyUtils](https://github.com/clari7744/DPyUtils) - Some extra discord.py additions such as duration utilities, converters, a context editor and more.
-- [CraftSpider/dpytest](https://github.com/CraftSpider/dpytest) - A package that assists in writing tests for discord.py.
 - [tanrbobanr/dpy-check](https://github.com/tanrbobanr/dpy-check) - A system for making more dynamic and complex checks on discord.py commands.
+
+### Testing
+
+- [Gorialis/jishaku](https://github.com/Gorialis/jishaku) - A debugging and testing cog for discord.py rewrite bots.
+- [CraftSpider/dpytest](https://github.com/CraftSpider/dpytest) - A package that assists in writing tests for discord.py.
 
 ### Pagination and Menus
 
@@ -92,6 +96,10 @@ An Awesome list for all things Discord.py
 
 - [discord-ext-voice-recv](https://github.com/imayhaveborkedit/discord-ext-voice-recv) - Voice receive extension package for discord.py.
 - [Sheppsu/discord-ext-listening](https://github.com/Sheppsu/discord-ext-listening) - Voice receive extension for discord.py built on multiprocessing and designed to be flexible.
+
+### Authentication
+
+- [treeben77/discord-oauth2.py](https://github.com/treeben77/discord-oauth2.py) - API Wrapper for Discord OAuth2 & Linked Roles in Python.
 
 ## Examples
 
