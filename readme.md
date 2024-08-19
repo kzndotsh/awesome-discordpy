@@ -26,7 +26,6 @@ An Awesome list for all things Discord.py
 - [Awesome Discord.py List](#awesome-discordpy-list)
   - [Contents](#contents)
   - [Official Links](#official-links)
-  - [Forks and Wrappers](#forks-and-wrappers)
   - [Libraries and Extensions](#libraries-and-extensions)
     - [Utilities](#utilities)
     - [Testing and Debugging](#testing-and-debugging)
@@ -40,6 +39,7 @@ An Awesome list for all things Discord.py
   - [Blog Posts, Guides and Tutorials](#blog-posts-guides-and-tutorials)
   - [Community Gists and Snippets](#community-gists-and-snippets)
   - [Additional Resources](#additional-resources)
+  - [Forks and Wrappers](#forks-and-wrappers)
   - [Archived/Deprecated](#archiveddeprecated)
   - [Contributing](#contributing)
     - [Contributors](#contributors)
@@ -52,15 +52,6 @@ An Awesome list for all things Discord.py
 - [Discord.py Changelog](https://discordpy.readthedocs.io/en/latest/whats_new.html) - Official changelog for Discord.py.
 - [Discord.py GitHub](https://github.com/Rapptz/discord.py) - Official GitHub repository for Discord.py.
 - [Discord.py Discord Server](https://discord.gg/dpy) - Official Discord server for Discord.py.
-
-## Forks and Wrappers
-
-- [disnake](https://github.com/DisnakeDev/disnake) - A modern, easy to use, feature-rich, and async-ready API wrapper for Discord written in Python.
-- [nextcord](https://github.com/nextcord/nextcord) - A Python wrapper for the Discord API forked from discord.py.
-- [Novus](https://github.com/Voxel-Fox-Ltd/Novus) - An asyncio Python wrapper around the Discord API, forked off of Rapptz's Discord.py.
-- [pycord](https://github.com/Pycord-Development/pycord) - Pycord, a maintained fork of discord.py, is a python wrapper for the Discord API.
-- [mccoderpy/discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components) - A "fork" of discord.py library made by Rapptz with implementation of the Discord Message-Components & many other features by mccoderpy.
-- [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord.
 
 ## Libraries and Extensions
 
@@ -153,6 +144,15 @@ An Awesome list for all things Discord.py
 ## Additional Resources
 
 - [Permissions Calculator](https://discordapi.com/permissions.html) - Create invite links for bots with specific permissions.
+
+## Forks and Wrappers
+
+- [disnake](https://github.com/DisnakeDev/disnake) - A modern, easy to use, feature-rich, and async-ready API wrapper for Discord written in Python.
+- [nextcord](https://github.com/nextcord/nextcord) - A Python wrapper for the Discord API forked from discord.py.
+- [Novus](https://github.com/Voxel-Fox-Ltd/Novus) - An asyncio Python wrapper around the Discord API, forked off of Rapptz's Discord.py.
+- [pycord](https://github.com/Pycord-Development/pycord) - Pycord, a maintained fork of discord.py, is a python wrapper for the Discord API.
+- [mccoderpy/discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components) - A "fork" of discord.py library made by Rapptz with implementation of the Discord Message-Components & many other features by mccoderpy.
+- [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord.
 
 ## Archived/Deprecated
 
