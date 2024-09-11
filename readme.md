@@ -62,6 +62,7 @@ An Awesome list for all things Discord.py
 - [tanrbobanr/dpy-check](https://github.com/tanrbobanr/dpy-check) - A system for making more dynamic and complex checks on discord.py commands.
 - [robertwayne/cogwatch](https://github.com/robertwayne/cogwatch) - Hot-reloading for discord.py-based command files.
 - [timelessnesses/dpyhr](https://github.com/timelessnesses/dpyhr) - Dpyhr is a hot cog reloader (that uses discord.py cog's implementation) to reload anytime you wanted to save.
+- [mikeshardmind/discord-scheduler](https://github.com/mikeshardmind/discord-scheduler) - A persistent scheduling implementation suitable for use with discord.py.
 
 ### Testing and Debugging
 
