@@ -111,6 +111,7 @@ An Awesome list for all things Discord.py
 ## Example Bots
 
 - [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - A discord bot written by Rapptz, the creator of discord.py.
+- [statch/gitbot](https://github.com/statch/gitbot) - GitBot is a programmer toolkit for developers to stay productive and connect with their friends on GitHub right from Discord.
 - [python-discord/bot](https://github.com/python-discord/bot) - The community bot for the Python Discord community.
 - [python-discord/metricity](https://github.com/python-discord/metricity) - Advanced metric collection for the Python Discord server.
 - [alllthingslinux/tux](https://github.com/allthingslinux/tux) - Tux is an all in one bot for the All Things Linux discord server.
