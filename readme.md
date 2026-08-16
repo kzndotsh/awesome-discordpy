@@ -1,54 +1,41 @@
-<!-- title -->
-
-<!--lint ignore no-dead-urls-->
 <!--lint disable awesome-heading-->
-# Awesome Discord.py List
+# Awesome Discord.py [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/kzndotsh/awesome-discordpy/actions/workflows/lint.yaml/badge.svg)](https://github.com/kzndotsh/awesome-discordpy/actions/workflows/lint.yaml)
+<p align="center">
+  <a href="https://discordpy.readthedocs.io/en/stable/">
+    <img src="assets/banner.png" width="792" alt="discord.py">
+  </a>
+</p>
 
-<!-- subtitle -->
+> Useful resources for creating Discord bots with [discord.py](https://discordpy.readthedocs.io/en/stable/).
 
-An Awesome list for all things Discord.py
-
-<!-- image -->
-
-![Discord.py Logo](assets/banner.png)
-
-<!-- description -->
-
-[Discord.py](https://discordpy.readthedocs.io/en/stable/) is a modern, easy to use, feature-rich, and async ready API wrapper for Discord.
-
-<!-- TOC -->
+discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper for Discord.
 
 ## Contents
 
 <!--lint disable awesome-toc-->
-- [Awesome Discord.py List](#awesome-discordpy-list)
-  - [Contents](#contents)
-  - [Official Links](#official-links)
-  - [Libraries and Extensions](#libraries-and-extensions)
-    - [Utilities](#utilities)
-    - [Testing and Debugging](#testing-and-debugging)
-    - [UI - Pagination, Menus, Embeds and similar](#ui---pagination-menus-embeds-and-similar)
-    - [Inter-Process Communication](#inter-process-communication)
-    - [Voice and Audio](#voice-and-audio)
-    - [Authentication](#authentication)
-    - [Metrics, Monitoring, and Logging](#metrics-monitoring-and-logging)
-    - [Miscellaneous](#miscellaneous)
-    - [Templates](#templates)
-  - [Example Bots](#example-bots)
-  - [Blog Posts, Guides and Tutorials](#blog-posts-guides-and-tutorials)
-  - [Community Gists and Snippets](#community-gists-and-snippets)
-    - [Help Commands](#help-commands)
-    - [Error Handling](#error-handling)
-    - [Components and UI](#components-and-ui)
-    - [Components V2](#components-v2)
-    - [Other Snippets](#other-snippets)
-  - [Additional Resources](#additional-resources)
-  - [Forks and Wrappers](#forks-and-wrappers)
-  - [Archived/Deprecated](#archiveddeprecated)
-  - [Contributing](#contributing)
-    - [Contributors](#contributors)
+- [Official Links](#official-links)
+- [Libraries and Extensions](#libraries-and-extensions)
+  - [Utilities](#utilities)
+  - [Testing and Debugging](#testing-and-debugging)
+  - [UI - Pagination, Menus, Embeds and similar](#ui---pagination-menus-embeds-and-similar)
+  - [Inter-Process Communication](#inter-process-communication)
+  - [Voice and Audio](#voice-and-audio)
+  - [Authentication](#authentication)
+  - [Metrics, Monitoring, and Logging](#metrics-monitoring-and-logging)
+  - [Miscellaneous](#miscellaneous)
+  - [Templates](#templates)
+- [Example Bots](#example-bots)
+- [Blog Posts, Guides and Tutorials](#blog-posts-guides-and-tutorials)
+- [Community Gists and Snippets](#community-gists-and-snippets)
+  - [Help Commands](#help-commands)
+  - [Error Handling](#error-handling)
+  - [Components and UI](#components-and-ui)
+  - [Components V2](#components-v2)
+  - [Other Snippets](#other-snippets)
+- [Additional Resources](#additional-resources)
+- [Forks and Wrappers](#forks-and-wrappers)
+- [Related](#related)
 
 <!-- CONTENT -->
 
@@ -250,9 +237,6 @@ An Awesome list for all things Discord.py
 - [Intent Calculator](https://ziad87.net/intents/) - Build a gateway intents bitfield for your Identify payload.
 - [Embed Visualizer](https://leovoel.github.io/embed-visualizer/) - Live Discord embed designer with generated library snippets.
 - [discord-interactions-python](https://github.com/discord/discord-interactions-python) - Official Discord helpers for verifying HTTP interaction signatures in Python (last activity 2024-04).
-- [awesome-discord-communities](https://github.com/mhxion/awesome-discord-communities) - A curated list of Discord communities for programmers (last activity 2026-04).
-- [jacc/awesome-discord](https://github.com/jacc/awesome-discord) - A curated list of Discord clients, bots, libraries, and related tools (last activity 2026-05).
-- [Discord Library Comparison](https://libs.advaith.io) - Compares Discord libraries and their support for current API features.
 - [Soheab/dpy-missing-features](https://github.com/Soheab/dpy-missing-features) - Notes on Discord API features that discord.py does not (yet) expose (last activity 2024-08).
 - [Soheab/discord.py-tags](https://github.com/Soheab/discord.py-tags) - Overflow copies of long tags from the official discord.py Discord server (last activity 2024-12).
 - [Soheab/dpy-badhosts](https://github.com/Soheab/dpy-badhosts) - Hosts the discord.py community generally warns against using for bots (last activity 2024-11).
@@ -271,26 +255,12 @@ disnake, nextcord, Novus, pycord, and discord.py-message-components are discord.
 - [hata](https://github.com/HuyaneMatsu/hata) - An async Discord API wrapper for Python, independent of discord.py (last activity 2026-08).
 - [AlexFlipnote/discord.http](https://github.com/AlexFlipnote/discord.http) - An HTTP-interactions-first Discord library with optional gateway support (last activity 2026-08).
 
-## Archived/Deprecated
+## Related
 
-- [thrzl/discord-ext-forms](https://github.com/thrzl/discord-ext-forms) - A simpler way to make forms, surveys, and reaction input using discord.py (last activity 2022-10).
-- [Ext-Creators/discord-ext-events](https://github.com/Ext-Creators/discord-ext-events) - A discord.py extension with additional events (last activity 2021-07).
-- [Ext-Creators/discord-ext-converters](https://github.com/Ext-Creators/discord-ext-converters) - A discord.py extension with a collection of useful converters (last activity 2021-03).
-- [Ext-Creators/discord-ext-rx](https://github.com/Ext-Creators/discord-ext-rx) - A discord.py extension with a reactive events implementation (last activity 2020-08).
-- [discord-py-ui/discord-ui](https://github.com/discord-py-ui/discord-ui) - A discord.py extension that allows you to create and manage buttons, slash commands, and more (last activity 2022-02).
-- [PythonistaGuild/buttons](https://github.com/PythonistaGuild/buttons) - Archived interactive session and reaction-button paginator for discord.py (last activity 2021-06).
-- [soosBot-com/Pagination](https://github.com/soosBot-com/Pagination) - Archived embed paginator library for discord.py 2.0 (last activity 2022-11).
-- [Ext-Creators/discord-ext-ipc](https://github.com/Ext-Creators/discord-ext-ipc) - Archived discord.py IPC extension. Prefer discord-ext-ipcx (last activity 2021-08).
-- [MiroslavRosenov/better-ipc](https://github.com/MiroslavRosenov/better-ipc) - Archived high-performance IPC library for discord.py. Prefer discord-ext-ipcx (last activity 2024-10).
-- [EQUENOS/dislash.py](https://github.com/EQUENOS/dislash.py) - Archived slash-command and button wrapper from before discord.py 2.0 (last activity 2021-12).
-- [woohyunjng/discord.py-components](https://github.com/woohyunjng/discord.py-components) - Archived unofficial components library from before native discord.py UI (last activity 2021-10).
-- [Ext-Creators/discord-ext-alternatives](https://github.com/Ext-Creators/discord-ext-alternatives) - Archived discord.py extension with extra and alternative features (last activity 2021-04).
-- [discordsuperutils/discord-super-utils](https://github.com/discordsuperutils/discord-super-utils) - Archived high-level helpers for common discord.py bot features (last activity 2022-10).
-- [XuaTheGrate/slash_util](https://github.com/XuaTheGrate/slash_util) - Archived helper for adding application commands on early discord.py 2.0 (last activity 2022-02).
-- [Ikusaba-san/dpy-ui](https://github.com/Ikusaba-san/dpy-ui) - Unmaintained prompt and pagination helpers. Prefer native views (last activity 2020-05).
-- [wasi-master/dpylint](https://github.com/wasi-master/dpylint) - Unmaintained Pylint plugin for discord.py bot code (last activity 2022-03).
-- [Rapptz/discord-ext-menus](https://github.com/Rapptz/discord-ext-menus) - Experimental reaction-menu helpers from before native views. Prefer discord-ext-pager or built-in UI (last activity 2022-05).
-- [oliver-ni/discord-ext-menus-views](https://github.com/oliver-ni/discord-ext-menus-views) - Thin View layer over discord-ext-menus. Prefer native views or discord-ext-pager (last activity 2022-07).
+- [awesome-discord-communities](https://github.com/mhxion/awesome-discord-communities) - A curated list of Discord communities for programmers (last activity 2026-04).
+- [jacc/awesome-discord](https://github.com/jacc/awesome-discord) - A curated list of Discord clients, bots, libraries, and related tools (last activity 2026-05).
+- [Discord Library Comparison](https://libs.advaith.io) - Compares Discord libraries and their support for current API features.
+
 <!-- END CONTENT -->
 
 ## Contributing
