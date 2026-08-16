@@ -71,6 +71,9 @@ An Awesome list for all things Discord.py
 - [Voxel-Fox-Ltd/VoxelBotUtils](https://github.com/Voxel-Fox-Ltd/VoxelBotUtils) - An extension of discord.py that adds helpers for bot setup, commands, and common patterns.
 - [Kyrela/discore](https://github.com/Kyrela/discore) - A small core for initializing discord.py bots and tracking logs and errors.
 - [LiBa001/disputils](https://github.com/LiBa001/disputils) - Pagination, confirmation, and other small discord.py UI utilities.
+- [Soheab/discord.py-listen-overloads](https://github.com/Soheab/discord.py-listen-overloads) - Type stubs that add overloads to `@commands.Bot.listen` for discord.py events.
+- [Soheab/discord-ext-subcommands](https://github.com/Soheab/discord-ext-subcommands) - Define prefix, slash, and hybrid subcommands across multiple files and cogs.
+- [Soheab/discord-ext-custom_interaction](https://github.com/Soheab/discord-ext-custom_interaction) - Subclass `discord.Interaction` to add helpers such as `send` and `author`.
 
 ### Testing and Debugging
 
@@ -115,6 +118,7 @@ An Awesome list for all things Discord.py
 ### Authentication
 
 - [treeben77/discord-oauth2.py](https://github.com/treeben77/discord-oauth2.py) - API Wrapper for Discord OAuth2 & Linked Roles in Python.
+- [Soheab/oauthcord.py](https://github.com/Soheab/oauthcord.py) - An async Discord OAuth2 client with typed REST models. Not a bot framework.
 
 ### Metrics, Monitoring, and Logging
 
@@ -136,19 +140,19 @@ An Awesome list for all things Discord.py
 
 ## Example Bots
 
-- [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - A discord bot written by Rapptz, the creator of discord.py.
+- [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - A Discord bot written by Rapptz, the creator of discord.py.
 - [statch/gitbot](https://github.com/statch/gitbot) - GitBot is a programmer toolkit for developers to stay productive and connect with their friends on GitHub right from Discord.
 - [python-discord/bot](https://github.com/python-discord/bot) - The community bot for the Python Discord community.
 - [python-discord/metricity](https://github.com/python-discord/metricity) - Advanced metric collection for the Python Discord server.
-- [alllthingslinux/tux](https://github.com/allthingslinux/tux) - Tux is an all in one bot for the All Things Linux discord server.
+- [alllthingslinux/tux](https://github.com/allthingslinux/tux) - Tux is an all in one bot for the All Things Linux Discord server.
 - [DeJayDev/speedboat](https://github.com/DeJayDev/speedboat) - A Discord bot for managing large communities.
 - [joinemm/miso-bot](https://github.com/joinemm/miso-bot) - Miso is a multipurpose Discord bot with over 100 commands and features.
-- [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - A simple discord bot that helps you getting started within discord.py.
+- [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - A simple Discord bot that helps you getting started within discord.py.
 - [ZRunner/Axobot](https://github.com/Axobot-org/Axobot) - A cool multipurpose Discord bot made in Python.
-- [MikeyUsersREC/ERM](https://github.com/MikeyUsersREC/ERM) - A discord bot primarily focused on improving the Roblox staff experience.
+- [MikeyUsersREC/ERM](https://github.com/MikeyUsersREC/ERM) - A Discord bot primarily focused on improving the Roblox staff experience.
 - [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Spruce is a multi-functional open source Discord bot, designed to streamline the management of Discord tournaments and servers.
 - [poketwo/poketwo](https://github.com/poketwo/poketwo) - A Pokémon-oriented Discord bot that lets you collect pokémon. Catch pokémon in the wild, level your pokémon, compete with your friends, and more.
-- [wasi-master/wm_bot](https://github.com/wasi-master/wm_bot) - A multipurpose discord bot with more than 220 commands.
+- [wasi-master/wm_bot](https://github.com/wasi-master/wm_bot) - A multipurpose Discord bot with more than 220 commands.
 - [DuckBot-Discord/DuckBot](https://github.com/DuckBot-Discord/DuckBot) - Source for DuckBot, a feature-rich discord.py bot with PostgreSQL and a documented local setup.
 - [DTS-11/PizzaHat](https://github.com/DTS-11/PizzaHat) - A multi-purpose discord.py bot with a public website and AGPL source.
 - [avizum/alpine](https://github.com/avizum/alpine) - A discord.py bot kept as a public reference implementation.
@@ -174,7 +178,7 @@ An Awesome list for all things Discord.py
 - [Application Command definition examples - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2023/01/30/app-command-examples.html) - This post is about the different types of application commands and how to use them.
 - [Application command basics - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2023/01/30/app-command-basics.html) - In this guide, you'll cover everything from regular ol' slash commands all the way to Modals and the other component goodies.
 - [Umbra's Sync Command - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2023/01/29/sync-command-example.html) - A full featured command and explanation for syncing your CommandTree.
-- [Discord.py Masterclass](https://fallendeity.github.io/discord.py-masterclass/) - A tutorial/guide explaining all features in discord.py and how to make a discord bot from scratch.
+- [Discord.py Masterclass](https://fallendeity.github.io/discord.py-masterclass/) - A tutorial/guide explaining all features in discord.py and how to make a Discord bot from scratch.
 - [Python Discord - Discord.py Learning Guide](https://www.pythondiscord.com/pages/guides/python-guides/discordpy/) - A curated learning path covering bot setup, commands, FAQ, and commonly cited community examples.
 - [Components V2 - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2025/08/17/components-v2.html) - Guide to discord.py 2.6 LayoutView and Discord's Components V2 system.
 
@@ -185,7 +189,7 @@ An Awesome list for all things Discord.py
 - [advaith1/Intents Explainer](https://gist.github.com/advaith1/e69bcc1cdd6d0087322734451f15aa2f) - If you're wondering what Gateway Intents are, what Privileged Intents are, why your bot can't see statuses, or why your bot can't see member joins anymore, then this page should explain it to you!
 - [cibere/Defer Response](https://gist.github.com/cibere/7e1356575780e716d2e3a23ea2bcf6da) - The defer response, defers the interaction response. This is typically used when the interaction is acknowledged and an optional secondary action will be done later. When deferring, you get up to 15 minutes to respond instead of the normal 3 seconds.
 - [Jeftaei/AppCommandErrorhandler.py](https://gist.github.com/Jeftaei/d0bad5044f1192a4c454f95a6b591d53) - A robust error handler for discord.py commands, including app commands.
-- [mikeshardmind/SQLite Examples](https://gist.github.com/mikeshardmind/d7d2c6cb19b53ab76b7d401b2716df5d) - "Common" discord bot sqlite examples.
+- [mikeshardmind/SQLite Examples](https://gist.github.com/mikeshardmind/d7d2c6cb19b53ab76b7d401b2716df5d) - "Common" Discord bot SQLite examples.
 - [AkshuAgarwal/Interactions](https://gist.github.com/AkshuAgarwal/bc7d45bcecd5d29de4d6d7904e8b8bd8) - A Basic guide about Discord Interactions and how to use them in discord.py.
 - [LeoCx1000/MentionableTree implementation](https://gist.github.com/LeoCx1000/021dc52981299b95ea7790416e4f5ca4) - Mentionable CommandTree implementation to allow mentioning slash commands in discord.py.
 - [lykn/Buttons](https://gist.github.com/lykn/bac99b06d45ff8eed34c2220d86b6bf4) - A gist which shows/tells you how to make buttons using discord.py v2.
@@ -211,6 +215,19 @@ An Awesome list for all things Discord.py
 - [4Kaylum/Discord.py Tutorial](https://gist.github.com/4Kaylum/a1e9f31c31b17386c36f017d3c59cdcc) - A simple bot tutorial for discord.py.
 - [quackbarc/2.0 Paginators](https://gist.github.com/quackbarc/31e5cd789d232ad0d263511bb1a506e8) - Paginator examples for discord.py 2.0.
 - [philskillz-coder/Color Transformer](https://gist.github.com/philskillz-coder/c6bee6c8e258ad56afb01840df26a1fa) - Color transformer and autocomplete for discord.py.
+- [Soheab/Components V2 to LayoutView](https://gist.github.com/Soheab/ab7a833725f95a84a8f7fa17995cb36c) - Example of mapping Discord Components V2 to discord.py LayoutView.
+- [Soheab/CV2 Paginator](https://gist.github.com/Soheab/891c39d7294b1bdbadc7ecf35ce51cc5) - A Components V2 paginator for discord.py.
+- [Soheab/Threads](https://gist.github.com/Soheab/4709e335474784d8a1877812f6d0c354) - Guide to Discord threads and how to manage them with discord.py.
+- [Soheab/Voice Channel Status](https://gist.github.com/Soheab/e9a747f5c8fae43447a5611e483b4beb) - How to react when a voice channel status is set or changed.
+- [Soheab/No Message Content Intent Ideas](https://gist.github.com/Soheab/a6229dbbe3acf3ce9a4625bf9e7177da) - Command ideas that work without the privileged message content intent.
+- [Soheab/Embed to Container](https://gist.github.com/Soheab/cf356c62a6134508869bf40640b04856) - Convert a discord.py embed into a Components V2 container.
+- [Soheab/self.bot in Cogs](https://gist.github.com/Soheab/cf387b753da32eb02f3228c2e32bb03f) - Explains how `self.bot` works inside a discord.py cog.
+- [Soheab/wait_for Modal](https://gist.github.com/Soheab/f46fee27498aad4a8962d59b6f0415c6) - Wait for user input with a modal in discord.py.
+- [Soheab/wait_for in Commands](https://gist.github.com/Soheab/e73ab6f66881ee4102be37815da3a24e) - Examples of `wait_for` inside ext.commands.
+- [Soheab/Global View](https://gist.github.com/Soheab/cfd769870b7b6eaf00a7aebf5293a622) - Pattern for a globally registered discord.py view.
+- [Soheab/Any-Permission Check](https://gist.github.com/Soheab/ec3f40f9f54add0dba787783719331f8) - A custom check that passes if the user has any of the given permissions.
+- [Soheab/discord.Colour](https://gist.github.com/Soheab/d9cf3f40e34037cfa544f464fc7d919e) - Reference for discord.Colour helpers and usage.
+- [Soheab/APIs for Discord Bots](https://gist.github.com/Soheab/332ba85f8989648449c71bdc8ef32368) - Community list of APIs commonly used with Discord bots.
 
 ## Additional Resources
 
@@ -224,13 +241,14 @@ An Awesome list for all things Discord.py
 - [Discord Library Comparison](https://libs.advaith.io) - Compares Discord libraries and their support for current API features.
 - [Soheab/dpy-missing-features](https://github.com/Soheab/dpy-missing-features) - Notes on Discord API features that discord.py does not (yet) expose.
 - [Soheab/discord.py-tags](https://github.com/Soheab/discord.py-tags) - Overflow copies of long tags from the official discord.py Discord server.
+- [Soheab/dpy-badhosts](https://github.com/Soheab/dpy-badhosts) - Hosts the discord.py community generally warns against using for bots.
 
 ## Forks and Wrappers
 
 - [disnake](https://github.com/DisnakeDev/disnake) - A modern, easy to use, feature-rich, and async-ready API wrapper for Discord written in Python.
 - [nextcord](https://github.com/nextcord/nextcord) - A Python wrapper for the Discord API forked from discord.py.
 - [Novus](https://github.com/Voxel-Fox-Ltd/Novus) - An asyncio Python wrapper around the Discord API, forked off of Rapptz's Discord.py.
-- [pycord](https://github.com/Pycord-Development/pycord) - Pycord, a maintained fork of discord.py, is a python wrapper for the Discord API.
+- [pycord](https://github.com/Pycord-Development/pycord) - A maintained fork of discord.py that wraps the Discord API.
 - [mccoderpy/discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components) - A "fork" of discord.py library made by Rapptz with implementation of the Discord Message-Components & many other features by mccoderpy.
 - [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord.
 - [hikari](https://github.com/hikari-py/hikari) - A Discord API wrapper for Python and asyncio, built independently of discord.py.
