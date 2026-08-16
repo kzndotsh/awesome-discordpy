@@ -1,50 +1,32 @@
 name: lint
-on: 
+
+on:
   pull_request:
   push:
     branches:
       - main
 
 jobs:
-    awesome-lint:
-      strategy:
-        fail-fast: false
-        matrix:
-          files:
-            - "readme.md"
-      runs-on: ubuntu-latest
-      steps:
-        - name: "checkout repo"
-          uses: actions/checkout@v4
-        - name: "Setup mise"
-          uses: jdx/mise-action@v2
-          with:
-            install: true
-            cache: true
-            mise_toml: |
-              [tools]
-              nodejs = "latest"
-        - name: "linting: ${{ matrix.files }}"
-          run: mise x -- npx -y awesome-lint ${{ matrix.files }}
-    awesome-bot:
-      strategy:
-        fail-fast: false
-        matrix:
-          files:
-            - "readme.md"
-      runs-on: ubuntu-latest
-      steps:
-        - name: "checkout repo"
-          uses: actions/checkout@v4
-        - name: "Setup mise"
-          uses: jdx/mise-action@v2
-          with:
-            install: true
-            cache: true
-            mise_toml: |
-              [tools]
-              ruby = "3.0.1"
-        - name: "install awesome-bot"
-          run: mise x -- gem install awesome_bot
-        - name: "linting: ${{ matrix.files }}"
-          run: mise x -- awesome_bot --allow-redirect ${{ matrix.files }}
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: awesome-lint
+        run: npx --yes awesome-lint@2.3.0 readme.md
+
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: true
+          jobSummary: true
+          lycheeVersion: v0.24.2
+          args: --config lychee.toml --verbose --no-progress readme.md
