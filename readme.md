@@ -39,6 +39,11 @@ An Awesome list for all things Discord.py
   - [Example Bots](#example-bots)
   - [Blog Posts, Guides and Tutorials](#blog-posts-guides-and-tutorials)
   - [Community Gists and Snippets](#community-gists-and-snippets)
+    - [Help Commands](#help-commands)
+    - [Error Handling](#error-handling)
+    - [Components and UI](#components-and-ui)
+    - [Components V2](#components-v2)
+    - [Other Snippets](#other-snippets)
   - [Additional Resources](#additional-resources)
   - [Forks and Wrappers](#forks-and-wrappers)
   - [Archived/Deprecated](#archiveddeprecated)
@@ -70,16 +75,15 @@ An Awesome list for all things Discord.py
 - [mikeshardmind/discord-scheduler](https://github.com/mikeshardmind/discord-scheduler) - A persistent scheduling implementation suitable for use with discord.py (last activity 2025-02).
 - [Voxel-Fox-Ltd/VoxelBotUtils](https://github.com/Voxel-Fox-Ltd/VoxelBotUtils) - An extension of discord.py that adds helpers for bot setup, commands, and common patterns (last activity 2024-01).
 - [Kyrela/discore](https://github.com/Kyrela/discore) - A small core for initializing discord.py bots and tracking logs and errors (last activity 2026-01).
-- [LiBa001/disputils](https://github.com/LiBa001/disputils) - Pagination, confirmation, and other small discord.py UI utilities (last activity 2024-05).
 - [Soheab/discord.py-listen-overloads](https://github.com/Soheab/discord.py-listen-overloads) - Type stubs that add overloads to `@commands.Bot.listen` for discord.py events (last activity 2023-12).
 - [Soheab/discord-ext-subcommands](https://github.com/Soheab/discord-ext-subcommands) - Define prefix, slash, and hybrid subcommands across multiple files and cogs (last activity 2026-03).
 - [Soheab/discord-ext-custom_interaction](https://github.com/Soheab/discord-ext-custom_interaction) - Subclass `discord.Interaction` to add helpers such as `send` and `author` (last activity 2025-01).
+- [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord (last activity 2026-07).
 
 ### Testing and Debugging
 
 - [scarletcafe/jishaku](https://github.com/scarletcafe/jishaku) - A debugging and testing cog for discord.py rewrite bots (last activity 2026-04).
 - [CraftSpider/dpytest](https://github.com/CraftSpider/dpytest) - A package that assists in writing tests for discord.py (last activity 2026-06).
-- [wasi-master/dpylint](https://github.com/wasi-master/dpylint) - A Pylint plugin for linting discord.py bot code (last activity 2022-03).
 
 ### UI - Pagination, Menus, Embeds and similar
 
@@ -87,7 +91,6 @@ An Awesome list for all things Discord.py
 - [Soheab/discord-py-paginators](https://github.com/Soheab/discord-py-paginators) - An extension for discord.py that provides various paginators (last activity 2025-10).
 - [Soheab/modal-paginator](https://github.com/Soheab/modal-paginator) - An extension for discord.py that allows you to paginate a Modal using buttons (last activity 2025-05).
 - [philskillz-coder/discord-py-paginator](https://github.com/philskillz-coder/discord-py-paginator) - A view paginator for discord.py (last activity 2025-04).
-- [Ikusaba-san/dpy-ui](https://github.com/Ikusaba-san/dpy-ui) - An extension of discord.py that makes prompting users and pagination easier (last activity 2020-05).
 - [thegamecracks/discord-ext-pager](https://github.com/thegamecracks/discord-ext-pager) - A discord.py 2.0 paginator library with a similar interface to discord-ext-menus (last activity 2026-08).
 - [OnceYT/dpy-paginator](https://github.com/OnceYT/dpy-paginator) - A discord.py utility with no external dependencies that makes paginating embeds easier (last activity 2024-10).
 - [Soheab/discord-ext-embeds](https://github.com/Soheab/discord-ext-embeds) - An extension for discord.py that adds a few nice-to-have features to discord.py's embed (last activity 2025-03).
@@ -95,10 +98,9 @@ An Awesome list for all things Discord.py
 - [sizumita/discord-ext-ui](https://github.com/sizumita/discord-ext-ui) - An extension of discord-ui that adds some quality-of-life features (last activity 2024-10).
 - [Seniatical/dpy-paginator](https://github.com/Seniatical/dpy-paginator) -  A simple pagination library for discord.py, comes with support for dropdown, button based pagination (last activity 2023-04).
 - [vcv88/discord-ext-dyn](https://github.com/vcv88/discord-ext-dyn) - An extension for handling dynamic modals/buttons/select menus (last activity 2024-01).
-- [oliver-ni/discord-ext-menus-views](https://github.com/oliver-ni/discord-ext-menus-views) - A thin layer over discord.ext.menus that uses discord.py v2 views instead of reactions (last activity 2022-07).
 - [Modern-Realm/discord_btns_menus](https://github.com/Modern-Realm/discord_btns_menus) - Helpers for buttons, select menus, combinations, and pagination on discord.py and related forks (last activity 2024-06).
-- [Rapptz/discord-ext-menus](https://github.com/Rapptz/discord-ext-menus) - Experimental reaction-menu and pagination helpers from the discord.py author (last activity 2022-05).
 - [HollowTheSilver/CascadeUI](https://github.com/HollowTheSilver/CascadeUI) - A Redux-inspired UI framework for discord.py with Components V2, persistence, and pre-built patterns (last activity 2026-08).
+- [LiBa001/disputils](https://github.com/LiBa001/disputils) - Pagination, confirmation, and other small discord.py UI utilities (last activity 2024-05).
 
 ### Inter-Process Communication
 
@@ -123,6 +125,7 @@ An Awesome list for all things Discord.py
 
 - [discord-ext-prometheus](https://github.com/ApolloRoboto/discord.py-ext-prometheus) - An extension for the discord.py library that enables Prometheus metrics (last activity 2025-02).
 - [loguru-discord](https://pypi.org/project/loguru-discord/) - Lightweight sink for Loguru that sends logs to Discord via webhook (last activity 2026-01).
+- [python-discord/metricity](https://github.com/python-discord/metricity) - Advanced metric collection for the Python Discord server (last activity 2024-09).
 
 ### Miscellaneous
 
@@ -142,7 +145,6 @@ An Awesome list for all things Discord.py
 - [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - A Discord bot written by Rapptz, the creator of discord.py (last activity 2026-06).
 - [statch/gitbot](https://github.com/statch/gitbot) - GitBot is a programmer toolkit for developers to stay productive and connect with their friends on GitHub right from Discord (last activity 2026-08).
 - [python-discord/bot](https://github.com/python-discord/bot) - The community bot for the Python Discord community (last activity 2026-08).
-- [python-discord/metricity](https://github.com/python-discord/metricity) - Advanced metric collection for the Python Discord server (last activity 2024-09).
 - [DeJayDev/speedboat](https://github.com/DeJayDev/speedboat) - A Discord bot for managing large communities (last activity 2024-09).
 - [joinemm/miso-bot](https://github.com/joinemm/miso-bot) - Miso is a multipurpose Discord bot with over 100 commands and features (last activity 2026-06).
 - [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - A simple Discord bot that helps you getting started within discord.py (last activity 2025-03).
@@ -182,47 +184,61 @@ An Awesome list for all things Discord.py
 
 ## Community Gists and Snippets
 
-- [scragly/Learning discord.py](https://gist.github.com/scragly/095b5278a354d46e86f02d643fc3d64b) - Comprehensive guide and resource list for learning and building Discord bots using discord.py, including setup, essential concepts, and examples (last activity 2025-12).
-- [esmaycat/Message Components](https://gist.github.com/esmaycat/500eafdad0aaf278b94c612764688976) - This gist shows you how to use message components in discord.py 2.0 (last activity 2025-02).
-- [advaith1/Intents Explainer](https://gist.github.com/advaith1/e69bcc1cdd6d0087322734451f15aa2f) - If you're wondering what Gateway Intents are, what Privileged Intents are, why your bot can't see statuses, or why your bot can't see member joins anymore, then this page should explain it to you! (last activity 2026-02).
-- [cibere/Defer Response](https://gist.github.com/cibere/7e1356575780e716d2e3a23ea2bcf6da) - The defer response, defers the interaction response. This is typically used when the interaction is acknowledged and an optional secondary action will be done later. When deferring, you get up to 15 minutes to respond instead of the normal 3 seconds (last activity 2025-02).
-- [Jeftaei/AppCommandErrorhandler.py](https://gist.github.com/Jeftaei/d0bad5044f1192a4c454f95a6b591d53) - A robust error handler for discord.py commands, including app commands (last activity 2023-05).
-- [mikeshardmind/SQLite Examples](https://gist.github.com/mikeshardmind/d7d2c6cb19b53ab76b7d401b2716df5d) - "Common" Discord bot SQLite examples (last activity 2025-08).
-- [AkshuAgarwal/Interactions](https://gist.github.com/AkshuAgarwal/bc7d45bcecd5d29de4d6d7904e8b8bd8) - A Basic guide about Discord Interactions and how to use them in discord.py (last activity 2026-02).
-- [LeoCx1000/MentionableTree implementation](https://gist.github.com/LeoCx1000/021dc52981299b95ea7790416e4f5ca4) - Mentionable CommandTree implementation to allow mentioning slash commands in discord.py (last activity 2025-05).
-- [lykn/Buttons](https://gist.github.com/lykn/bac99b06d45ff8eed34c2220d86b6bf4) - A gist which shows/tells you how to make buttons using discord.py v2 (last activity 2026-02).
-- [lykn/Selects or Dropdowns](https://gist.github.com/lykn/a2b68cb790d6dad8ecff75b2aa450f23) -  A gist explaining the right way to make drop down menus/select menus/selects in discord.py v2 (last activity 2026-01).
-- [Ikusaba-san/Cog Methods](https://gist.github.com/Ikusaba-san/69115b79d33e05ed07ec4a4f14db83b1) - A list of all special cog methods (last activity 2021-05).
-- [Painezor/Checks](https://gist.github.com/Painezor/eb2519022cd2c907b56624105f94b190) - A list of built-in Checks for the commands extension of discord.py (last activity 2025-04).
+### Help Commands
+
 - [InterStella0/HelpCommand walkthrough](https://gist.github.com/InterStella0/b78488fb28cadf279dfd3164b9f0cf96) - Walkthrough for subclassing discord.py's HelpCommand (last activity 2025-12).
 - [Gobot1234/Sub-classing Help](https://gist.github.com/Gobot1234/45cad24df63fc144e85a7f8c85812567) - Guide to subclassing the help command in discord.py (last activity 2021-07).
 - [nonchris/Custom Help Command](https://gist.github.com/nonchris/1c7060a14a9d94e7929aa2ef14c41bc2) - An advanced custom help command example for discord.py bots (last activity 2024-08).
 - [voidoak/Implementing Help](https://gist.github.com/voidoak/4f34922888eeca04e1bba8c0ebd2f948) - Tutorial on implementing your own help command in discord.py (last activity 2026-03).
-- [Soheab/Simple Button Paginator](https://gist.github.com/Soheab/f226fc06a3468af01ea3168c95b30af8) - A small paginator with three buttons (last activity 2026-04).
-- [CuteFwan/wait_for Multiple Events](https://gist.github.com/CuteFwan/ded1bf520d71baac18726fa2e0554f0f) - Example of waiting for multiple Discord events (last activity 2021-08).
-- [Samarthh2601/App Commands Walkthrough](https://gist.github.com/Samarthh2601/b6f57065f394b54f43666037ade38d32) - Walkthrough for discord.py application commands (last activity 2025-01).
-- [imptype/Message Maker](https://gist.github.com/imptype/7b35c6769684fb68178e5719e5f81b6d) - An embed/message builder command for discord.py (last activity 2025-03).
-- [EvieePy/Cogs Example](https://gist.github.com/EvieePy/d78c061a4798ae81be9825468fe146be) - Classic cogs/extension layout example for discord.py rewrite (last activity 2025-08).
-- [EvieePy/Error Handling](https://gist.github.com/EvieePy/7822af90858ef65012ea500bcecf1612) - Error handling for prefix and app commands in discord.py (last activity 2026-02).
 - [Rapptz/Embed Help Command](https://gist.github.com/Rapptz/31a346ed1eb545ddeb0d451d81a60b3b) - Embed-based help command example from the discord.py author (last activity 2024-07).
-- [kkrypt0nn/ANSI Colors on Discord](https://gist.github.com/kkrypt0nn/a02506f3712ff2d1c8ca7c9e0aed7c06) - Guide to ANSI color codes in Discord code blocks (last activity 2026-08).
-- [LeviSnoot/Discord Timestamps](https://gist.github.com/LeviSnoot/d9147767abeef2f770e9ddcd91eb85aa) - Discord timestamp markdown syntax reference (last activity 2026-07).
+
+### Error Handling
+
+- [Jeftaei/AppCommandErrorhandler.py](https://gist.github.com/Jeftaei/d0bad5044f1192a4c454f95a6b591d53) - A robust error handler for discord.py commands, including app commands (last activity 2023-05).
+- [EvieePy/Error Handling](https://gist.github.com/EvieePy/7822af90858ef65012ea500bcecf1612) - Error handling for prefix and app commands in discord.py (last activity 2026-02).
+- [irregularunit/Command Error Handler](https://gist.github.com/irregularunit/0221164777a476c653e36b49439b7b06) - Structured command error handler example for discord.py (last activity 2023-07).
+
+### Components and UI
+
+- [esmaycat/Message Components](https://gist.github.com/esmaycat/500eafdad0aaf278b94c612764688976) - This gist shows you how to use message components in discord.py 2.0 (last activity 2025-02).
+- [lykn/Buttons](https://gist.github.com/lykn/bac99b06d45ff8eed34c2220d86b6bf4) - A gist which shows/tells you how to make buttons using discord.py v2 (last activity 2026-02).
+- [lykn/Selects or Dropdowns](https://gist.github.com/lykn/a2b68cb790d6dad8ecff75b2aa450f23) -  A gist explaining the right way to make drop down menus/select menus/selects in discord.py v2 (last activity 2026-01).
+- [Soheab/Simple Button Paginator](https://gist.github.com/Soheab/f226fc06a3468af01ea3168c95b30af8) - A small paginator with three buttons (last activity 2026-04).
 - [InterStella0/Pagination Walkthrough](https://gist.github.com/InterStella0/454cc51e05e60e63b81ea2e8490ef140) - Walkthrough of action-based pagination in discord.py (last activity 2025-04).
 - [mikeshardmind/List Menu](https://gist.github.com/mikeshardmind/bff6f937032455d83b8f1724ef73575a) - List menu pagination snippet for discord.py (last activity 2024-03).
-- [irregularunit/Command Error Handler](https://gist.github.com/irregularunit/0221164777a476c653e36b49439b7b06) - Structured command error handler example for discord.py (last activity 2023-07).
-- [4Kaylum/Discord.py Tutorial](https://gist.github.com/4Kaylum/a1e9f31c31b17386c36f017d3c59cdcc) - A simple bot tutorial for discord.py (last activity 2026-05).
+- [imptype/Message Maker](https://gist.github.com/imptype/7b35c6769684fb68178e5719e5f81b6d) - An embed/message builder command for discord.py (last activity 2025-03).
 - [quackbarc/2.0 Paginators](https://gist.github.com/quackbarc/31e5cd789d232ad0d263511bb1a506e8) - Paginator examples for discord.py 2.0 (last activity 2022-03).
-- [philskillz-coder/Color Transformer](https://gist.github.com/philskillz-coder/c6bee6c8e258ad56afb01840df26a1fa) - Color transformer and autocomplete for discord.py (last activity 2023-06).
+- [Soheab/wait_for Modal](https://gist.github.com/Soheab/f46fee27498aad4a8962d59b6f0415c6) - Wait for user input with a modal in discord.py (last activity 2024-11).
+- [Soheab/Global View](https://gist.github.com/Soheab/cfd769870b7b6eaf00a7aebf5293a622) - Pattern for a globally registered discord.py view (last activity 2026-04).
+
+### Components V2
+
 - [Soheab/Components V2 to LayoutView](https://gist.github.com/Soheab/ab7a833725f95a84a8f7fa17995cb36c) - Example of mapping Discord Components V2 to discord.py LayoutView (last activity 2026-07).
 - [Soheab/CV2 Paginator](https://gist.github.com/Soheab/891c39d7294b1bdbadc7ecf35ce51cc5) - A Components V2 paginator for discord.py (last activity 2026-04).
+- [Soheab/Embed to Container](https://gist.github.com/Soheab/cf356c62a6134508869bf40640b04856) - Convert a discord.py embed into a Components V2 container (last activity 2025-11).
+
+### Other Snippets
+
+- [scragly/Learning discord.py](https://gist.github.com/scragly/095b5278a354d46e86f02d643fc3d64b) - Comprehensive guide and resource list for learning and building Discord bots using discord.py, including setup, essential concepts, and examples (last activity 2025-12).
+- [advaith1/Intents Explainer](https://gist.github.com/advaith1/e69bcc1cdd6d0087322734451f15aa2f) - If you're wondering what Gateway Intents are, what Privileged Intents are, why your bot can't see statuses, or why your bot can't see member joins anymore, then this page should explain it to you! (last activity 2026-02).
+- [cibere/Defer Response](https://gist.github.com/cibere/7e1356575780e716d2e3a23ea2bcf6da) - The defer response, defers the interaction response. This is typically used when the interaction is acknowledged and an optional secondary action will be done later. When deferring, you get up to 15 minutes to respond instead of the normal 3 seconds (last activity 2025-02).
+- [mikeshardmind/SQLite Examples](https://gist.github.com/mikeshardmind/d7d2c6cb19b53ab76b7d401b2716df5d) - "Common" Discord bot SQLite examples (last activity 2025-08).
+- [AkshuAgarwal/Interactions](https://gist.github.com/AkshuAgarwal/bc7d45bcecd5d29de4d6d7904e8b8bd8) - A Basic guide about Discord Interactions and how to use them in discord.py (last activity 2026-02).
+- [LeoCx1000/MentionableTree implementation](https://gist.github.com/LeoCx1000/021dc52981299b95ea7790416e4f5ca4) - Mentionable CommandTree implementation to allow mentioning slash commands in discord.py (last activity 2025-05).
+- [Ikusaba-san/Cog Methods](https://gist.github.com/Ikusaba-san/69115b79d33e05ed07ec4a4f14db83b1) - A list of all special cog methods (last activity 2021-05).
+- [Painezor/Checks](https://gist.github.com/Painezor/eb2519022cd2c907b56624105f94b190) - A list of built-in Checks for the commands extension of discord.py (last activity 2025-04).
+- [CuteFwan/wait_for Multiple Events](https://gist.github.com/CuteFwan/ded1bf520d71baac18726fa2e0554f0f) - Example of waiting for multiple Discord events (last activity 2021-08).
+- [Samarthh2601/App Commands Walkthrough](https://gist.github.com/Samarthh2601/b6f57065f394b54f43666037ade38d32) - Walkthrough for discord.py application commands (last activity 2025-01).
+- [EvieePy/Cogs Example](https://gist.github.com/EvieePy/d78c061a4798ae81be9825468fe146be) - Classic cogs/extension layout example for discord.py rewrite (last activity 2025-08).
+- [kkrypt0nn/ANSI Colors on Discord](https://gist.github.com/kkrypt0nn/a02506f3712ff2d1c8ca7c9e0aed7c06) - Guide to ANSI color codes in Discord code blocks (last activity 2026-08).
+- [LeviSnoot/Discord Timestamps](https://gist.github.com/LeviSnoot/d9147767abeef2f770e9ddcd91eb85aa) - Discord timestamp markdown syntax reference (last activity 2026-07).
+- [4Kaylum/Discord.py Tutorial](https://gist.github.com/4Kaylum/a1e9f31c31b17386c36f017d3c59cdcc) - A simple bot tutorial for discord.py (last activity 2026-05).
+- [philskillz-coder/Color Transformer](https://gist.github.com/philskillz-coder/c6bee6c8e258ad56afb01840df26a1fa) - Color transformer and autocomplete for discord.py (last activity 2023-06).
 - [Soheab/Threads](https://gist.github.com/Soheab/4709e335474784d8a1877812f6d0c354) - Guide to Discord threads and how to manage them with discord.py (last activity 2026-07).
 - [Soheab/Voice Channel Status](https://gist.github.com/Soheab/e9a747f5c8fae43447a5611e483b4beb) - How to react when a voice channel status is set or changed (last activity 2026-02).
 - [Soheab/No Message Content Intent Ideas](https://gist.github.com/Soheab/a6229dbbe3acf3ce9a4625bf9e7177da) - Command ideas that work without the privileged message content intent (last activity 2025-12).
-- [Soheab/Embed to Container](https://gist.github.com/Soheab/cf356c62a6134508869bf40640b04856) - Convert a discord.py embed into a Components V2 container (last activity 2025-11).
 - [Soheab/self.bot in Cogs](https://gist.github.com/Soheab/cf387b753da32eb02f3228c2e32bb03f) - Explains how `self.bot` works inside a discord.py cog (last activity 2026-08).
-- [Soheab/wait_for Modal](https://gist.github.com/Soheab/f46fee27498aad4a8962d59b6f0415c6) - Wait for user input with a modal in discord.py (last activity 2024-11).
 - [Soheab/wait_for in Commands](https://gist.github.com/Soheab/e73ab6f66881ee4102be37815da3a24e) - Examples of `wait_for` inside ext.commands (last activity 2025-06).
-- [Soheab/Global View](https://gist.github.com/Soheab/cfd769870b7b6eaf00a7aebf5293a622) - Pattern for a globally registered discord.py view (last activity 2026-04).
 - [Soheab/Any-Permission Check](https://gist.github.com/Soheab/ec3f40f9f54add0dba787783719331f8) - A custom check that passes if the user has any of the given permissions (last activity 2024-07).
 - [Soheab/discord.Colour](https://gist.github.com/Soheab/d9cf3f40e34037cfa544f464fc7d919e) - Reference for discord.Colour helpers and usage (last activity 2026-02).
 - [Soheab/APIs for Discord Bots](https://gist.github.com/Soheab/332ba85f8989648449c71bdc8ef32368) - Community list of APIs commonly used with Discord bots (last activity 2026-08).
@@ -243,12 +259,13 @@ An Awesome list for all things Discord.py
 
 ## Forks and Wrappers
 
+disnake, nextcord, Novus, pycord, and discord.py-message-components are discord.py forks. hikari, hata, interactions.py, and discord.http are independent wrappers, not drop-in replacements for discord.py.
+
 - [disnake](https://github.com/DisnakeDev/disnake) - A modern, easy to use, feature-rich, and async-ready API wrapper for Discord written in Python (last activity 2026-08).
 - [nextcord](https://github.com/nextcord/nextcord) - A Python wrapper for the Discord API forked from discord.py (last activity 2026-08).
 - [Novus](https://github.com/Voxel-Fox-Ltd/Novus) - An asyncio Python wrapper around the Discord API, forked off of Rapptz's Discord.py (last activity 2026-07).
 - [pycord](https://github.com/Pycord-Development/pycord) - A maintained fork of discord.py that wraps the Discord API (last activity 2026-08).
 - [mccoderpy/discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components) - A "fork" of discord.py library made by Rapptz with implementation of the Discord Message-Components & many other features by mccoderpy (last activity 2025-06).
-- [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord (last activity 2026-07).
 - [hikari](https://github.com/hikari-py/hikari) - A Discord API wrapper for Python and asyncio, built independently of discord.py (last activity 2026-08).
 - [interactions.py](https://github.com/interactions-py/interactions.py) - A highly extensible Discord bot framework for Python (last activity 2026-08).
 - [hata](https://github.com/HuyaneMatsu/hata) - An async Discord API wrapper for Python, independent of discord.py (last activity 2026-08).
@@ -270,6 +287,10 @@ An Awesome list for all things Discord.py
 - [Ext-Creators/discord-ext-alternatives](https://github.com/Ext-Creators/discord-ext-alternatives) - Archived discord.py extension with extra and alternative features (last activity 2021-04).
 - [discordsuperutils/discord-super-utils](https://github.com/discordsuperutils/discord-super-utils) - Archived high-level helpers for common discord.py bot features (last activity 2022-10).
 - [XuaTheGrate/slash_util](https://github.com/XuaTheGrate/slash_util) - Archived helper for adding application commands on early discord.py 2.0 (last activity 2022-02).
+- [Ikusaba-san/dpy-ui](https://github.com/Ikusaba-san/dpy-ui) - Unmaintained prompt and pagination helpers. Prefer native views (last activity 2020-05).
+- [wasi-master/dpylint](https://github.com/wasi-master/dpylint) - Unmaintained Pylint plugin for discord.py bot code (last activity 2022-03).
+- [Rapptz/discord-ext-menus](https://github.com/Rapptz/discord-ext-menus) - Experimental reaction-menu helpers from before native views. Prefer discord-ext-pager or built-in UI (last activity 2022-05).
+- [oliver-ni/discord-ext-menus-views](https://github.com/oliver-ni/discord-ext-menus-views) - Thin View layer over discord-ext-menus. Prefer native views or discord-ext-pager (last activity 2022-07).
 <!-- END CONTENT -->
 
 ## Contributing
