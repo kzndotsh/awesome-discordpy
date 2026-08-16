@@ -17,3 +17,5 @@ ALWAYS create a new branch with your proposed changes. Thank you!
   ```bash
   - [item name](https link) - Description beginning with capital, ending in period.
   ```
+
+- Do not add last-activity dates by hand. A weekly GitHub Action stamps `(last activity YYYY-MM)` onto GitHub, gist, and PyPI links. Locally: `python .github/scripts/update_activity_dates.py` (set `GITHUB_TOKEN` if you hit rate limits).
