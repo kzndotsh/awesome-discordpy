@@ -51,11 +51,13 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Soheab/discord-ext-subcommands](https://github.com/Soheab/discord-ext-subcommands) - Define prefix, slash, and hybrid subcommands across multiple files and cogs (last activity 2026-03).
 - [Soheab/discord-ext-custom_interaction](https://github.com/Soheab/discord-ext-custom_interaction) - Subclass `discord.Interaction` to add helpers such as `send` and `author` (last activity 2025-01).
 - [tibue99/ezcord](https://github.com/tibue99/ezcord) - An easy-to-use extension for Discord.py and Pycord (last activity 2026-07).
+- [python-discord/bot-core](https://github.com/python-discord/bot-core) - Shared helpers used across Python Discord's bot projects (last activity 2026-05).
 
 ### Testing and Debugging
 
 - [scarletcafe/jishaku](https://github.com/scarletcafe/jishaku) - A debugging and testing cog for discord.py rewrite bots (last activity 2026-04).
 - [CraftSpider/dpytest](https://github.com/CraftSpider/dpytest) - A package that assists in writing tests for discord.py (last activity 2026-06).
+- [python-discord/snekbox](https://github.com/python-discord/snekbox) - Sandboxed evaluator for untrusted Python code, used by the Python Discord bot (last activity 2026-08).
 
 ### UI
 
@@ -73,6 +75,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Modern-Realm/discord_btns_menus](https://github.com/Modern-Realm/discord_btns_menus) - Helpers for buttons, select menus, combinations, and pagination on discord.py and related forks (last activity 2024-06).
 - [HollowTheSilver/CascadeUI](https://github.com/HollowTheSilver/CascadeUI) - A Redux-inspired UI framework for discord.py with Components V2, persistence, and pre-built patterns (last activity 2026-08).
 - [LiBa001/disputils](https://github.com/LiBa001/disputils) - Pagination, confirmation, and other small discord.py UI utilities (last activity 2024-05).
+- [Soheab/cv2examples](https://github.com/Soheab/cv2examples) - Example layouts for Discord Components V2 (last activity 2025-07).
 
 ### Inter-Process Communication
 
@@ -83,6 +86,10 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [discord-ext-voice-recv](https://github.com/imayhaveborkedit/discord-ext-voice-recv) - Voice receive extension package for discord.py (last activity 2025-06).
 - [Sheppsu/discord-ext-listening](https://github.com/Sheppsu/discord-ext-listening) - Voice receive extension for discord.py built on multiprocessing and designed to be flexible (last activity 2024-02).
 
+### Voice send
+
+- [tuna2134/discord-ext-songbird](https://github.com/tuna2134/discord-ext-songbird) - Voice send extension backed by Songbird instead of Lavalink (last activity 2026-07).
+
 ### Lavalink
 
 - [PythonistaGuild/Wavelink](https://github.com/PythonistaGuild/Wavelink) - A fully asynchronous Lavalink v4 wrapper built for discord.py (last activity 2026-07).
@@ -90,11 +97,13 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [cloudwithax/pomice](https://github.com/cloudwithax/pomice) - A modern Lavalink wrapper for discord.py with Spotify and Apple Music querying (last activity 2026-07).
 - [ooliver1/mafic](https://github.com/ooliver1/mafic) - A typed Lavalink client for discord.py and related forks (last activity 2026-08).
 - [PyLav/PyLav](https://github.com/PyLav/PyLav) - A Lavalink wrapper aimed at discord.py bots, including Red-DiscordBot (last activity 2026-08).
+- [ParrotXray/lava-lyra](https://github.com/ParrotXray/lava-lyra) - Lavalink v4 and Nodelink v3 client that also supports Pycord (last activity 2026-08).
 
 ### Authentication
 
 - [treeben77/discord-oauth2.py](https://github.com/treeben77/discord-oauth2.py) - API Wrapper for Discord OAuth2 & Linked Roles in Python (last activity 2026-01).
 - [Soheab/oauthcord.py](https://github.com/Soheab/oauthcord.py) - An async Discord OAuth2 client with typed REST models. Not a bot framework (last activity 2026-08).
+- [Rapptz/open-collective-discord-auth](https://github.com/Rapptz/open-collective-discord-auth) - Server component for Open Collective linked-role Discord auth (last activity 2026-06).
 
 ### Metrics, Monitoring, and Logging
 
@@ -136,6 +145,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Tortoise-Community/tortoise-bot](https://github.com/Tortoise-Community/tortoise-bot) - A fully featured discord.py community bot (last activity 2026-08).
 - [PythonistaGuild/Pythonista-Bot](https://github.com/PythonistaGuild/Pythonista-Bot) - The discord.py bot for the Pythonista Guild server (last activity 2025-02).
 - [modmail-dev/Modmail](https://github.com/modmail-dev/Modmail) - A staff shared-inbox bot for Discord, similar to Reddit Modmail (last activity 2026-08).
+- [python-discord/sir-robin](https://github.com/python-discord/sir-robin) - Python Discord's event bot for community events (last activity 2026-07).
 
 ### Frameworks
 
@@ -234,6 +244,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Soheab/No Message Content Intent Ideas](https://gist.github.com/Soheab/a6229dbbe3acf3ce9a4625bf9e7177da) - Command ideas that work without the privileged message content intent (last activity 2025-12).
 - [Soheab/discord.Colour](https://gist.github.com/Soheab/d9cf3f40e34037cfa544f464fc7d919e) - Reference for discord.Colour helpers and usage (last activity 2026-02).
 - [Soheab/APIs for Discord Bots](https://gist.github.com/Soheab/332ba85f8989648449c71bdc8ef32368) - Community list of APIs commonly used with Discord bots (last activity 2026-08).
+- [Soheab/Server Tag](https://gist.github.com/Soheab/d5e7fdbca3db94629cf87f1178096aab) - Overflow copy of a long official-server tag that exceeded Discord's character limit (last activity 2024-10).
 
 ## Additional Resources
 
@@ -245,6 +256,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Soheab/dpy-missing-features](https://github.com/Soheab/dpy-missing-features) - Notes on Discord API features that discord.py does not (yet) expose (last activity 2024-08).
 - [Soheab/discord.py-tags](https://github.com/Soheab/discord.py-tags) - Overflow copies of long tags from the official discord.py Discord server (last activity 2024-12).
 - [Soheab/dpy-badhosts](https://github.com/Soheab/dpy-badhosts) - Hosts the discord.py community generally warns against using for bots (last activity 2024-11).
+- [Rapptz/asqlite](https://github.com/Rapptz/asqlite) - Simple async wrapper around sqlite3 (last activity 2024-07).
 
 ## Forks and Wrappers
 
