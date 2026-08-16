@@ -1,0 +1,14 @@
+# Link checker config for lychee (replaces awesome_bot).
+# Schema: https://github.com/lycheeverse/lychee/blob/lychee-v0.24.2/lychee.example.toml
+
+verbose = "info"
+no_progress = true
+timeout = 20
+max_retries = 3
+retry_wait_time = 2
+max_redirects = 10
+accept = ["200", "204", "206", "429"]
+user_agent = "awesome-discordpy-lychee"
+scheme = ["https", "http"]
+include_mail = false
+host_concurrency = 4
