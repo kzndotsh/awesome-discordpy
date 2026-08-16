@@ -13,26 +13,11 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 
 ## Contents
 
-<!--lint disable awesome-toc-->
 - [Official Links](#official-links)
 - [Libraries and Extensions](#libraries-and-extensions)
-  - [Utilities](#utilities)
-  - [Testing and Debugging](#testing-and-debugging)
-  - [UI - Pagination, Menus, Embeds and similar](#ui---pagination-menus-embeds-and-similar)
-  - [Inter-Process Communication](#inter-process-communication)
-  - [Voice and Audio](#voice-and-audio)
-  - [Authentication](#authentication)
-  - [Metrics, Monitoring, and Logging](#metrics-monitoring-and-logging)
-  - [Miscellaneous](#miscellaneous)
-  - [Templates](#templates)
 - [Example Bots](#example-bots)
 - [Blog Posts, Guides and Tutorials](#blog-posts-guides-and-tutorials)
 - [Community Gists and Snippets](#community-gists-and-snippets)
-  - [Help Commands](#help-commands)
-  - [Error Handling](#error-handling)
-  - [Components and UI](#components-and-ui)
-  - [Components V2](#components-v2)
-  - [Other Snippets](#other-snippets)
 - [Additional Resources](#additional-resources)
 - [Forks and Wrappers](#forks-and-wrappers)
 - [Related](#related)
@@ -72,7 +57,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [scarletcafe/jishaku](https://github.com/scarletcafe/jishaku) - A debugging and testing cog for discord.py rewrite bots (last activity 2026-04).
 - [CraftSpider/dpytest](https://github.com/CraftSpider/dpytest) - A package that assists in writing tests for discord.py (last activity 2026-06).
 
-### UI - Pagination, Menus, Embeds and similar
+### UI
 
 - [Defxult/reactionmenu](https://github.com/Defxult/reactionmenu) - A library to create a discord.py 2.0+ paginator. Supports pagination with buttons, reactions, and category selection using selects (last activity 2026-05).
 - [Soheab/discord-py-paginators](https://github.com/Soheab/discord-py-paginators) - An extension for discord.py that provides various paginators (last activity 2025-10).
@@ -93,10 +78,13 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 
 - [No767/discord-ext-ipcx](https://github.com/No767/discord-ext-ipcx) - An maintained discord.py extension for inter-process communication (last activity 2026-08).
 
-### Voice and Audio
+### Voice receive
 
 - [discord-ext-voice-recv](https://github.com/imayhaveborkedit/discord-ext-voice-recv) - Voice receive extension package for discord.py (last activity 2025-06).
 - [Sheppsu/discord-ext-listening](https://github.com/Sheppsu/discord-ext-listening) - Voice receive extension for discord.py built on multiprocessing and designed to be flexible (last activity 2024-02).
+
+### Lavalink
+
 - [PythonistaGuild/Wavelink](https://github.com/PythonistaGuild/Wavelink) - A fully asynchronous Lavalink v4 wrapper built for discord.py (last activity 2026-07).
 - [devoxin/Lavalink.py](https://github.com/devoxin/Lavalink.py) - A powerful, intuitive Python wrapper for Lavalink (last activity 2026-06).
 - [cloudwithax/pomice](https://github.com/cloudwithax/pomice) - A modern Lavalink wrapper for discord.py with Spotify and Apple Music querying (last activity 2026-07).
@@ -129,34 +117,48 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 
 ## Example Bots
 
+### Reference implementations
+
 - [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - A Discord bot written by Rapptz, the creator of discord.py (last activity 2026-06).
-- [statch/gitbot](https://github.com/statch/gitbot) - GitBot is a programmer toolkit for developers to stay productive and connect with their friends on GitHub right from Discord (last activity 2026-08).
-- [python-discord/bot](https://github.com/python-discord/bot) - The community bot for the Python Discord community (last activity 2026-08).
-- [DeJayDev/speedboat](https://github.com/DeJayDev/speedboat) - A Discord bot for managing large communities (last activity 2024-09).
-- [joinemm/miso-bot](https://github.com/joinemm/miso-bot) - Miso is a multipurpose Discord bot with over 100 commands and features (last activity 2026-06).
 - [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - A simple Discord bot that helps you getting started within discord.py (last activity 2025-03).
-- [ZRunner/Axobot](https://github.com/Axobot-org/Axobot) - A cool multipurpose Discord bot made in Python (last activity 2026-08).
-- [MikeyUsersREC/ERM](https://github.com/MikeyUsersREC/ERM) - A Discord bot primarily focused on improving the Roblox staff experience (last activity 2026-06).
-- [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Spruce is a multi-functional open source Discord bot, designed to streamline the management of Discord tournaments and servers (last activity 2026-08).
-- [poketwo/poketwo](https://github.com/poketwo/poketwo) - A Pokémon-oriented Discord bot that lets you collect pokémon. Catch pokémon in the wild, level your pokémon, compete with your friends, and more (last activity 2025-02).
-- [wasi-master/wm_bot](https://github.com/wasi-master/wm_bot) - A multipurpose Discord bot with more than 220 commands (last activity 2026-07).
-- [DuckBot-Discord/DuckBot](https://github.com/DuckBot-Discord/DuckBot) - Source for DuckBot, a feature-rich discord.py bot with PostgreSQL and a documented local setup (last activity 2026-02).
-- [DTS-11/PizzaHat](https://github.com/DTS-11/PizzaHat) - A multi-purpose discord.py bot with a public website and AGPL source (last activity 2026-05).
 - [avizum/alpine](https://github.com/avizum/alpine) - A discord.py bot kept as a public reference implementation (last activity 2026-08).
-- [Nirlep5252/EpicBot](https://github.com/Nirlep5252/EpicBot) - A simple, multipurpose discord.py bot with a large public command set (last activity 2025-07).
-- [Kile/Killua](https://github.com/Kile/Killua) - Source for Killua, a maintained discord.py bot with extra algorithm notes in-tree (last activity 2026-08).
-- [Cog-Creators/Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) - A modular, multi-function discord.py bot framework with a large cog ecosystem (last activity 2026-07).
-- [modmail-dev/Modmail](https://github.com/modmail-dev/Modmail) - A staff shared-inbox bot for Discord, similar to Reddit Modmail (last activity 2026-08).
-- [python-discord/sir-lancebot](https://github.com/python-discord/sir-lancebot) - Python Discord's community bot for newer open-source contributors (last activity 2026-08).
-- [ChocoMeow/Vocard](https://github.com/ChocoMeow/Vocard) - A user-friendly discord.py music bot with YouTube, SoundCloud, Spotify, and Twitch support (last activity 2026-07).
-- [cheran-senthil/TLE](https://github.com/cheran-senthil/TLE) - A discord.py bot for competitive programming on Codeforces and similar sites (last activity 2026-03).
-- [jakobdylanc/llmcord](https://github.com/jakobdylanc/llmcord) - A discord.py bot that turns Discord into a collaborative LLM frontend (last activity 2026-08).
-- [Ballsdex-Team/BallsDex-DiscordBot](https://github.com/Ballsdex-Team/BallsDex-DiscordBot) - Collect-and-trade countryballs bot written with discord.py (last activity 2026-08).
-- [onerandomusername/monty-python](https://github.com/onerandomusername/monty-python) - A discord.py bot for helping with Python project development (last activity 2026-02).
 - [AbstractUmbra/Mipha](https://github.com/AbstractUmbra/Mipha) - Umbra's personal discord.py bot, useful as a modern reference implementation (last activity 2026-07).
-- [PythonistaGuild/Pythonista-Bot](https://github.com/PythonistaGuild/Pythonista-Bot) - The discord.py bot for the Pythonista Guild server (last activity 2025-02).
+- [DuckBot-Discord/DuckBot](https://github.com/DuckBot-Discord/DuckBot) - Source for DuckBot, a feature-rich discord.py bot with PostgreSQL and a documented local setup (last activity 2026-02).
+- [Kile/Killua](https://github.com/Kile/Killua) - Source for Killua, a maintained discord.py bot with extra algorithm notes in-tree (last activity 2026-08).
+- [onerandomusername/monty-python](https://github.com/onerandomusername/monty-python) - A discord.py bot for helping with Python project development (last activity 2026-02).
+
+### Community and moderation
+
+- [python-discord/bot](https://github.com/python-discord/bot) - The community bot for the Python Discord community (last activity 2026-08).
+- [python-discord/sir-lancebot](https://github.com/python-discord/sir-lancebot) - Python Discord's community bot for newer open-source contributors (last activity 2026-08).
+- [DeJayDev/speedboat](https://github.com/DeJayDev/speedboat) - A Discord bot for managing large communities (last activity 2024-09).
 - [fourjr/rainbot](https://github.com/fourjr/rainbot) - A discord.py moderation bot with automod and logging (last activity 2026-04).
 - [Tortoise-Community/tortoise-bot](https://github.com/Tortoise-Community/tortoise-bot) - A fully featured discord.py community bot (last activity 2026-08).
+- [PythonistaGuild/Pythonista-Bot](https://github.com/PythonistaGuild/Pythonista-Bot) - The discord.py bot for the Pythonista Guild server (last activity 2025-02).
+- [modmail-dev/Modmail](https://github.com/modmail-dev/Modmail) - A staff shared-inbox bot for Discord, similar to Reddit Modmail (last activity 2026-08).
+
+### Frameworks
+
+- [Cog-Creators/Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) - A modular, multi-function discord.py bot framework with a large cog ecosystem (last activity 2026-07).
+
+### Music and games
+
+- [ChocoMeow/Vocard](https://github.com/ChocoMeow/Vocard) - A user-friendly discord.py music bot with YouTube, SoundCloud, Spotify, and Twitch support (last activity 2026-07).
+- [poketwo/poketwo](https://github.com/poketwo/poketwo) - A Pokémon-oriented Discord bot that lets you collect pokémon. Catch pokémon in the wild, level your pokémon, compete with your friends, and more (last activity 2025-02).
+- [Ballsdex-Team/BallsDex-DiscordBot](https://github.com/Ballsdex-Team/BallsDex-DiscordBot) - Collect-and-trade countryballs bot written with discord.py (last activity 2026-08).
+- [cheran-senthil/TLE](https://github.com/cheran-senthil/TLE) - A discord.py bot for competitive programming on Codeforces and similar sites (last activity 2026-03).
+- [jakobdylanc/llmcord](https://github.com/jakobdylanc/llmcord) - A discord.py bot that turns Discord into a collaborative LLM frontend (last activity 2026-08).
+- [statch/gitbot](https://github.com/statch/gitbot) - GitBot is a programmer toolkit for developers to stay productive and connect with their friends on GitHub right from Discord (last activity 2026-08).
+- [MikeyUsersREC/ERM](https://github.com/MikeyUsersREC/ERM) - A Discord bot primarily focused on improving the Roblox staff experience (last activity 2026-06).
+- [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Spruce is a multi-functional open source Discord bot, designed to streamline the management of Discord tournaments and servers (last activity 2026-08).
+
+### Multipurpose
+
+- [joinemm/miso-bot](https://github.com/joinemm/miso-bot) - Miso is a multipurpose Discord bot with over 100 commands and features (last activity 2026-06).
+- [ZRunner/Axobot](https://github.com/Axobot-org/Axobot) - A cool multipurpose Discord bot made in Python (last activity 2026-08).
+- [wasi-master/wm_bot](https://github.com/wasi-master/wm_bot) - A multipurpose Discord bot with more than 220 commands (last activity 2026-07).
+- [DTS-11/PizzaHat](https://github.com/DTS-11/PizzaHat) - A multi-purpose discord.py bot with a public website and AGPL source (last activity 2026-05).
+- [Nirlep5252/EpicBot](https://github.com/Nirlep5252/EpicBot) - A simple, multipurpose discord.py bot with a large public command set (last activity 2025-07).
 
 ## Blog Posts, Guides and Tutorials
 
@@ -204,6 +206,17 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Soheab/CV2 Paginator](https://gist.github.com/Soheab/891c39d7294b1bdbadc7ecf35ce51cc5) - A Components V2 paginator for discord.py (last activity 2026-04).
 - [Soheab/Embed to Container](https://gist.github.com/Soheab/cf356c62a6134508869bf40640b04856) - Convert a discord.py embed into a Components V2 container (last activity 2025-11).
 
+### Cogs and Commands
+
+- [LeoCx1000/MentionableTree implementation](https://gist.github.com/LeoCx1000/021dc52981299b95ea7790416e4f5ca4) - Mentionable CommandTree implementation to allow mentioning slash commands in discord.py (last activity 2025-05).
+- [Ikusaba-san/Cog Methods](https://gist.github.com/Ikusaba-san/69115b79d33e05ed07ec4a4f14db83b1) - A list of all special cog methods (last activity 2021-05).
+- [Painezor/Checks](https://gist.github.com/Painezor/eb2519022cd2c907b56624105f94b190) - A list of built-in Checks for the commands extension of discord.py (last activity 2025-04).
+- [Samarthh2601/App Commands Walkthrough](https://gist.github.com/Samarthh2601/b6f57065f394b54f43666037ade38d32) - Walkthrough for discord.py application commands (last activity 2025-01).
+- [EvieePy/Cogs Example](https://gist.github.com/EvieePy/d78c061a4798ae81be9825468fe146be) - Classic cogs/extension layout example for discord.py rewrite (last activity 2025-08).
+- [Soheab/self.bot in Cogs](https://gist.github.com/Soheab/cf387b753da32eb02f3228c2e32bb03f) - Explains how `self.bot` works inside a discord.py cog (last activity 2026-08).
+- [Soheab/wait_for in Commands](https://gist.github.com/Soheab/e73ab6f66881ee4102be37815da3a24e) - Examples of `wait_for` inside ext.commands (last activity 2025-06).
+- [Soheab/Any-Permission Check](https://gist.github.com/Soheab/ec3f40f9f54add0dba787783719331f8) - A custom check that passes if the user has any of the given permissions (last activity 2024-07).
+
 ### Other Snippets
 
 - [scragly/Learning discord.py](https://gist.github.com/scragly/095b5278a354d46e86f02d643fc3d64b) - Comprehensive guide and resource list for learning and building Discord bots using discord.py, including setup, essential concepts, and examples (last activity 2025-12).
@@ -211,12 +224,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [cibere/Defer Response](https://gist.github.com/cibere/7e1356575780e716d2e3a23ea2bcf6da) - The defer response, defers the interaction response. This is typically used when the interaction is acknowledged and an optional secondary action will be done later. When deferring, you get up to 15 minutes to respond instead of the normal 3 seconds (last activity 2025-02).
 - [mikeshardmind/SQLite Examples](https://gist.github.com/mikeshardmind/d7d2c6cb19b53ab76b7d401b2716df5d) - "Common" Discord bot SQLite examples (last activity 2025-08).
 - [AkshuAgarwal/Interactions](https://gist.github.com/AkshuAgarwal/bc7d45bcecd5d29de4d6d7904e8b8bd8) - A Basic guide about Discord Interactions and how to use them in discord.py (last activity 2026-02).
-- [LeoCx1000/MentionableTree implementation](https://gist.github.com/LeoCx1000/021dc52981299b95ea7790416e4f5ca4) - Mentionable CommandTree implementation to allow mentioning slash commands in discord.py (last activity 2025-05).
-- [Ikusaba-san/Cog Methods](https://gist.github.com/Ikusaba-san/69115b79d33e05ed07ec4a4f14db83b1) - A list of all special cog methods (last activity 2021-05).
-- [Painezor/Checks](https://gist.github.com/Painezor/eb2519022cd2c907b56624105f94b190) - A list of built-in Checks for the commands extension of discord.py (last activity 2025-04).
 - [CuteFwan/wait_for Multiple Events](https://gist.github.com/CuteFwan/ded1bf520d71baac18726fa2e0554f0f) - Example of waiting for multiple Discord events (last activity 2021-08).
-- [Samarthh2601/App Commands Walkthrough](https://gist.github.com/Samarthh2601/b6f57065f394b54f43666037ade38d32) - Walkthrough for discord.py application commands (last activity 2025-01).
-- [EvieePy/Cogs Example](https://gist.github.com/EvieePy/d78c061a4798ae81be9825468fe146be) - Classic cogs/extension layout example for discord.py rewrite (last activity 2025-08).
 - [kkrypt0nn/ANSI Colors on Discord](https://gist.github.com/kkrypt0nn/a02506f3712ff2d1c8ca7c9e0aed7c06) - Guide to ANSI color codes in Discord code blocks (last activity 2026-08).
 - [LeviSnoot/Discord Timestamps](https://gist.github.com/LeviSnoot/d9147767abeef2f770e9ddcd91eb85aa) - Discord timestamp markdown syntax reference (last activity 2026-07).
 - [4Kaylum/Discord.py Tutorial](https://gist.github.com/4Kaylum/a1e9f31c31b17386c36f017d3c59cdcc) - A simple bot tutorial for discord.py (last activity 2026-05).
@@ -224,9 +232,6 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Soheab/Threads](https://gist.github.com/Soheab/4709e335474784d8a1877812f6d0c354) - Guide to Discord threads and how to manage them with discord.py (last activity 2026-07).
 - [Soheab/Voice Channel Status](https://gist.github.com/Soheab/e9a747f5c8fae43447a5611e483b4beb) - How to react when a voice channel status is set or changed (last activity 2026-02).
 - [Soheab/No Message Content Intent Ideas](https://gist.github.com/Soheab/a6229dbbe3acf3ce9a4625bf9e7177da) - Command ideas that work without the privileged message content intent (last activity 2025-12).
-- [Soheab/self.bot in Cogs](https://gist.github.com/Soheab/cf387b753da32eb02f3228c2e32bb03f) - Explains how `self.bot` works inside a discord.py cog (last activity 2026-08).
-- [Soheab/wait_for in Commands](https://gist.github.com/Soheab/e73ab6f66881ee4102be37815da3a24e) - Examples of `wait_for` inside ext.commands (last activity 2025-06).
-- [Soheab/Any-Permission Check](https://gist.github.com/Soheab/ec3f40f9f54add0dba787783719331f8) - A custom check that passes if the user has any of the given permissions (last activity 2024-07).
 - [Soheab/discord.Colour](https://gist.github.com/Soheab/d9cf3f40e34037cfa544f464fc7d919e) - Reference for discord.Colour helpers and usage (last activity 2026-02).
 - [Soheab/APIs for Discord Bots](https://gist.github.com/Soheab/332ba85f8989648449c71bdc8ef32368) - Community list of APIs commonly used with Discord bots (last activity 2026-08).
 
