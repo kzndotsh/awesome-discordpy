@@ -42,7 +42,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [InterStella0/starlight-dpy](https://github.com/InterStella0/starlight-dpy) - Paginated help commands, inline views, and converters. Pre-alpha; not for production (last activity 2024-02).
 - [clari7744/DPyUtils](https://github.com/clari7744/DPyUtils) - Duration parsing, extra converters, and a context editor that re-runs commands when the user edits their message (last activity 2026-04).
 - [tanrbobanr/dpy-check](https://github.com/tanrbobanr/dpy-check) - Composable, dynamic checks for prefix and application commands (last activity 2023-01).
-- [cogwatch](https://pypi.org/project/cogwatch/) - Hot-reload command files as you edit them.
+- [cogwatch](https://pypi.org/project/cogwatch/) - Hot-reload command files as you edit them (last activity 2023-04).
 - [timelessnesses/dpyhr](https://github.com/timelessnesses/dpyhr) - Reloads cogs on save using the built-in cog loader (last activity 2023-04).
 - [mikeshardmind/discord-scheduler](https://github.com/mikeshardmind/discord-scheduler) - Persistent SQLite-backed task scheduler with timezone-aware wall times (last activity 2025-02).
 - [Voxel-Fox-Ltd/VoxelBotUtils](https://github.com/Voxel-Fox-Ltd/VoxelBotUtils) - Config, database, logging, error handling, and help-command helpers, built for Novus (last activity 2024-01).
@@ -277,7 +277,6 @@ disnake, nextcord, Novus, pycord, and discord.py-message-components are discord.
 - [awesome-discord-communities](https://github.com/mhxion/awesome-discord-communities) - Programmer Discord communities (last activity 2026-04).
 - [jacc/awesome-discord](https://github.com/jacc/awesome-discord) - Clients, bots, libraries, and related tools (last activity 2026-05).
 - [Discord Library Comparison](https://libs.advaith.io) - Feature matrix across Discord libraries.
-
 <!-- END CONTENT -->
 
 ## Contributing
