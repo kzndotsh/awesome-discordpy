@@ -157,8 +157,8 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [poketwo/poketwo](https://github.com/poketwo/poketwo) - Pokémon catching and collecting, in the Pokécord style (last activity 2025-02).
 - [Ballsdex-Team/BallsDex-DiscordBot](https://github.com/Ballsdex-Team/BallsDex-DiscordBot) - Collect and trade countryballs (last activity 2026-08).
 - [cheran-senthil/TLE](https://github.com/cheran-senthil/TLE) - Competitive programming helper for Codeforces and similar sites (last activity 2026-03).
-- [jakobdylanc/llmcord](https://github.com/jakobdylanc/llmcord) - LLM frontend for OpenAI-compatible APIs inside a Discord server (last activity 2026-08).
-- [statch/gitbot](https://github.com/statch/gitbot) - GitHub notifications and developer tools inside Discord (last activity 2026-08).
+- [jakobdylanc/llmcord](https://github.com/jakobdylanc/llmcord) - LLM frontend for OpenAI-compatible APIs (last activity 2026-08).
+- [statch/gitbot](https://github.com/statch/gitbot) - GitHub notifications and developer tools (last activity 2026-08).
 - [MikeyUsersREC/ERM](https://github.com/MikeyUsersREC/ERM) - Staff tools aimed at Roblox communities (last activity 2026-06).
 - [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Tournament and server management (last activity 2026-08).
 
