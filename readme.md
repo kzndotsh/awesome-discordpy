@@ -131,7 +131,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - Rapptz's production bot; commonly used as a reference implementation (last activity 2026-06).
 - [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - Minimal starter bot (last activity 2025-03).
 - [avizum/alpine](https://github.com/avizum/alpine) - Public source for a general-purpose bot; author recommends the hosted instance (last activity 2026-08).
-- [AbstractUmbra/Mipha](https://github.com/AbstractUmbra/Mipha) - Umbra's personal bot, forked from RoboDanny and kept on latest library releases (last activity 2026-07).
+- [AbstractUmbra/Mipha](https://github.com/AbstractUmbra/Mipha) - Umbra's personal bot, forked from RoboDanny and kept on latest library releases (last activity 2026-08).
 - [DuckBot-Discord/DuckBot](https://github.com/DuckBot-Discord/DuckBot) - Feature-rich bot with PostgreSQL and a documented local setup (last activity 2026-02).
 - [Kile/Killua](https://github.com/Kile/Killua) - Games, moderation, and todo lists, plus extra algorithm notes in-tree (last activity 2026-08).
 - [onerandomusername/monty-python](https://github.com/onerandomusername/monty-python) - Helper bot for Python project development (last activity 2026-02).
@@ -145,7 +145,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Tortoise-Community/tortoise-bot](https://github.com/Tortoise-Community/tortoise-bot) - Community bot for the Tortoise Discord (last activity 2026-08).
 - [PythonistaGuild/Pythonista-Bot](https://github.com/PythonistaGuild/Pythonista-Bot) - Guild bot for the Pythonista Guild server (last activity 2025-02).
 - [modmail-dev/Modmail](https://github.com/modmail-dev/Modmail) - Shared staff inbox, similar to Reddit Modmail (last activity 2026-08).
-- [python-discord/sir-robin](https://github.com/python-discord/sir-robin) - Event-management bot for Python Discord (last activity 2026-07).
+- [python-discord/sir-robin](https://github.com/python-discord/sir-robin) - Event-management bot for Python Discord (last activity 2026-08).
 
 ### Frameworks
 
@@ -276,8 +276,7 @@ disnake, nextcord, Novus, pycord, and discord.py-message-components are discord.
 
 - [awesome-discord-communities](https://github.com/mhxion/awesome-discord-communities) - Programmer Discord communities (last activity 2026-04).
 - [jacc/awesome-discord](https://github.com/jacc/awesome-discord) - Clients, bots, libraries, and related tools (last activity 2026-05).
-- [Discord Library Comparison](https://libs.advaith.io) - Feature matrix across Discord libraries.
-<!-- END CONTENT -->
+- [Discord Library Comparison](https://libs.advaith.io) - Feature matrix across Discord libraries.<!-- END CONTENT -->
 
 ## Contributing
 
