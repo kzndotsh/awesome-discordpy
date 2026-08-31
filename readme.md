@@ -48,10 +48,10 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Voxel-Fox-Ltd/VoxelBotUtils](https://github.com/Voxel-Fox-Ltd/VoxelBotUtils) - Config, database, logging, error handling, and help-command helpers, built for Novus (last activity 2024-01).
 - [Kyrela/discore](https://github.com/Kyrela/discore) - Bot bootstrap with log and error tracking (last activity 2026-01).
 - [Soheab/discord.py-listen-overloads](https://github.com/Soheab/discord.py-listen-overloads) - Type stubs that add overloads to `@commands.Bot.listen` for library events (last activity 2023-12).
-- [Soheab/discord-ext-subcommands](https://github.com/Soheab/discord-ext-subcommands) - Define prefix, slash, and hybrid subcommands across files and cogs (last activity 2026-03).
+- [Soheab/discord-ext-subcommands](https://github.com/Soheab/discord-ext-subcommands) - Define prefix, slash, and hybrid subcommands across files and cogs (last activity 2026-08).
 - [Soheab/discord-ext-custom_interaction](https://github.com/Soheab/discord-ext-custom_interaction) - Subclass `discord.Interaction` with helpers such as `send` and `author` (last activity 2025-01).
 - [tibue99/ezcord](https://github.com/tibue99/ezcord) - Cogs, i18n, error webhooks, and embed helpers; also works with Pycord (last activity 2026-07).
-- [python-discord/bot-core](https://github.com/python-discord/bot-core) - Shared utilities used by Python Discord's bots (last activity 2026-05).
+- [python-discord/bot-core](https://github.com/python-discord/bot-core) - Shared utilities used by Python Discord's bots (last activity 2026-08).
 
 ### Testing and Debugging
 
@@ -153,7 +153,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 
 ### Music and games
 
-- [ChocoMeow/Vocard](https://github.com/ChocoMeow/Vocard) - Music bot for YouTube, SoundCloud, Spotify, and Twitch (last activity 2026-07).
+- [ChocoMeow/Vocard](https://github.com/ChocoMeow/Vocard) - Music bot for YouTube, SoundCloud, Spotify, and Twitch (last activity 2026-08).
 - [poketwo/poketwo](https://github.com/poketwo/poketwo) - Pokémon catching and collecting, in the Pokécord style (last activity 2025-02).
 - [Ballsdex-Team/BallsDex-DiscordBot](https://github.com/Ballsdex-Team/BallsDex-DiscordBot) - Collect and trade countryballs (last activity 2026-08).
 - [cheran-senthil/TLE](https://github.com/cheran-senthil/TLE) - Competitive programming helper for Codeforces and similar sites (last activity 2026-03).
