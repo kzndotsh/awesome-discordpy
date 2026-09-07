@@ -31,8 +31,8 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Discord.py FAQ](https://discordpy.readthedocs.io/en/latest/faq.html) - Common questions and answers.
 - [Migrating to v2.0](https://discordpy.readthedocs.io/en/latest/migrating.html) - Breaking-change guide for 2.0.
 - [Discord.py Quickstart](https://discordpy.readthedocs.io/en/latest/quickstart.html) - Minimal getting-started example.
-- [Official Examples](https://github.com/Rapptz/discord.py/tree/master/examples) - Example bots and snippets from the upstream repo (last activity 2026-07).
-- [Discord.py GitHub](https://github.com/Rapptz/discord.py) - Upstream source repository (last activity 2026-07).
+- [Official Examples](https://github.com/Rapptz/discord.py/tree/master/examples) - Example bots and snippets from the upstream repo (last activity 2026-09).
+- [Discord.py GitHub](https://github.com/Rapptz/discord.py) - Upstream source repository (last activity 2026-09).
 - [Discord.py Discord Server](https://discord.gg/dpy) - Official community Discord.
 
 ## Libraries and Extensions
@@ -57,7 +57,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 
 - [scarletcafe/jishaku](https://github.com/scarletcafe/jishaku) - REPL, extension reload, and debug cog for running bots (last activity 2026-04).
 - [CraftSpider/dpytest](https://github.com/CraftSpider/dpytest) - Fake Discord backend for writing bot tests (last activity 2026-06).
-- [python-discord/snekbox](https://github.com/python-discord/snekbox) - NSJail sandbox for evaluating untrusted Python, used by Python Discord (last activity 2026-08).
+- [python-discord/snekbox](https://github.com/python-discord/snekbox) - NSJail sandbox for evaluating untrusted Python, used by Python Discord (last activity 2026-09).
 
 ### UI
 
@@ -68,7 +68,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [thegamecracks/discord-ext-pager](https://github.com/thegamecracks/discord-ext-pager) - Paginator with an API close to discord-ext-menus (last activity 2026-08).
 - [OnceYT/dpy-paginator](https://github.com/OnceYT/dpy-paginator) - Dependency-free embed paginator (last activity 2024-10).
 - [Soheab/discord-ext-embeds](https://github.com/Soheab/discord-ext-embeds) - Embed constructor with author/footer shortcuts, file media, and character-limit checks (last activity 2025-03).
-- [keizaiya/discord-ext-flow](https://github.com/keizaiya/discord-ext-flow) - State-machine control flow on top of `discord.ui` (last activity 2026-08).
+- [keizaiya/discord-ext-flow](https://github.com/keizaiya/discord-ext-flow) - State-machine control flow on top of `discord.ui` (last activity 2026-09).
 - [sizumita/discord-ext-ui](https://github.com/sizumita/discord-ext-ui) - Declarative SwiftUI-style views with reactive state; works with Pycord too (last activity 2024-10).
 - [Seniatical/dpy-paginator](https://github.com/Seniatical/dpy-paginator) - Button and dropdown pagination (last activity 2023-04).
 - [vcv88/discord-ext-dyn](https://github.com/vcv88/discord-ext-dyn) - Dynamic creation of modals, buttons, and select menus (last activity 2024-01).
@@ -79,7 +79,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 
 ### Inter-Process Communication
 
-- [No767/discord-ext-ipcx](https://github.com/No767/discord-ext-ipcx) - Maintained IPC extension for splitting the bot across processes (last activity 2026-08).
+- [No767/discord-ext-ipcx](https://github.com/No767/discord-ext-ipcx) - Maintained IPC extension for splitting the bot across processes (last activity 2026-09).
 
 ### Voice receive
 
@@ -96,7 +96,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [devoxin/Lavalink.py](https://github.com/devoxin/Lavalink.py) - Lavalink client with multi-node load balancing, filters, and custom sources (last activity 2026-06).
 - [cloudwithax/pomice](https://github.com/cloudwithax/pomice) - Lavalink client with Spotify and Apple Music querying (last activity 2026-07).
 - [ooliver1/mafic](https://github.com/ooliver1/mafic) - Typed Lavalink client that also supports nextcord, disnake, and Pycord (last activity 2026-08).
-- [PyLav/PyLav](https://github.com/PyLav/PyLav) - Lavalink wrapper aimed at bots including Red-DiscordBot (last activity 2026-08).
+- [PyLav/PyLav](https://github.com/PyLav/PyLav) - Lavalink wrapper aimed at bots including Red-DiscordBot (last activity 2026-09).
 - [ParrotXray/lava-lyra](https://github.com/ParrotXray/lava-lyra) - Lavalink v4 and Nodelink v3 client that also supports Pycord (last activity 2026-08).
 
 ### Authentication
@@ -122,7 +122,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 ### Templates
 
 - [kkrypt0nn/Python-Discord-Bot-Template](https://github.com/kkrypt0nn/Python-Discord-Bot-Template) - Starter project for a personalized bot (last activity 2026-03).
-- [PaulMarisOUMary/Discord-Bot](https://github.com/PaulMarisOUMary/Discord-Bot) - 2.x starter with hybrid commands, Docker, logging, and a database (last activity 2026-08).
+- [PaulMarisOUMary/Discord-Bot](https://github.com/PaulMarisOUMary/Discord-Bot) - 2.x starter with hybrid commands, Docker, logging, and a database (last activity 2026-09).
 
 ## Example Bots
 
@@ -131,7 +131,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - Rapptz's production bot; commonly used as a reference implementation (last activity 2026-06).
 - [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - Minimal starter bot (last activity 2025-03).
 - [avizum/alpine](https://github.com/avizum/alpine) - Public source for a general-purpose bot; author recommends the hosted instance (last activity 2026-08).
-- [AbstractUmbra/Mipha](https://github.com/AbstractUmbra/Mipha) - Umbra's personal bot, forked from RoboDanny and kept on latest library releases (last activity 2026-08).
+- [AbstractUmbra/Mipha](https://github.com/AbstractUmbra/Mipha) - Umbra's personal bot, forked from RoboDanny and kept on latest library releases (last activity 2026-09).
 - [DuckBot-Discord/DuckBot](https://github.com/DuckBot-Discord/DuckBot) - Feature-rich bot with PostgreSQL and a documented local setup (last activity 2026-02).
 - [Kile/Killua](https://github.com/Kile/Killua) - Games, moderation, and todo lists, plus extra algorithm notes in-tree (last activity 2026-08).
 - [onerandomusername/monty-python](https://github.com/onerandomusername/monty-python) - Helper bot for Python project development (last activity 2026-02).
@@ -139,7 +139,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 ### Community and moderation
 
 - [python-discord/bot](https://github.com/python-discord/bot) - Moderation, utils, and community tools for Python Discord (last activity 2026-08).
-- [python-discord/sir-lancebot](https://github.com/python-discord/sir-lancebot) - On-ramp bot for new open-source contributors at Python Discord (last activity 2026-08).
+- [python-discord/sir-lancebot](https://github.com/python-discord/sir-lancebot) - On-ramp bot for new open-source contributors at Python Discord (last activity 2026-09).
 - [DeJayDev/speedboat](https://github.com/DeJayDev/speedboat) - Tools for running large community servers (last activity 2024-09).
 - [fourjr/rainbot](https://github.com/fourjr/rainbot) - Moderation bot with automod and logging (last activity 2026-04).
 - [Tortoise-Community/tortoise-bot](https://github.com/Tortoise-Community/tortoise-bot) - Community bot for the Tortoise Discord (last activity 2026-08).
@@ -155,12 +155,12 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 
 - [ChocoMeow/Vocard](https://github.com/ChocoMeow/Vocard) - Music bot for YouTube, SoundCloud, Spotify, and Twitch (last activity 2026-08).
 - [poketwo/poketwo](https://github.com/poketwo/poketwo) - Pokémon catching and collecting, in the Pokécord style (last activity 2025-02).
-- [Ballsdex-Team/BallsDex-DiscordBot](https://github.com/Ballsdex-Team/BallsDex-DiscordBot) - Collect and trade countryballs (last activity 2026-08).
+- [Ballsdex-Team/BallsDex-DiscordBot](https://github.com/Ballsdex-Team/BallsDex-DiscordBot) - Collect and trade countryballs (last activity 2026-09).
 - [cheran-senthil/TLE](https://github.com/cheran-senthil/TLE) - Competitive programming helper for Codeforces and similar sites (last activity 2026-03).
 - [jakobdylanc/llmcord](https://github.com/jakobdylanc/llmcord) - LLM frontend for OpenAI-compatible APIs (last activity 2026-08).
-- [statch/gitbot](https://github.com/statch/gitbot) - GitHub notifications and developer tools (last activity 2026-08).
+- [statch/gitbot](https://github.com/statch/gitbot) - GitHub notifications and developer tools (last activity 2026-09).
 - [MikeyUsersREC/ERM](https://github.com/MikeyUsersREC/ERM) - Staff tools aimed at Roblox communities (last activity 2026-06).
-- [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Tournament and server management (last activity 2026-08).
+- [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Tournament and server management (last activity 2026-09).
 
 ### Multipurpose
 
@@ -262,15 +262,15 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 
 disnake, nextcord, Novus, pycord, and discord.py-message-components are discord.py forks. hikari, hata, interactions.py, and discord.http are independent wrappers, not drop-in replacements for discord.py.
 
-- [disnake](https://github.com/DisnakeDev/disnake) - Async Discord API wrapper, forked from discord.py (last activity 2026-08).
+- [disnake](https://github.com/DisnakeDev/disnake) - Async Discord API wrapper, forked from discord.py (last activity 2026-09).
 - [nextcord](https://github.com/nextcord/nextcord) - API wrapper forked from discord.py (last activity 2026-08).
 - [Novus](https://github.com/Voxel-Fox-Ltd/Novus) - Async API wrapper forked from discord.py, used by VoxelBotUtils (last activity 2026-07).
-- [pycord](https://github.com/Pycord-Development/pycord) - Maintained fork of discord.py (last activity 2026-08).
+- [pycord](https://github.com/Pycord-Development/pycord) - Maintained fork of discord.py (last activity 2026-09).
 - [mccoderpy/discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components) - Fork that added message components before they landed upstream (last activity 2025-06).
-- [hikari](https://github.com/hikari-py/hikari) - Independent async wrapper, not a drop-in replacement (last activity 2026-08).
-- [interactions.py](https://github.com/interactions-py/interactions.py) - Independent bot framework, not a drop-in replacement (last activity 2026-08).
+- [hikari](https://github.com/hikari-py/hikari) - Independent async wrapper, not a drop-in replacement (last activity 2026-09).
+- [interactions.py](https://github.com/interactions-py/interactions.py) - Independent bot framework, not a drop-in replacement (last activity 2026-09).
 - [hata](https://github.com/HuyaneMatsu/hata) - Independent async wrapper, not a drop-in replacement (last activity 2026-08).
-- [AlexFlipnote/discord.http](https://github.com/AlexFlipnote/discord.http) - HTTP-interactions-first library with optional gateway and cache control (last activity 2026-08).
+- [AlexFlipnote/discord.http](https://github.com/AlexFlipnote/discord.http) - HTTP-interactions-first library with optional gateway and cache control (last activity 2026-09).
 
 ## Related
 
