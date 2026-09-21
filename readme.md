@@ -48,7 +48,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Voxel-Fox-Ltd/VoxelBotUtils](https://github.com/Voxel-Fox-Ltd/VoxelBotUtils) - Config, database, logging, error handling, and help-command helpers, built for Novus (last activity 2024-01).
 - [Kyrela/discore](https://github.com/Kyrela/discore) - Bot bootstrap with log and error tracking (last activity 2026-01).
 - [Soheab/discord.py-listen-overloads](https://github.com/Soheab/discord.py-listen-overloads) - Type stubs that add overloads to `@commands.Bot.listen` for library events (last activity 2023-12).
-- [Soheab/discord-ext-subcommands](https://github.com/Soheab/discord-ext-subcommands) - Define prefix, slash, and hybrid subcommands across files and cogs (last activity 2026-08).
+- [Soheab/discord-ext-subcommands](https://github.com/Soheab/discord-ext-subcommands) - Define prefix, slash, and hybrid subcommands across files and cogs (last activity 2026-09).
 - [Soheab/discord-ext-custom_interaction](https://github.com/Soheab/discord-ext-custom_interaction) - Subclass `discord.Interaction` with helpers such as `send` and `author` (last activity 2025-01).
 - [tibue99/ezcord](https://github.com/tibue99/ezcord) - Cogs, i18n, error webhooks, and embed helpers; also works with Pycord (last activity 2026-07).
 - [python-discord/bot-core](https://github.com/python-discord/bot-core) - Shared utilities used by Python Discord's bots (last activity 2026-08).
@@ -130,7 +130,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 
 - [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - Rapptz's production bot; commonly used as a reference implementation (last activity 2026-06).
 - [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - Minimal starter bot (last activity 2025-03).
-- [avizum/alpine](https://github.com/avizum/alpine) - Public source for a general-purpose bot; author recommends the hosted instance (last activity 2026-08).
+- [avizum/alpine](https://github.com/avizum/alpine) - Public source for a general-purpose bot; author recommends the hosted instance (last activity 2026-09).
 - [AbstractUmbra/Mipha](https://github.com/AbstractUmbra/Mipha) - Umbra's personal bot, forked from RoboDanny and kept on latest library releases (last activity 2026-09).
 - [DuckBot-Discord/DuckBot](https://github.com/DuckBot-Discord/DuckBot) - Feature-rich bot with PostgreSQL and a documented local setup (last activity 2026-02).
 - [Kile/Killua](https://github.com/Kile/Killua) - Games, moderation, and todo lists, plus extra algorithm notes in-tree (last activity 2026-08).
@@ -159,7 +159,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [cheran-senthil/TLE](https://github.com/cheran-senthil/TLE) - Competitive programming helper for Codeforces and similar sites (last activity 2026-03).
 - [jakobdylanc/llmcord](https://github.com/jakobdylanc/llmcord) - LLM frontend for OpenAI-compatible APIs (last activity 2026-08).
 - [statch/gitbot](https://github.com/statch/gitbot) - GitHub notifications and developer tools (last activity 2026-09).
-- [MikeyUsersREC/ERM](https://github.com/MikeyUsersREC/ERM) - Staff tools aimed at Roblox communities (last activity 2026-06).
+- [MikeyUsersREC/ERM](https://github.com/MikeyUsersREC/ERM) - Staff tools aimed at Roblox communities (last activity 2026-09).
 - [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Tournament and server management (last activity 2026-09).
 
 ### Multipurpose
