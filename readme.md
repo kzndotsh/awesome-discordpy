@@ -51,7 +51,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Soheab/discord-ext-subcommands](https://github.com/Soheab/discord-ext-subcommands) - Define prefix, slash, and hybrid subcommands across files and cogs (last activity 2026-09).
 - [Soheab/discord-ext-custom_interaction](https://github.com/Soheab/discord-ext-custom_interaction) - Subclass `discord.Interaction` with helpers such as `send` and `author` (last activity 2025-01).
 - [tibue99/ezcord](https://github.com/tibue99/ezcord) - Cogs, i18n, error webhooks, and embed helpers; also works with Pycord (last activity 2026-07).
-- [python-discord/bot-core](https://github.com/python-discord/bot-core) - Shared utilities used by Python Discord's bots (last activity 2026-08).
+- [python-discord/bot-core](https://github.com/python-discord/bot-core) - Shared utilities used by Python Discord's bots (last activity 2026-09).
 
 ### Testing and Debugging
 
