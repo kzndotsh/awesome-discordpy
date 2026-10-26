@@ -42,7 +42,6 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [InterStella0/starlight-dpy](https://github.com/InterStella0/starlight-dpy) - Paginated help commands, inline views, and converters. Pre-alpha; not for production (last activity 2024-02).
 - [clari7744/DPyUtils](https://github.com/clari7744/DPyUtils) - Duration parsing, extra converters, and a context editor that re-runs commands when the user edits their message (last activity 2026-04).
 - [tanrbobanr/dpy-check](https://github.com/tanrbobanr/dpy-check) - Composable, dynamic checks for prefix and application commands (last activity 2023-01).
-- [cogwatch](https://pypi.org/project/cogwatch/) - Hot-reload command files as you edit them (last activity 2023-04).
 - [timelessnesses/dpyhr](https://github.com/timelessnesses/dpyhr) - Reloads cogs on save using the built-in cog loader (last activity 2023-04).
 - [mikeshardmind/discord-scheduler](https://github.com/mikeshardmind/discord-scheduler) - Persistent SQLite-backed task scheduler with timezone-aware wall times (last activity 2025-02).
 - [Voxel-Fox-Ltd/VoxelBotUtils](https://github.com/Voxel-Fox-Ltd/VoxelBotUtils) - Config, database, logging, error handling, and help-command helpers, built for Novus (last activity 2024-01).
@@ -108,7 +107,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 ### Metrics, Monitoring, and Logging
 
 - [discord-ext-prometheus](https://github.com/ApolloRoboto/discord.py-ext-prometheus) - Prometheus metrics exporter for running bots (last activity 2025-02).
-- [loguru-discord](https://pypi.org/project/loguru-discord/) - Loguru sink that posts logs to a webhook (last activity 2026-10).
+- [EthanC/Loguru-Discord](https://github.com/EthanC/Loguru-Discord) - Loguru sink that posts logs to a webhook (last activity 2026-10).
 - [python-discord/metricity](https://github.com/python-discord/metricity) - Metric collection used on the Python Discord server (last activity 2024-09).
 
 ### Miscellaneous
@@ -129,10 +128,9 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 ### Reference implementations
 
 - [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - Rapptz's production bot; commonly used as a reference implementation (last activity 2026-06).
-- [AlexFlipnote/discord_bot](https://github.com/AlexFlipnote/discord_bot.py) - Minimal starter bot (last activity 2026-10).
+- [AlexFlipnote/discord_bot.py](https://github.com/AlexFlipnote/discord_bot.py) - Minimal starter bot (last activity 2026-10).
 - [avizum/alpine](https://github.com/avizum/alpine) - Public source for a general-purpose bot; author recommends the hosted instance (last activity 2026-10).
 - [AbstractUmbra/Mipha](https://github.com/AbstractUmbra/Mipha) - Umbra's personal bot, forked from RoboDanny and kept on latest library releases (last activity 2026-10).
-- [DuckBot-Discord/DuckBot](https://github.com/DuckBot-Discord/DuckBot) - Feature-rich bot with PostgreSQL and a documented local setup (last activity 2026-02).
 - [Kile/Killua](https://github.com/Kile/Killua) - Games, moderation, and todo lists, plus extra algorithm notes in-tree (last activity 2026-08).
 - [onerandomusername/monty-python](https://github.com/onerandomusername/monty-python) - Helper bot for Python project development (last activity 2026-02).
 
@@ -159,13 +157,13 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [cheran-senthil/TLE](https://github.com/cheran-senthil/TLE) - Competitive programming helper for Codeforces and similar sites (last activity 2026-03).
 - [jakobdylanc/llmcord](https://github.com/jakobdylanc/llmcord) - LLM frontend for OpenAI-compatible APIs (last activity 2026-08).
 - [statch/gitbot](https://github.com/statch/gitbot) - GitHub notifications and developer tools (last activity 2026-10).
-- [MikeyUsersREC/ERM](https://github.com/MikeyUsersREC/ERM) - Staff tools aimed at Roblox communities (last activity 2026-09).
+- [mikeywhiston/ERM](https://github.com/mikeywhiston/ERM) - Staff tools aimed at Roblox communities (last activity 2026-09).
 - [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Tournament and server management (last activity 2026-10).
 
 ### Multipurpose
 
 - [joinemm/miso-bot](https://github.com/joinemm/miso-bot) - General-purpose bot with Last.fm and K-pop commands (last activity 2026-10).
-- [ZRunner/Axobot](https://github.com/Axobot-org/Axobot) - Multilingual general-purpose bot with moderation, XP, and Minecraft lookups (last activity 2026-10).
+- [Axobot-org/Axobot](https://github.com/Axobot-org/Axobot) - Multilingual general-purpose bot with moderation, XP, and Minecraft lookups (last activity 2026-10).
 - [wasi-master/wm_bot](https://github.com/wasi-master/wm_bot) - General-purpose bot with a large command set (last activity 2026-07).
 - [DTS-11/PizzaHat](https://github.com/DTS-11/PizzaHat) - General-purpose bot with a public website and AGPL source (last activity 2026-05).
 - [Nirlep5252/EpicBot](https://github.com/Nirlep5252/EpicBot) - General-purpose bot with a large public command set (last activity 2025-07).
