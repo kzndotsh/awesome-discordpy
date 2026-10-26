@@ -28,7 +28,7 @@ ACTIVITY_SUFFIX = re.compile(
     r")$"
 )
 # (minimum age in months, icon), checked in order.
-ACTIVITY_ICONS = ((24, "🔴"), (6, "🟡"), (0, "🟢"))
+ACTIVITY_ICONS = ((24, "💤"), (6, "🕰️"), (0, "⚡"))
 LIST_ITEM = re.compile(
     r"^(?P<prefix>\s*-\s+\[[^\]]+\]\()(?P<url>https://[^)]+)(?P<mid>\)\s+-\s+)(?P<desc>.+)$"
 )
