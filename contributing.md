@@ -13,7 +13,7 @@ Please note that this project is released with a [Contributor Code of Conduct](c
 ## Adding an item
 
 - Fit the item into an existing section. [Open a suggestion](https://github.com/kzndotsh/awesome-discordpy/issues/new/choose) before proposing a new section.
-- Add it at the bottom of that section.
+- Add it anywhere in that section. The weekly action sorts each list by last activity, newest first.
 - Link the **GitHub repo** (or gist). Do not link PyPI, docs sites, or homepages unless there is no public repo.
 - The project should be more than 30 days old, documented, and maintained.
 - Archived, deprecated, or unmaintained projects belong in [archived.md](archived.md), not the main list.
@@ -32,4 +32,4 @@ Format:
 - Do not repeat "discord.py" in the description; it is implied.
 - Keep it short and specific about what the reader gets.
 - Check spelling and grammar.
-- Do not add last-activity dates by hand. A weekly GitHub Action stamps `(last activity YYYY-MM)` onto GitHub, gist, and PyPI links. Locally: `python .github/scripts/update_activity_dates.py` (set `GITHUB_TOKEN` if you hit rate limits).
+- Do not add last-activity dates by hand. A weekly GitHub Action stamps `<sup>last activity YYYY-MM</sup>` onto GitHub, gist, and PyPI links in `readme.md` and `archived.md`, then sorts each list newest first. Locally: `python .github/scripts/update_activity_dates.py` (set `GITHUB_TOKEN` if you hit rate limits).

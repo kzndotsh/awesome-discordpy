@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Stamp last-activity dates onto GitHub, gist, and PyPI links in readme.md."""
+"""Stamp last-activity dates onto GitHub, gist, and PyPI links and sort each list by them."""
 
 from __future__ import annotations
 
@@ -13,14 +13,16 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
-README_PATH = Path("readme.md")
+LIST_PATHS = (Path("readme.md"), Path("archived.md"))
 CONTENT_START = "<!-- CONTENT -->"
 CONTENT_END = "<!-- END CONTENT -->"
 TIMEOUT_SECONDS = 20
 MAX_WORKERS = 8
 USER_AGENT = "awesome-discordpy-activity-bot"
 
-ACTIVITY_SUFFIX = re.compile(r" \(last activity \d{4}-\d{2}\)\.?$")
+ACTIVITY_SUFFIX = re.compile(
+    r"\s*(?:<sup>last activity (?P<sup>\d{4}-\d{2})</sup>|\(last activity (?P<paren>\d{4}-\d{2})\)\.?)$"
+)
 LIST_ITEM = re.compile(
     r"^(?P<prefix>\s*-\s+\[[^\]]+\]\()(?P<url>https://[^)]+)(?P<mid>\)\s+-\s+)(?P<desc>.+)$"
 )
@@ -126,9 +128,22 @@ def activity_for_url(url: str) -> str | None:
 
 def apply_date(description: str, year_month: str) -> str:
     stripped = ACTIVITY_SUFFIX.sub("", description.rstrip())
-    if stripped.endswith("."):
-        stripped = stripped[:-1]
-    return f"{stripped} (last activity {year_month})."
+    if not stripped.endswith("."):
+        stripped += "."
+    return f"{stripped} <sup>last activity {year_month}</sup>"
+
+
+def date_of(line: str) -> str | None:
+    match = LIST_ITEM.match(line)
+    suffix = ACTIVITY_SUFFIX.search(match.group("desc")) if match else None
+    return (suffix.group("sup") or suffix.group("paren")) if suffix else None
+
+
+def sort_by_activity(lines: list[str]) -> list[str]:
+    """Undated items keep their order at the top; dated items follow, newest first."""
+    undated = [line for line in lines if date_of(line) is None]
+    dated = [line for line in lines if date_of(line) is not None]
+    return undated + sorted(dated, key=date_of, reverse=True)
 
 
 def unique_urls(block: str) -> list[str]:
@@ -149,30 +164,33 @@ def unique_urls(block: str) -> list[str]:
 
 def rewrite_block(block: str, dates: dict[str, str]) -> str:
     lines: list[str] = []
+    run: list[str] = []
     for line in block.splitlines():
         match = LIST_ITEM.match(line)
         if not match:
+            lines.extend(sort_by_activity(run))
+            run = []
             lines.append(line)
             continue
         url = match.group("url")
-        year_month = dates.get(url)
-        if not year_month:
-            lines.append(line)
-            continue
-        desc = apply_date(match.group("desc"), year_month)
-        lines.append(f"{match.group('prefix')}{url}{match.group('mid')}{desc}")
+        year_month = dates.get(url) or date_of(line)
+        if year_month:
+            desc = apply_date(match.group("desc"), year_month)
+            line = f"{match.group('prefix')}{url}{match.group('mid')}{desc}"
+        run.append(line)
+    lines.extend(sort_by_activity(run))
     return "\n".join(lines)
 
 
-def main() -> int:
-    text = README_PATH.read_text(encoding="utf-8")
+def update_file(path: Path) -> None:
+    text = path.read_text(encoding="utf-8")
     start = text.find(CONTENT_START)
     end = text.find(CONTENT_END)
     if start == -1 or end == -1 or end < start:
-        print("readme.md is missing CONTENT markers", file=sys.stderr)
-        return 1
+        start, end = 0, len(text)
+    else:
+        start += len(CONTENT_START)
 
-    start += len(CONTENT_START)
     block = text[start:end]
     urls = unique_urls(block)
     dates: dict[str, str] = {}
@@ -185,11 +203,15 @@ def main() -> int:
                 dates[url] = year_month
 
     updated = rewrite_block(block, dates)
-    README_PATH.write_text(
-        f"{text[:start]}{updated}{text[end:]}",
-        encoding="utf-8",
-    )
-    print(f"updated {len(dates)}/{len(urls)} links")
+    if block.endswith("\n") and not updated.endswith("\n"):
+        updated += "\n"
+    path.write_text(f"{text[:start]}{updated}{text[end:]}", encoding="utf-8")
+    print(f"{path}: updated {len(dates)}/{len(urls)} links")
+
+
+def main() -> int:
+    for path in LIST_PATHS:
+        update_file(path)
     return 0
 
 
