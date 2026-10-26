@@ -20,3 +20,5 @@ Unmaintained, deprecated, or archived projects. Prefer the live list in [readme.
 - [wasi-master/dpylint](https://github.com/wasi-master/dpylint) - Unmaintained Pylint plugin for discord.py bot code (last activity 2022-03).
 - [Rapptz/discord-ext-menus](https://github.com/Rapptz/discord-ext-menus) - Experimental reaction-menu helpers from before native views. Prefer discord-ext-pager or built-in UI (last activity 2022-05).
 - [oliver-ni/discord-ext-menus-views](https://github.com/oliver-ni/discord-ext-menus-views) - Thin View layer over discord-ext-menus. Prefer native views or discord-ext-pager (last activity 2022-07).
+- [DuckBot-Discord/DuckBot](https://github.com/DuckBot-Discord/DuckBot) - Archived feature-rich bot with PostgreSQL and a documented local setup (last activity 2026-02).
+- [cogwatch](https://pypi.org/project/cogwatch/) - Unmaintained cog hot-reloader; source repo removed. Prefer jishaku's reload (last activity 2023-04).
