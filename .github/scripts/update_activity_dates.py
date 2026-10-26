@@ -21,7 +21,7 @@ MAX_WORKERS = 8
 USER_AGENT = "awesome-discordpy-activity-bot"
 
 ACTIVITY_SUFFIX = re.compile(
-    r"\s*(?:<sup>last activity (?P<sup>\d{4}-\d{2})</sup>|\(last activity (?P<paren>\d{4}-\d{2})\)\.?)$"
+    r"\s*(?:<sup>(?:<i>)?last activity (?P<sup>\d{4}-\d{2})(?:</i>)?</sup>|\(last activity (?P<paren>\d{4}-\d{2})\)\.?)$"
 )
 LIST_ITEM = re.compile(
     r"^(?P<prefix>\s*-\s+\[[^\]]+\]\()(?P<url>https://[^)]+)(?P<mid>\)\s+-\s+)(?P<desc>.+)$"
@@ -130,7 +130,7 @@ def apply_date(description: str, year_month: str) -> str:
     stripped = ACTIVITY_SUFFIX.sub("", description.rstrip())
     if not stripped.endswith("."):
         stripped += "."
-    return f"{stripped} <sup>last activity {year_month}</sup>"
+    return f"{stripped} <sup><i>last activity {year_month}</i></sup>"
 
 
 def date_of(line: str) -> str | None:
