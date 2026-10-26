@@ -56,6 +56,12 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 - [Discord.py FAQ](https://discordpy.readthedocs.io/en/latest/faq.html) - Common questions and answers.
 - [Migrating to v2.0](https://discordpy.readthedocs.io/en/latest/migrating.html) - Breaking-change guide for 2.0.
 - [Discord.py Quickstart](https://discordpy.readthedocs.io/en/latest/quickstart.html) - Minimal getting-started example.
+- [Creating a Bot Account](https://discordpy.readthedocs.io/en/latest/discord.html) - Register an application, get a token, and invite the bot.
+- [A Primer to Gateway Intents](https://discordpy.readthedocs.io/en/latest/intents.html) - Which intents to enable and why events or members go missing without them.
+- [Setting Up Logging](https://discordpy.readthedocs.io/en/latest/logging.html) - Configure the library's logging output.
+- [Commands Extension](https://discordpy.readthedocs.io/en/latest/ext/commands/index.html) - Prefix and hybrid commands, cogs, checks, and converters.
+- [Tasks Extension](https://discordpy.readthedocs.io/en/latest/ext/tasks/index.html) - Background loops with `tasks.loop`.
+- [Interactions API Reference](https://discordpy.readthedocs.io/en/latest/interactions/api.html) - Slash commands, views, modals, and other components.
 - [Discord.py Discord Server](https://discord.gg/dpy) - Official community Discord.
 - [Official Examples](https://github.com/Rapptz/discord.py/tree/master/examples) - Example bots and snippets from the upstream repo. <span title="Last activity 2026-09">⚡</span>
 - [Discord.py GitHub](https://github.com/Rapptz/discord.py) - Upstream source repository. <span title="Last activity 2026-09">⚡</span>
@@ -105,7 +111,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 ### Voice receive
 
-- [discord-ext-voice-recv](https://github.com/imayhaveborkedit/discord-ext-voice-recv) - Receive and process users' voice packets. <span title="Last activity 2025-06">🕰️</span>
+- [discord-ext-voice-recv](https://github.com/imayhaveborkedit/discord-ext-voice-recv) - Receive and process users' voice packets. Does not decrypt DAVE end-to-end encrypted voice, so receive breaks on 2.7+. <span title="Last activity 2025-06">🕰️</span>
 - [Sheppsu/discord-ext-listening](https://github.com/Sheppsu/discord-ext-listening) - Voice receive via multiprocessing. <span title="Last activity 2024-02">💤</span>
 
 ### Voice send
