@@ -21,8 +21,14 @@ MAX_WORKERS = 8
 USER_AGENT = "awesome-discordpy-activity-bot"
 
 ACTIVITY_SUFFIX = re.compile(
-    r"\s*(?:<sup>(?:<i>)?last activity (?P<sup>\d{4}-\d{2})(?:</i>)?</sup>|\(last activity (?P<paren>\d{4}-\d{2})\)\.?)$"
+    r"\s*(?:"
+    r'<span title="Last activity (?P<icon>\d{4}-\d{2})">[^<]+</span>'
+    r"|<sup>(?:<i>)?last activity (?P<sup>\d{4}-\d{2})(?:</i>)?</sup>"
+    r"|\(last activity (?P<paren>\d{4}-\d{2})\)\.?"
+    r")$"
 )
+# (minimum age in months, icon), checked in order.
+ACTIVITY_ICONS = ((24, "🔴"), (6, "🟡"), (0, "🟢"))
 LIST_ITEM = re.compile(
     r"^(?P<prefix>\s*-\s+\[[^\]]+\]\()(?P<url>https://[^)]+)(?P<mid>\)\s+-\s+)(?P<desc>.+)$"
 )
@@ -126,17 +132,24 @@ def activity_for_url(url: str) -> str | None:
     return month_from_iso(str(pushed)) if isinstance(pushed, str) else None
 
 
+def activity_icon(year_month: str, today: datetime) -> str:
+    year, month = map(int, year_month.split("-"))
+    age = (today.year - year) * 12 + today.month - month
+    return next(icon for min_age, icon in ACTIVITY_ICONS if age >= min_age)
+
+
 def apply_date(description: str, year_month: str) -> str:
     stripped = ACTIVITY_SUFFIX.sub("", description.rstrip())
     if not stripped.endswith("."):
         stripped += "."
-    return f"{stripped} <sup><i>last activity {year_month}</i></sup>"
+    icon = activity_icon(year_month, datetime.now(timezone.utc))
+    return f'{stripped} <span title="Last activity {year_month}">{icon}</span>'
 
 
 def date_of(line: str) -> str | None:
     match = LIST_ITEM.match(line)
     suffix = ACTIVITY_SUFFIX.search(match.group("desc")) if match else None
-    return (suffix.group("sup") or suffix.group("paren")) if suffix else None
+    return (suffix.group("icon") or suffix.group("sup") or suffix.group("paren")) if suffix else None
 
 
 def sort_by_activity(lines: list[str]) -> list[str]:

@@ -32,4 +32,4 @@ Format:
 - Do not repeat "discord.py" in the description; it is implied.
 - Keep it short and specific about what the reader gets.
 - Check spelling and grammar.
-- Do not add last-activity dates by hand. A weekly GitHub Action stamps `<sup><i>last activity YYYY-MM</i></sup>` onto GitHub, gist, and PyPI links in `readme.md` and `archived.md`, then sorts each list newest first. Locally: `python .github/scripts/update_activity_dates.py` (set `GITHUB_TOKEN` if you hit rate limits).
+- Do not add last-activity dates by hand. A weekly GitHub Action stamps a colored activity icon (hover shows `Last activity YYYY-MM`) onto GitHub, gist, and PyPI links in `readme.md` and `archived.md`, then sorts each list newest first. Locally: `python .github/scripts/update_activity_dates.py` (set `GITHUB_TOKEN` if you hit rate limits).
