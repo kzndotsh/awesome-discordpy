@@ -95,8 +95,11 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [cloudwithax/pomice](https://github.com/cloudwithax/pomice) - Lavalink client with Spotify and Apple Music querying. <sup><i>last activity 2026-10</i></sup>
 - [ooliver1/mafic](https://github.com/ooliver1/mafic) - Typed Lavalink client that also supports nextcord, disnake, and Pycord. <sup><i>last activity 2026-10</i></sup>
 - [PyLav/PyLav](https://github.com/PyLav/PyLav) - Lavalink wrapper aimed at bots including Red-DiscordBot. <sup><i>last activity 2026-10</i></sup>
+- [sonolink/sonolink](https://github.com/sonolink/sonolink) - Typed Lavalink v4 client built on msgspec; also supports Pycord and disnake. <sup><i>last activity 2026-10</i></sup>
 - [ParrotXray/lava-lyra](https://github.com/ParrotXray/lava-lyra) - Lavalink v4 and Nodelink v3 client that also supports Pycord. <sup><i>last activity 2026-08</i></sup>
 - [PythonistaGuild/Wavelink](https://github.com/PythonistaGuild/Wavelink) - Async Lavalink v4 client. <sup><i>last activity 2026-07</i></sup>
+- [HazemMeqdad/lavaplay.py](https://github.com/HazemMeqdad/lavaplay.py) - Lavalink v4 node manager that works with any async Discord wrapper. <sup><i>last activity 2026-05</i></sup>
+- [Cog-Creators/Red-Lavalink](https://github.com/Cog-Creators/Red-Lavalink) - Lavalink client used by Red-DiscordBot, usable in any bot. <sup><i>last activity 2026-03</i></sup>
 
 ### Authentication
 
@@ -114,6 +117,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 
 - [Skelmis/Discord-Anti-Spam](https://github.com/Skelmis/Discord-Anti-Spam) - Automatic spam handling for commands and messages. <sup><i>last activity 2026-07</i></sup>
 - [mahtoid/DiscordChatExporterPy](https://github.com/mahtoid/DiscordChatExporterPy) - Export channel history to HTML transcripts. <sup><i>last activity 2026-05</i></sup>
+- [Tom-the-Bomb/Discord-Games](https://github.com/Tom-the-Bomb/Discord-Games) - Drop-in games such as chess, Connect Four, hangman, and 2048, played through reactions or buttons. <sup><i>last activity 2026-03</i></sup>
 - [YousefEZ/discord-qalib](https://github.com/YousefEZ/discord-qalib) - XML templates for embeds and paginated menus. <sup><i>last activity 2026-01</i></sup>
 - [Bluenix2/discord-typings](https://github.com/Bluenix2/discord-typings) - TypedDicts for Discord gateway and HTTP payloads. <sup><i>last activity 2025-04</i></sup>
 - [CasuallyCalm/discord-pretty-help](https://github.com/CasuallyCalm/discord-pretty-help) - Embed-based replacement for the built-in help command. <sup><i>last activity 2023-07</i></sup>
@@ -155,6 +159,8 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Ballsdex-Team/BallsDex-DiscordBot](https://github.com/Ballsdex-Team/BallsDex-DiscordBot) - Collect and trade countryballs. <sup><i>last activity 2026-10</i></sup>
 - [statch/gitbot](https://github.com/statch/gitbot) - GitHub notifications and developer tools. <sup><i>last activity 2026-10</i></sup>
 - [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Tournament and server management. <sup><i>last activity 2026-10</i></sup>
+- [seriaati/hoyo-buddy](https://github.com/seriaati/hoyo-buddy) - User-installable bot for Genshin Impact, Honkai: Star Rail, and other Hoyoverse games. <sup><i>last activity 2026-10</i></sup>
+- [Yuuzi261/Tweetcord](https://github.com/Yuuzi261/Tweetcord) - Posts new tweets from followed X/Twitter accounts to chosen channels. <sup><i>last activity 2026-10</i></sup>
 - [mikeywhiston/ERM](https://github.com/mikeywhiston/ERM) - Staff tools aimed at Roblox communities. <sup><i>last activity 2026-09</i></sup>
 - [jakobdylanc/llmcord](https://github.com/jakobdylanc/llmcord) - LLM frontend for OpenAI-compatible APIs. <sup><i>last activity 2026-08</i></sup>
 - [cheran-senthil/TLE](https://github.com/cheran-senthil/TLE) - Competitive programming helper for Codeforces and similar sites. <sup><i>last activity 2026-03</i></sup>
@@ -164,6 +170,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 
 - [joinemm/miso-bot](https://github.com/joinemm/miso-bot) - General-purpose bot with Last.fm and K-pop commands. <sup><i>last activity 2026-10</i></sup>
 - [Axobot-org/Axobot](https://github.com/Axobot-org/Axobot) - Multilingual general-purpose bot with moderation, XP, and Minecraft lookups. <sup><i>last activity 2026-10</i></sup>
+- [Iapetus-11/Villager-Bot](https://github.com/Iapetus-11/Villager-Bot) - Minecraft-themed bot with server status checks, pixel art, and an economy game; sharded across clusters. <sup><i>last activity 2026-10</i></sup>
 - [wasi-master/wm_bot](https://github.com/wasi-master/wm_bot) - General-purpose bot with a large command set. <sup><i>last activity 2026-07</i></sup>
 - [DTS-11/PizzaHat](https://github.com/DTS-11/PizzaHat) - General-purpose bot with a public website and AGPL source. <sup><i>last activity 2026-05</i></sup>
 - [Nirlep5252/EpicBot](https://github.com/Nirlep5252/EpicBot) - General-purpose bot with a large public command set. <sup><i>last activity 2025-07</i></sup>
@@ -250,6 +257,7 @@ discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper f
 - [Discord Community Resources](https://discord.com/developers/docs/topics/community-resources) - Official index of libraries, calculators, and embed tools.
 - [Intent Calculator](https://ziad87.net/intents/) - Build a gateway intents bitfield for Identify.
 - [Embed Visualizer](https://leovoel.github.io/embed-visualizer/) - Live embed designer with generated library snippets.
+- [scarletcafe/discord.py-docker](https://github.com/scarletcafe/discord.py-docker) - Source for the `gorialis/discord.py` Docker images with the library preinstalled. <sup><i>last activity 2026-04</i></sup>
 - [Soheab/discord.py-tags](https://github.com/Soheab/discord.py-tags) - Overflow copies of long tags from the official library Discord. <sup><i>last activity 2024-12</i></sup>
 - [Soheab/dpy-badhosts](https://github.com/Soheab/dpy-badhosts) - Hosts the community generally warns against using for bots. <sup><i>last activity 2024-11</i></sup>
 - [Soheab/dpy-missing-features](https://github.com/Soheab/dpy-missing-features) - Discord API features the library does not yet expose. <sup><i>last activity 2024-08</i></sup>
