@@ -68,14 +68,13 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 - [tibue99/ezcord](https://github.com/tibue99/ezcord) - Cogs, i18n, error webhooks, and embed helpers; also works with Pycord. <span title="Last activity 2026-10">⚡</span>
 - [Soheab/discord-ext-subcommands](https://github.com/Soheab/discord-ext-subcommands) - Define prefix, slash, and hybrid subcommands across files and cogs. <span title="Last activity 2026-09">⚡</span>
 - [python-discord/bot-core](https://github.com/python-discord/bot-core) - Shared utilities used by Python Discord's bots. <span title="Last activity 2026-09">⚡</span>
+- [rnxm/discord-localization](https://github.com/rnxm/discord-localization) - JSON-file localization for command responses. <span title="Last activity 2026-09">⚡</span>
 - [clari7744/DPyUtils](https://github.com/clari7744/DPyUtils) - Duration parsing, extra converters, and a context editor that re-runs commands when the user edits their message. <span title="Last activity 2026-04">🕰️</span>
+- [beer-psi/discord-ext-track-edits](https://github.com/beer-psi/discord-ext-track-edits) - Updates or deletes the bot's reply when the user edits or deletes the command message. <span title="Last activity 2026-02">🕰️</span>
 - [mikeshardmind/discord-scheduler](https://github.com/mikeshardmind/discord-scheduler) - Persistent SQLite-backed task scheduler with timezone-aware wall times. <span title="Last activity 2025-02">🕰️</span>
 - [Soheab/discord-ext-custom_interaction](https://github.com/Soheab/discord-ext-custom_interaction) - Subclass `discord.Interaction` with helpers such as `send` and `author`. <span title="Last activity 2025-01">🕰️</span>
 - [InterStella0/starlight-dpy](https://github.com/InterStella0/starlight-dpy) - Paginated help commands, inline views, and converters. Pre-alpha; not for production. <span title="Last activity 2024-02">💤</span>
 - [Voxel-Fox-Ltd/VoxelBotUtils](https://github.com/Voxel-Fox-Ltd/VoxelBotUtils) - Config, database, logging, error handling, and help-command helpers, built for Novus. <span title="Last activity 2024-01">💤</span>
-- [Soheab/discord.py-listen-overloads](https://github.com/Soheab/discord.py-listen-overloads) - Type stubs that add overloads to `@commands.Bot.listen` for library events. <span title="Last activity 2023-12">💤</span>
-- [timelessnesses/dpyhr](https://github.com/timelessnesses/dpyhr) - Reloads cogs on save using the built-in cog loader. <span title="Last activity 2023-04">💤</span>
-- [tanrbobanr/dpy-check](https://github.com/tanrbobanr/dpy-check) - Composable, dynamic checks for prefix and application commands. <span title="Last activity 2023-01">💤</span>
 
 ### Testing and Debugging
 
@@ -99,7 +98,6 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 - [Modern-Realm/discord_btns_menus](https://github.com/Modern-Realm/discord_btns_menus) - Buttons, select menus, combinations, and pagination; also supports related forks. <span title="Last activity 2024-06">💤</span>
 - [LiBa001/disputils](https://github.com/LiBa001/disputils) - Pagination, confirmation dialogs, and small UI helpers. <span title="Last activity 2024-05">💤</span>
 - [vcv88/discord-ext-dyn](https://github.com/vcv88/discord-ext-dyn) - Dynamic creation of modals, buttons, and select menus. <span title="Last activity 2024-01">💤</span>
-- [Seniatical/dpy-paginator](https://github.com/Seniatical/dpy-paginator) - Button and dropdown pagination. <span title="Last activity 2023-04">💤</span>
 
 ### Inter-Process Communication
 
@@ -112,7 +110,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 ### Voice send
 
-- [tuna2134/discord-ext-songbird](https://github.com/tuna2134/discord-ext-songbird) - Rust Songbird voice client wrapper; Linux and macOS only. <span title="Last activity 2026-10">⚡</span>
+- [sizumita/discord-ext-songbird](https://github.com/sizumita/discord-ext-songbird) - Rust Songbird `VoiceProtocol` with low-latency playback and voice receive. Beta. <span title="Last activity 2026-05">⚡</span>
 
 ### Lavalink
 
@@ -145,7 +143,6 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 - [Tom-the-Bomb/Discord-Games](https://github.com/Tom-the-Bomb/Discord-Games) - Drop-in games such as chess, Connect Four, hangman, and 2048, played through reactions or buttons. <span title="Last activity 2026-03">🕰️</span>
 - [YousefEZ/discord-qalib](https://github.com/YousefEZ/discord-qalib) - XML templates for embeds and paginated menus. <span title="Last activity 2026-01">🕰️</span>
 - [Bluenix2/discord-typings](https://github.com/Bluenix2/discord-typings) - TypedDicts for Discord gateway and HTTP payloads. <span title="Last activity 2025-04">🕰️</span>
-- [CasuallyCalm/discord-pretty-help](https://github.com/CasuallyCalm/discord-pretty-help) - Embed-based replacement for the built-in help command. <span title="Last activity 2023-07">💤</span>
 
 ### Templates
 
@@ -213,6 +210,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 - [Discord.py Masterclass](https://fallendeity.github.io/discord.py-masterclass/) - From-scratch tutorial covering library features.
 - [Python Discord - Discord.py Learning Guide](https://www.pythondiscord.com/pages/guides/python-guides/discordpy/) - Curated learning path for setup, commands, and FAQ.
 - [Components V2 - Umbra's Rantings](https://about.abstractumbra.dev/discord.py/2025/08/17/components-v2.html) - LayoutView and Discord's Components V2 in library 2.6.
+- [thegamecracks/discord.py-i18n-demo](https://github.com/thegamecracks/discord.py-i18n-demo) - Working bot that shows gettext localization end to end. <span title="Last activity 2026-03">🕰️</span>
 
 ## Community Gists and Snippets
 

@@ -6,7 +6,12 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 - [DuckBot-Discord/DuckBot](https://github.com/DuckBot-Discord/DuckBot) - Archived feature-rich bot with PostgreSQL and a documented local setup. <span title="Last activity 2026-02">🕰️</span>
 - [MiroslavRosenov/better-ipc](https://github.com/MiroslavRosenov/better-ipc) - Archived high-performance IPC library for discord.py. Prefer discord-ext-ipcx. <span title="Last activity 2024-10">💤</span>
+- [Soheab/discord.py-listen-overloads](https://github.com/Soheab/discord.py-listen-overloads) - Unmaintained type stubs adding overloads to `@commands.Bot.listen`. <span title="Last activity 2023-12">💤</span>
+- [CasuallyCalm/discord-pretty-help](https://github.com/CasuallyCalm/discord-pretty-help) - Unmaintained embed-based help command replacement. <span title="Last activity 2023-07">💤</span>
 - [cogwatch](https://pypi.org/project/cogwatch/) - Unmaintained cog hot-reloader; source repo removed. Prefer jishaku's reload. <span title="Last activity 2023-04">💤</span>
+- [timelessnesses/dpyhr](https://github.com/timelessnesses/dpyhr) - Unmaintained cog hot-reloader. Prefer jishaku's reload. <span title="Last activity 2023-04">💤</span>
+- [Seniatical/dpy-paginator](https://github.com/Seniatical/dpy-paginator) - Unmaintained button and dropdown paginator. Prefer discord-ext-pager. <span title="Last activity 2023-04">💤</span>
+- [tanrbobanr/dpy-check](https://github.com/tanrbobanr/dpy-check) - Unmaintained composable checks for prefix and application commands. <span title="Last activity 2023-01">💤</span>
 - [soosBot-com/Pagination](https://github.com/soosBot-com/Pagination) - Archived embed paginator library for discord.py 2.0. <span title="Last activity 2022-11">💤</span>
 - [thrzl/discord-ext-forms](https://github.com/thrzl/discord-ext-forms) - A simpler way to make forms, surveys, and reaction input using discord.py. <span title="Last activity 2022-10">💤</span>
 - [discordsuperutils/discord-super-utils](https://github.com/discordsuperutils/discord-super-utils) - Archived high-level helpers for common discord.py bot features. <span title="Last activity 2022-10">💤</span>
