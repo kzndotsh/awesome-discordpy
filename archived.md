@@ -2,7 +2,7 @@
 
 Unmaintained, deprecated, or archived projects. Prefer the live list in [readme.md](readme.md).
 
-Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years. Hover an icon for the month.
+Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years. Hover an icon for the month.
 
 - [DuckBot-Discord/DuckBot](https://github.com/DuckBot-Discord/DuckBot) - Archived feature-rich bot with PostgreSQL and a documented local setup. <span title="Last activity 2026-02">🕰️</span>
 - [MiroslavRosenov/better-ipc](https://github.com/MiroslavRosenov/better-ipc) - Archived high-performance IPC library for discord.py. Prefer discord-ext-ipcx. <span title="Last activity 2024-10">💤</span>

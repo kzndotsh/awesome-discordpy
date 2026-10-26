@@ -11,7 +11,7 @@
 
 discord.py is a modern, easy to use, feature-rich, and async-ready API wrapper for Discord.
 
-Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years. Hover an icon for the month.
+Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years. Hover an icon for the month.
 
 ## Contents
 
