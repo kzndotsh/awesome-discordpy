@@ -72,6 +72,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 - [Kyrela/discore](https://github.com/Kyrela/discore) - Bot bootstrap with log and error tracking. <span title="Last activity 2026-10">⚡</span>
 - [tibue99/ezcord](https://github.com/tibue99/ezcord) - Cogs, i18n, error webhooks, and embed helpers; also works with Pycord. <span title="Last activity 2026-10">⚡</span>
+- [InterStella0/starlight-dpy](https://github.com/InterStella0/starlight-dpy) - Paginated help commands, inline views, and converters. Pre-alpha; not for production. <span title="Last activity 2026-10">⚡</span>
 - [Soheab/discord-ext-subcommands](https://github.com/Soheab/discord-ext-subcommands) - Define prefix, slash, and hybrid subcommands across files and cogs. <span title="Last activity 2026-09">⚡</span>
 - [python-discord/bot-core](https://github.com/python-discord/bot-core) - Shared utilities used by Python Discord's bots. <span title="Last activity 2026-09">⚡</span>
 - [rnxm/discord-localization](https://github.com/rnxm/discord-localization) - JSON-file localization for command responses. <span title="Last activity 2026-09">⚡</span>
@@ -79,21 +80,20 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 - [beer-psi/discord-ext-track-edits](https://github.com/beer-psi/discord-ext-track-edits) - Updates or deletes the bot's reply when the user edits or deletes the command message. <span title="Last activity 2026-02">🕰️</span>
 - [mikeshardmind/discord-scheduler](https://github.com/mikeshardmind/discord-scheduler) - Persistent SQLite-backed task scheduler with timezone-aware wall times. <span title="Last activity 2025-02">🕰️</span>
 - [Soheab/discord-ext-custom_interaction](https://github.com/Soheab/discord-ext-custom_interaction) - Subclass `discord.Interaction` with helpers such as `send` and `author`. <span title="Last activity 2025-01">🕰️</span>
-- [InterStella0/starlight-dpy](https://github.com/InterStella0/starlight-dpy) - Paginated help commands, inline views, and converters. Pre-alpha; not for production. <span title="Last activity 2024-02">💤</span>
 - [Voxel-Fox-Ltd/VoxelBotUtils](https://github.com/Voxel-Fox-Ltd/VoxelBotUtils) - Config, database, logging, error handling, and help-command helpers, built for Novus. <span title="Last activity 2024-01">💤</span>
 
 ### Testing and Debugging
 
-- [python-discord/snekbox](https://github.com/python-discord/snekbox) - NSJail sandbox for evaluating untrusted Python, used by Python Discord. <span title="Last activity 2026-10">⚡</span>
+- [python-discord/snekbox](https://github.com/python-discord/snekbox) - NSJail sandbox for evaluating untrusted Python, used by Python Discord. <span title="Last activity 2026-11">⚡</span>
+- [scarletcafe/jishaku](https://github.com/scarletcafe/jishaku) - REPL, extension reload, and debug cog for running bots. <span title="Last activity 2026-10">⚡</span>
 - [CraftSpider/dpytest](https://github.com/CraftSpider/dpytest) - Fake Discord backend for writing bot tests. <span title="Last activity 2026-06">⚡</span>
-- [scarletcafe/jishaku](https://github.com/scarletcafe/jishaku) - REPL, extension reload, and debug cog for running bots. <span title="Last activity 2026-04">🕰️</span>
 
 ### UI
 
 - [thegamecracks/discord-ext-pager](https://github.com/thegamecracks/discord-ext-pager) - Paginator with an API close to discord-ext-menus. <span title="Last activity 2026-10">⚡</span>
 - [keizaiya/discord-ext-flow](https://github.com/keizaiya/discord-ext-flow) - State-machine control flow on top of `discord.ui`. <span title="Last activity 2026-10">⚡</span>
 - [HollowTheSilver/CascadeUI](https://github.com/HollowTheSilver/CascadeUI) - Redux-style centralized state, persistence, and Components V2 patterns. <span title="Last activity 2026-10">⚡</span>
-- [Defxult/reactionmenu](https://github.com/Defxult/reactionmenu) - Paginator with buttons, reactions, and select-based categories. <span title="Last activity 2026-05">⚡</span>
+- [Defxult/reactionmenu](https://github.com/Defxult/reactionmenu) - Paginator with buttons, reactions, and select-based categories. <span title="Last activity 2026-05">🕰️</span>
 - [Soheab/discord-py-paginators](https://github.com/Soheab/discord-py-paginators) - Button and other paginator types with published docs. <span title="Last activity 2025-10">🕰️</span>
 - [Soheab/cv2examples](https://github.com/Soheab/cv2examples) - Screenshots and sample layouts for Components V2. <span title="Last activity 2025-07">🕰️</span>
 - [Soheab/modal-paginator](https://github.com/Soheab/modal-paginator) - Paginate a Modal across pages using buttons. <span title="Last activity 2025-05">🕰️</span>
@@ -107,7 +107,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 ### Inter-Process Communication
 
-- [No767/discord-ext-ipcx](https://github.com/No767/discord-ext-ipcx) - Maintained IPC extension for splitting the bot across processes. <span title="Last activity 2026-10">⚡</span>
+- [No767/discord-ext-ipcx](https://github.com/No767/discord-ext-ipcx) - Maintained IPC extension for splitting the bot across processes. <span title="Last activity 2026-11">⚡</span>
 
 ### Voice receive
 
@@ -116,18 +116,18 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 ### Voice send
 
-- [sizumita/discord-ext-songbird](https://github.com/sizumita/discord-ext-songbird) - Rust Songbird `VoiceProtocol` with low-latency playback and voice receive. Beta. <span title="Last activity 2026-05">⚡</span>
+- [sizumita/discord-ext-songbird](https://github.com/sizumita/discord-ext-songbird) - Rust Songbird `VoiceProtocol` with low-latency playback and voice receive. Beta. <span title="Last activity 2026-10">⚡</span>
 
 ### Lavalink
 
+- [PyLav/PyLav](https://github.com/PyLav/PyLav) - Lavalink wrapper aimed at bots including Red-DiscordBot. <span title="Last activity 2026-11">⚡</span>
 - [devoxin/Lavalink.py](https://github.com/devoxin/Lavalink.py) - Lavalink client with multi-node load balancing, filters, and custom sources. <span title="Last activity 2026-10">⚡</span>
 - [cloudwithax/pomice](https://github.com/cloudwithax/pomice) - Lavalink client with Spotify and Apple Music querying. <span title="Last activity 2026-10">⚡</span>
 - [ooliver1/mafic](https://github.com/ooliver1/mafic) - Typed Lavalink client that also supports nextcord, disnake, and Pycord. <span title="Last activity 2026-10">⚡</span>
-- [PyLav/PyLav](https://github.com/PyLav/PyLav) - Lavalink wrapper aimed at bots including Red-DiscordBot. <span title="Last activity 2026-10">⚡</span>
 - [sonolink/sonolink](https://github.com/sonolink/sonolink) - Typed Lavalink v4 client built on msgspec; also supports Pycord and disnake. <span title="Last activity 2026-10">⚡</span>
-- [ParrotXray/lava-lyra](https://github.com/ParrotXray/lava-lyra) - Lavalink v4 and Nodelink v3 client that also supports Pycord. <span title="Last activity 2026-08">⚡</span>
+- [ParrotXray/lava-lyra](https://github.com/ParrotXray/lava-lyra) - Lavalink v4 and Nodelink v3 client that also supports Pycord. <span title="Last activity 2026-10">⚡</span>
 - [PythonistaGuild/Wavelink](https://github.com/PythonistaGuild/Wavelink) - Async Lavalink v4 client. <span title="Last activity 2026-07">⚡</span>
-- [HazemMeqdad/lavaplay.py](https://github.com/HazemMeqdad/lavaplay.py) - Lavalink v4 node manager that works with any async Discord wrapper. <span title="Last activity 2026-05">⚡</span>
+- [HazemMeqdad/lavaplay.py](https://github.com/HazemMeqdad/lavaplay.py) - Lavalink v4 node manager that works with any async Discord wrapper. <span title="Last activity 2026-05">🕰️</span>
 - [Cog-Creators/Red-Lavalink](https://github.com/Cog-Creators/Red-Lavalink) - Lavalink client used by Red-DiscordBot, usable in any bot. <span title="Last activity 2026-03">🕰️</span>
 
 ### Authentication
@@ -145,7 +145,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 ### Miscellaneous
 
 - [Skelmis/Discord-Anti-Spam](https://github.com/Skelmis/Discord-Anti-Spam) - Automatic spam handling for commands and messages. <span title="Last activity 2026-07">⚡</span>
-- [mahtoid/DiscordChatExporterPy](https://github.com/mahtoid/DiscordChatExporterPy) - Export channel history to HTML transcripts. <span title="Last activity 2026-05">⚡</span>
+- [mahtoid/DiscordChatExporterPy](https://github.com/mahtoid/DiscordChatExporterPy) - Export channel history to HTML transcripts. <span title="Last activity 2026-05">🕰️</span>
 - [Tom-the-Bomb/Discord-Games](https://github.com/Tom-the-Bomb/Discord-Games) - Drop-in games such as chess, Connect Four, hangman, and 2048, played through reactions or buttons. <span title="Last activity 2026-03">🕰️</span>
 - [YousefEZ/discord-qalib](https://github.com/YousefEZ/discord-qalib) - XML templates for embeds and paginated menus. <span title="Last activity 2026-01">🕰️</span>
 - [Bluenix2/discord-typings](https://github.com/Bluenix2/discord-typings) - TypedDicts for Discord gateway and HTTP payloads. <span title="Last activity 2025-04">🕰️</span>
@@ -170,8 +170,8 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 - [python-discord/bot](https://github.com/python-discord/bot) - Moderation, utils, and community tools for Python Discord. <span title="Last activity 2026-10">⚡</span>
 - [modmail-dev/Modmail](https://github.com/modmail-dev/Modmail) - Shared staff inbox, similar to Reddit Modmail. <span title="Last activity 2026-10">⚡</span>
+- [Tortoise-Community/tortoise-bot](https://github.com/Tortoise-Community/tortoise-bot) - Community bot for the Tortoise Discord. <span title="Last activity 2026-10">⚡</span>
 - [python-discord/sir-lancebot](https://github.com/python-discord/sir-lancebot) - On-ramp bot for new open-source contributors at Python Discord. <span title="Last activity 2026-09">⚡</span>
-- [Tortoise-Community/tortoise-bot](https://github.com/Tortoise-Community/tortoise-bot) - Community bot for the Tortoise Discord. <span title="Last activity 2026-09">⚡</span>
 - [python-discord/sir-robin](https://github.com/python-discord/sir-robin) - Event-management bot for Python Discord. <span title="Last activity 2026-08">⚡</span>
 - [fourjr/rainbot](https://github.com/fourjr/rainbot) - Moderation bot with automod and logging. <span title="Last activity 2026-04">🕰️</span>
 - [PythonistaGuild/Pythonista-Bot](https://github.com/PythonistaGuild/Pythonista-Bot) - Guild bot for the Pythonista Guild server. <span title="Last activity 2025-02">🕰️</span>
@@ -183,15 +183,15 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 ### Music and games
 
+- [seriaati/hoyo-buddy](https://github.com/seriaati/hoyo-buddy) - User-installable bot for Genshin Impact, Honkai: Star Rail, and other Hoyoverse games. <span title="Last activity 2026-11">⚡</span>
 - [ChocoMeow/Vocard](https://github.com/ChocoMeow/Vocard) - Music bot for YouTube, SoundCloud, Spotify, and Twitch. <span title="Last activity 2026-10">⚡</span>
 - [Ballsdex-Team/BallsDex-DiscordBot](https://github.com/Ballsdex-Team/BallsDex-DiscordBot) - Collect and trade countryballs. <span title="Last activity 2026-10">⚡</span>
-- [seriaati/hoyo-buddy](https://github.com/seriaati/hoyo-buddy) - User-installable bot for Genshin Impact, Honkai: Star Rail, and other Hoyoverse games. <span title="Last activity 2026-10">⚡</span>
 - [poketwo/poketwo](https://github.com/poketwo/poketwo) - Pokémon catching and collecting, in the Pokécord style. <span title="Last activity 2025-02">🕰️</span>
 
 ### Specialized
 
-- [statch/gitbot](https://github.com/statch/gitbot) - GitHub notifications and developer tools. <span title="Last activity 2026-10">⚡</span>
-- [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Tournament and server management. <span title="Last activity 2026-10">⚡</span>
+- [statch/gitbot](https://github.com/statch/gitbot) - GitHub notifications and developer tools. <span title="Last activity 2026-11">⚡</span>
+- [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Tournament and server management. <span title="Last activity 2026-11">⚡</span>
 - [Yuuzi261/Tweetcord](https://github.com/Yuuzi261/Tweetcord) - Posts new tweets from followed X/Twitter accounts to chosen channels. <span title="Last activity 2026-10">⚡</span>
 - [mikeywhiston/ERM](https://github.com/mikeywhiston/ERM) - Staff tools aimed at Roblox communities. <span title="Last activity 2026-09">⚡</span>
 - [jakobdylanc/llmcord](https://github.com/jakobdylanc/llmcord) - LLM frontend for OpenAI-compatible APIs. <span title="Last activity 2026-08">⚡</span>
@@ -203,7 +203,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 - [Axobot-org/Axobot](https://github.com/Axobot-org/Axobot) - Multilingual general-purpose bot with moderation, XP, and Minecraft lookups. <span title="Last activity 2026-10">⚡</span>
 - [Iapetus-11/Villager-Bot](https://github.com/Iapetus-11/Villager-Bot) - Minecraft-themed bot with server status checks, pixel art, and an economy game; sharded across clusters. <span title="Last activity 2026-10">⚡</span>
 - [wasi-master/wm_bot](https://github.com/wasi-master/wm_bot) - General-purpose bot with a large command set. <span title="Last activity 2026-07">⚡</span>
-- [DTS-11/PizzaHat](https://github.com/DTS-11/PizzaHat) - General-purpose bot with a public website and AGPL source. <span title="Last activity 2026-05">⚡</span>
+- [DTS-11/PizzaHat](https://github.com/DTS-11/PizzaHat) - General-purpose bot with a public website and AGPL source. <span title="Last activity 2026-05">🕰️</span>
 - [Nirlep5252/EpicBot](https://github.com/Nirlep5252/EpicBot) - General-purpose bot with a large public command set. <span title="Last activity 2025-07">🕰️</span>
 
 ## Blog Posts, Guides and Tutorials
@@ -243,7 +243,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 - [InterStella0/Pagination Walkthrough](https://gist.github.com/InterStella0/454cc51e05e60e63b81ea2e8490ef140) - Walkthrough of action-based pagination. <span title="Last activity 2025-04">🕰️</span>
 - [imptype/Message Maker](https://gist.github.com/imptype/7b35c6769684fb68178e5719e5f81b6d) - Embed/message builder command. <span title="Last activity 2025-03">🕰️</span>
 - [esmaycat/Message Components](https://gist.github.com/esmaycat/500eafdad0aaf278b94c612764688976) - Using message components in 2.0. <span title="Last activity 2025-02">🕰️</span>
-- [Soheab/wait_for Modal](https://gist.github.com/Soheab/f46fee27498aad4a8962d59b6f0415c6) - Wait for user input with a modal. <span title="Last activity 2024-11">🕰️</span>
+- [Soheab/wait_for Modal](https://gist.github.com/Soheab/f46fee27498aad4a8962d59b6f0415c6) - Wait for user input with a modal. <span title="Last activity 2024-11">💤</span>
 - [mikeshardmind/List Menu](https://gist.github.com/mikeshardmind/bff6f937032455d83b8f1724ef73575a) - List menu pagination snippet. <span title="Last activity 2024-03">💤</span>
 - [quackbarc/2.0 Paginators](https://gist.github.com/quackbarc/31e5cd789d232ad0d263511bb1a506e8) - Paginator examples for 2.0. <span title="Last activity 2022-03">💤</span>
 
@@ -272,7 +272,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 - [mikeshardmind/SQLite Examples](https://gist.github.com/mikeshardmind/d7d2c6cb19b53ab76b7d401b2716df5d) - Common SQLite patterns for bots. <span title="Last activity 2026-09">⚡</span>
 - [Soheab/APIs for Discord Bots](https://gist.github.com/Soheab/332ba85f8989648449c71bdc8ef32368) - Community list of APIs commonly used with Discord bots. <span title="Last activity 2026-08">⚡</span>
 - [Soheab/Threads](https://gist.github.com/Soheab/4709e335474784d8a1877812f6d0c354) - Creating and managing Discord threads. <span title="Last activity 2026-07">⚡</span>
-- [4Kaylum/Discord.py Tutorial](https://gist.github.com/4Kaylum/a1e9f31c31b17386c36f017d3c59cdcc) - Simple bot tutorial. <span title="Last activity 2026-05">⚡</span>
+- [4Kaylum/Discord.py Tutorial](https://gist.github.com/4Kaylum/a1e9f31c31b17386c36f017d3c59cdcc) - Simple bot tutorial. <span title="Last activity 2026-05">🕰️</span>
 - [AkshuAgarwal/Interactions](https://gist.github.com/AkshuAgarwal/bc7d45bcecd5d29de4d6d7904e8b8bd8) - Intro to interactions and how to handle them. <span title="Last activity 2026-02">🕰️</span>
 - [Soheab/Voice Channel Status](https://gist.github.com/Soheab/e9a747f5c8fae43447a5611e483b4beb) - React when a voice channel status is set or changed. <span title="Last activity 2026-02">🕰️</span>
 - [Soheab/discord.Colour](https://gist.github.com/Soheab/d9cf3f40e34037cfa544f464fc7d919e) - Reference for discord.Colour helpers. <span title="Last activity 2026-02">🕰️</span>
@@ -291,7 +291,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 - [Embed Visualizer](https://leovoel.github.io/embed-visualizer/) - Live embed designer with generated library snippets.
 - [scarletcafe/discord.py-docker](https://github.com/scarletcafe/discord.py-docker) - Source for the `gorialis/discord.py` Docker images with the library preinstalled. <span title="Last activity 2026-04">🕰️</span>
 - [Soheab/discord.py-tags](https://github.com/Soheab/discord.py-tags) - Overflow copies of long tags from the official library Discord. <span title="Last activity 2024-12">🕰️</span>
-- [Soheab/dpy-badhosts](https://github.com/Soheab/dpy-badhosts) - Hosts the community generally warns against using for bots. <span title="Last activity 2024-11">🕰️</span>
+- [Soheab/dpy-badhosts](https://github.com/Soheab/dpy-badhosts) - Hosts the community generally warns against using for bots. <span title="Last activity 2024-11">💤</span>
 - [Soheab/dpy-missing-features](https://github.com/Soheab/dpy-missing-features) - Discord API features the library does not yet expose. <span title="Last activity 2024-08">💤</span>
 - [Rapptz/asqlite](https://github.com/Rapptz/asqlite) - Async wrapper around sqlite3. <span title="Last activity 2024-07">💤</span>
 - [discord-interactions-python](https://github.com/discord/discord-interactions-python) - Official helpers for verifying HTTP interaction signatures. <span title="Last activity 2024-04">💤</span>
@@ -300,20 +300,20 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 disnake, nextcord, Novus, pycord, and discord.py-message-components are discord.py forks. hikari, hata, interactions.py, and discord.http are independent wrappers, not drop-in replacements for discord.py.
 
-- [disnake](https://github.com/DisnakeDev/disnake) - Async Discord API wrapper, forked from discord.py. <span title="Last activity 2026-10">⚡</span>
+- [disnake](https://github.com/DisnakeDev/disnake) - Async Discord API wrapper, forked from discord.py. <span title="Last activity 2026-11">⚡</span>
+- [pycord](https://github.com/Pycord-Development/pycord) - Maintained fork of discord.py. <span title="Last activity 2026-11">⚡</span>
+- [hikari](https://github.com/hikari-py/hikari) - Independent async wrapper, not a drop-in replacement. <span title="Last activity 2026-11">⚡</span>
+- [AlexFlipnote/discord.http](https://github.com/AlexFlipnote/discord.http) - HTTP-interactions-first library with optional gateway and cache control. <span title="Last activity 2026-11">⚡</span>
 - [nextcord](https://github.com/nextcord/nextcord) - API wrapper forked from discord.py. <span title="Last activity 2026-10">⚡</span>
-- [pycord](https://github.com/Pycord-Development/pycord) - Maintained fork of discord.py. <span title="Last activity 2026-10">⚡</span>
-- [hikari](https://github.com/hikari-py/hikari) - Independent async wrapper, not a drop-in replacement. <span title="Last activity 2026-10">⚡</span>
 - [interactions.py](https://github.com/interactions-py/interactions.py) - Independent bot framework, not a drop-in replacement. <span title="Last activity 2026-10">⚡</span>
 - [hata](https://github.com/HuyaneMatsu/hata) - Independent async wrapper, not a drop-in replacement. <span title="Last activity 2026-10">⚡</span>
-- [AlexFlipnote/discord.http](https://github.com/AlexFlipnote/discord.http) - HTTP-interactions-first library with optional gateway and cache control. <span title="Last activity 2026-10">⚡</span>
 - [Novus](https://github.com/Voxel-Fox-Ltd/Novus) - Async API wrapper forked from discord.py, used by VoxelBotUtils. <span title="Last activity 2026-07">⚡</span>
 - [mccoderpy/discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components) - Fork that added message components before they landed upstream. <span title="Last activity 2025-06">🕰️</span>
 
 ## Related
 
 - [Discord Library Comparison](https://libs.advaith.io) - Feature matrix across Discord libraries.
-- [jacc/awesome-discord](https://github.com/jacc/awesome-discord) - Clients, bots, libraries, and related tools. <span title="Last activity 2026-05">⚡</span>
+- [jacc/awesome-discord](https://github.com/jacc/awesome-discord) - Clients, bots, libraries, and related tools. <span title="Last activity 2026-05">🕰️</span>
 - [awesome-discord-communities](https://github.com/mhxion/awesome-discord-communities) - Programmer Discord communities. <span title="Last activity 2026-04">🕰️</span><!-- END CONTENT -->
 
 ## Contributing
