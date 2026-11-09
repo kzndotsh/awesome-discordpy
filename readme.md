@@ -85,7 +85,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 ### Testing and Debugging
 
 - [python-discord/snekbox](https://github.com/python-discord/snekbox) - NSJail sandbox for evaluating untrusted Python, used by Python Discord. <span title="Last activity 2026-11">⚡</span>
-- [scarletcafe/jishaku](https://github.com/scarletcafe/jishaku) - REPL, extension reload, and debug cog for running bots. <span title="Last activity 2026-10">⚡</span>
+- [scarletcafe/jishaku](https://github.com/scarletcafe/jishaku) - REPL, extension reload, and debug cog for running bots. <span title="Last activity 2026-11">⚡</span>
 - [CraftSpider/dpytest](https://github.com/CraftSpider/dpytest) - Fake Discord backend for writing bot tests. <span title="Last activity 2026-06">⚡</span>
 
 ### UI
@@ -116,15 +116,15 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 ### Voice send
 
-- [sizumita/discord-ext-songbird](https://github.com/sizumita/discord-ext-songbird) - Rust Songbird `VoiceProtocol` with low-latency playback and voice receive. Beta. <span title="Last activity 2026-10">⚡</span>
+- [sizumita/discord-ext-songbird](https://github.com/sizumita/discord-ext-songbird) - Rust Songbird `VoiceProtocol` with low-latency playback and voice receive. Beta. <span title="Last activity 2026-11">⚡</span>
 
 ### Lavalink
 
 - [PyLav/PyLav](https://github.com/PyLav/PyLav) - Lavalink wrapper aimed at bots including Red-DiscordBot. <span title="Last activity 2026-11">⚡</span>
+- [ooliver1/mafic](https://github.com/ooliver1/mafic) - Typed Lavalink client that also supports nextcord, disnake, and Pycord. <span title="Last activity 2026-11">⚡</span>
+- [sonolink/sonolink](https://github.com/sonolink/sonolink) - Typed Lavalink v4 client built on msgspec; also supports Pycord and disnake. <span title="Last activity 2026-11">⚡</span>
 - [devoxin/Lavalink.py](https://github.com/devoxin/Lavalink.py) - Lavalink client with multi-node load balancing, filters, and custom sources. <span title="Last activity 2026-10">⚡</span>
 - [cloudwithax/pomice](https://github.com/cloudwithax/pomice) - Lavalink client with Spotify and Apple Music querying. <span title="Last activity 2026-10">⚡</span>
-- [ooliver1/mafic](https://github.com/ooliver1/mafic) - Typed Lavalink client that also supports nextcord, disnake, and Pycord. <span title="Last activity 2026-10">⚡</span>
-- [sonolink/sonolink](https://github.com/sonolink/sonolink) - Typed Lavalink v4 client built on msgspec; also supports Pycord and disnake. <span title="Last activity 2026-10">⚡</span>
 - [ParrotXray/lava-lyra](https://github.com/ParrotXray/lava-lyra) - Lavalink v4 and Nodelink v3 client that also supports Pycord. <span title="Last activity 2026-10">⚡</span>
 - [PythonistaGuild/Wavelink](https://github.com/PythonistaGuild/Wavelink) - Async Lavalink v4 client. <span title="Last activity 2026-07">⚡</span>
 - [HazemMeqdad/lavaplay.py](https://github.com/HazemMeqdad/lavaplay.py) - Lavalink v4 node manager that works with any async Discord wrapper. <span title="Last activity 2026-05">🕰️</span>
@@ -168,7 +168,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 ### Community and moderation
 
-- [python-discord/bot](https://github.com/python-discord/bot) - Moderation, utils, and community tools for Python Discord. <span title="Last activity 2026-10">⚡</span>
+- [python-discord/bot](https://github.com/python-discord/bot) - Moderation, utils, and community tools for Python Discord. <span title="Last activity 2026-11">⚡</span>
 - [modmail-dev/Modmail](https://github.com/modmail-dev/Modmail) - Shared staff inbox, similar to Reddit Modmail. <span title="Last activity 2026-10">⚡</span>
 - [Tortoise-Community/tortoise-bot](https://github.com/Tortoise-Community/tortoise-bot) - Community bot for the Tortoise Discord. <span title="Last activity 2026-10">⚡</span>
 - [python-discord/sir-lancebot](https://github.com/python-discord/sir-lancebot) - On-ramp bot for new open-source contributors at Python Discord. <span title="Last activity 2026-09">⚡</span>
@@ -179,7 +179,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 ### Frameworks
 
-- [Cog-Creators/Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) - Self-hosted modular bot with a large cog ecosystem. <span title="Last activity 2026-10">⚡</span>
+- [Cog-Creators/Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot) - Self-hosted modular bot with a large cog ecosystem. <span title="Last activity 2026-11">⚡</span>
 
 ### Music and games
 
@@ -199,8 +199,8 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 ### Multipurpose
 
+- [Axobot-org/Axobot](https://github.com/Axobot-org/Axobot) - Multilingual general-purpose bot with moderation, XP, and Minecraft lookups. <span title="Last activity 2026-11">⚡</span>
 - [joinemm/miso-bot](https://github.com/joinemm/miso-bot) - General-purpose bot with Last.fm and K-pop commands. <span title="Last activity 2026-10">⚡</span>
-- [Axobot-org/Axobot](https://github.com/Axobot-org/Axobot) - Multilingual general-purpose bot with moderation, XP, and Minecraft lookups. <span title="Last activity 2026-10">⚡</span>
 - [Iapetus-11/Villager-Bot](https://github.com/Iapetus-11/Villager-Bot) - Minecraft-themed bot with server status checks, pixel art, and an economy game; sharded across clusters. <span title="Last activity 2026-10">⚡</span>
 - [wasi-master/wm_bot](https://github.com/wasi-master/wm_bot) - General-purpose bot with a large command set. <span title="Last activity 2026-07">⚡</span>
 - [DTS-11/PizzaHat](https://github.com/DTS-11/PizzaHat) - General-purpose bot with a public website and AGPL source. <span title="Last activity 2026-05">🕰️</span>
@@ -304,8 +304,8 @@ disnake, nextcord, Novus, pycord, and discord.py-message-components are discord.
 - [pycord](https://github.com/Pycord-Development/pycord) - Maintained fork of discord.py. <span title="Last activity 2026-11">⚡</span>
 - [hikari](https://github.com/hikari-py/hikari) - Independent async wrapper, not a drop-in replacement. <span title="Last activity 2026-11">⚡</span>
 - [AlexFlipnote/discord.http](https://github.com/AlexFlipnote/discord.http) - HTTP-interactions-first library with optional gateway and cache control. <span title="Last activity 2026-11">⚡</span>
-- [nextcord](https://github.com/nextcord/nextcord) - API wrapper forked from discord.py. <span title="Last activity 2026-10">⚡</span>
-- [interactions.py](https://github.com/interactions-py/interactions.py) - Independent bot framework, not a drop-in replacement. <span title="Last activity 2026-10">⚡</span>
+- [nextcord](https://github.com/nextcord/nextcord) - API wrapper forked from discord.py. <span title="Last activity 2026-11">⚡</span>
+- [interactions.py](https://github.com/interactions-py/interactions.py) - Independent bot framework, not a drop-in replacement. <span title="Last activity 2026-11">⚡</span>
 - [hata](https://github.com/HuyaneMatsu/hata) - Independent async wrapper, not a drop-in replacement. <span title="Last activity 2026-10">⚡</span>
 - [Novus](https://github.com/Voxel-Fox-Ltd/Novus) - Async API wrapper forked from discord.py, used by VoxelBotUtils. <span title="Last activity 2026-07">⚡</span>
 - [mccoderpy/discord.py-message-components](https://github.com/mccoderpy/discord.py-message-components) - Fork that added message components before they landed upstream. <span title="Last activity 2025-06">🕰️</span>
