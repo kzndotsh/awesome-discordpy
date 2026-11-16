@@ -123,9 +123,9 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 - [PyLav/PyLav](https://github.com/PyLav/PyLav) - Lavalink wrapper aimed at bots including Red-DiscordBot. <span title="Last activity 2026-11">⚡</span>
 - [ooliver1/mafic](https://github.com/ooliver1/mafic) - Typed Lavalink client that also supports nextcord, disnake, and Pycord. <span title="Last activity 2026-11">⚡</span>
 - [sonolink/sonolink](https://github.com/sonolink/sonolink) - Typed Lavalink v4 client built on msgspec; also supports Pycord and disnake. <span title="Last activity 2026-11">⚡</span>
-- [devoxin/Lavalink.py](https://github.com/devoxin/Lavalink.py) - Lavalink client with multi-node load balancing, filters, and custom sources. <span title="Last activity 2026-10">⚡</span>
+- [devoxin/Lavalink.py](https://github.com/devoxin/Lavalink.py) - Lavalink client with multi-node load balancing, filters, and custom sources. <span title="Last activity 2026-11">⚡</span>
+- [ParrotXray/lava-lyra](https://github.com/ParrotXray/lava-lyra) - Lavalink v4 and Nodelink v3 client that also supports Pycord. <span title="Last activity 2026-11">⚡</span>
 - [cloudwithax/pomice](https://github.com/cloudwithax/pomice) - Lavalink client with Spotify and Apple Music querying. <span title="Last activity 2026-10">⚡</span>
-- [ParrotXray/lava-lyra](https://github.com/ParrotXray/lava-lyra) - Lavalink v4 and Nodelink v3 client that also supports Pycord. <span title="Last activity 2026-10">⚡</span>
 - [PythonistaGuild/Wavelink](https://github.com/PythonistaGuild/Wavelink) - Async Lavalink v4 client. <span title="Last activity 2026-07">⚡</span>
 - [HazemMeqdad/lavaplay.py](https://github.com/HazemMeqdad/lavaplay.py) - Lavalink v4 node manager that works with any async Discord wrapper. <span title="Last activity 2026-05">🕰️</span>
 - [Cog-Creators/Red-Lavalink](https://github.com/Cog-Creators/Red-Lavalink) - Lavalink client used by Red-DiscordBot, usable in any bot. <span title="Last activity 2026-03">🕰️</span>
@@ -152,16 +152,16 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 ### Templates
 
+- [PaulMarisOUMary/Discord-Bot](https://github.com/PaulMarisOUMary/Discord-Bot) - 2.x starter with hybrid commands, Docker, logging, and a database. <span title="Last activity 2026-11">⚡</span>
 - [kkrypt0nn/Python-Discord-Bot-Template](https://github.com/kkrypt0nn/Python-Discord-Bot-Template) - Starter project for a personalized bot. <span title="Last activity 2026-10">⚡</span>
-- [PaulMarisOUMary/Discord-Bot](https://github.com/PaulMarisOUMary/Discord-Bot) - 2.x starter with hybrid commands, Docker, logging, and a database. <span title="Last activity 2026-10">⚡</span>
 
 ## Example Bots
 
 ### Reference implementations
 
+- [avizum/alpine](https://github.com/avizum/alpine) - Public source for a general-purpose bot; author recommends the hosted instance. <span title="Last activity 2026-11">⚡</span>
+- [AbstractUmbra/Mipha](https://github.com/AbstractUmbra/Mipha) - Umbra's personal bot, forked from RoboDanny and kept on latest library releases. <span title="Last activity 2026-11">⚡</span>
 - [AlexFlipnote/discord_bot.py](https://github.com/AlexFlipnote/discord_bot.py) - Minimal starter bot. <span title="Last activity 2026-10">⚡</span>
-- [avizum/alpine](https://github.com/avizum/alpine) - Public source for a general-purpose bot; author recommends the hosted instance. <span title="Last activity 2026-10">⚡</span>
-- [AbstractUmbra/Mipha](https://github.com/AbstractUmbra/Mipha) - Umbra's personal bot, forked from RoboDanny and kept on latest library releases. <span title="Last activity 2026-10">⚡</span>
 - [Kile/Killua](https://github.com/Kile/Killua) - Games, moderation, and todo lists, plus extra algorithm notes in-tree. <span title="Last activity 2026-08">⚡</span>
 - [Rapptz/RoboDanny](https://github.com/Rapptz/RoboDanny) - Rapptz's production bot; commonly used as a reference implementation. <span title="Last activity 2026-06">⚡</span>
 - [onerandomusername/monty-python](https://github.com/onerandomusername/monty-python) - Helper bot for Python project development. <span title="Last activity 2026-02">🕰️</span>
