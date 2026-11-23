@@ -132,7 +132,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 
 ### Authentication
 
-- [Soheab/oauthcord.py](https://github.com/Soheab/oauthcord.py) - Async OAuth2 client with typed REST models; not a bot framework. <span title="Last activity 2026-10">⚡</span>
+- [Soheab/oauthcord.py](https://github.com/Soheab/oauthcord.py) - Async OAuth2 client with typed REST models; not a bot framework. <span title="Last activity 2026-11">⚡</span>
 - [Rapptz/open-collective-discord-auth](https://github.com/Rapptz/open-collective-discord-auth) - Linked-role auth server for Open Collective membership. <span title="Last activity 2026-06">⚡</span>
 - [treeben77/discord-oauth2.py](https://github.com/treeben77/discord-oauth2.py) - OAuth2 and Linked Roles REST wrapper. <span title="Last activity 2026-01">🕰️</span>
 
@@ -153,7 +153,7 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 ### Templates
 
 - [PaulMarisOUMary/Discord-Bot](https://github.com/PaulMarisOUMary/Discord-Bot) - 2.x starter with hybrid commands, Docker, logging, and a database. <span title="Last activity 2026-11">⚡</span>
-- [kkrypt0nn/Python-Discord-Bot-Template](https://github.com/kkrypt0nn/Python-Discord-Bot-Template) - Starter project for a personalized bot. <span title="Last activity 2026-10">⚡</span>
+- [kkrypt0nn/Python-Discord-Bot-Template](https://github.com/kkrypt0nn/Python-Discord-Bot-Template) - Starter project for a personalized bot. <span title="Last activity 2026-11">⚡</span>
 
 ## Example Bots
 
@@ -169,8 +169,8 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 ### Community and moderation
 
 - [python-discord/bot](https://github.com/python-discord/bot) - Moderation, utils, and community tools for Python Discord. <span title="Last activity 2026-11">⚡</span>
+- [Tortoise-Community/tortoise-bot](https://github.com/Tortoise-Community/tortoise-bot) - Community bot for the Tortoise Discord. <span title="Last activity 2026-11">⚡</span>
 - [modmail-dev/Modmail](https://github.com/modmail-dev/Modmail) - Shared staff inbox, similar to Reddit Modmail. <span title="Last activity 2026-10">⚡</span>
-- [Tortoise-Community/tortoise-bot](https://github.com/Tortoise-Community/tortoise-bot) - Community bot for the Tortoise Discord. <span title="Last activity 2026-10">⚡</span>
 - [python-discord/sir-lancebot](https://github.com/python-discord/sir-lancebot) - On-ramp bot for new open-source contributors at Python Discord. <span title="Last activity 2026-09">⚡</span>
 - [python-discord/sir-robin](https://github.com/python-discord/sir-robin) - Event-management bot for Python Discord. <span title="Last activity 2026-08">⚡</span>
 - [fourjr/rainbot](https://github.com/fourjr/rainbot) - Moderation bot with automod and logging. <span title="Last activity 2026-04">🕰️</span>
@@ -184,15 +184,15 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 ### Music and games
 
 - [seriaati/hoyo-buddy](https://github.com/seriaati/hoyo-buddy) - User-installable bot for Genshin Impact, Honkai: Star Rail, and other Hoyoverse games. <span title="Last activity 2026-11">⚡</span>
+- [Ballsdex-Team/BallsDex-DiscordBot](https://github.com/Ballsdex-Team/BallsDex-DiscordBot) - Collect and trade countryballs. <span title="Last activity 2026-11">⚡</span>
 - [ChocoMeow/Vocard](https://github.com/ChocoMeow/Vocard) - Music bot for YouTube, SoundCloud, Spotify, and Twitch. <span title="Last activity 2026-10">⚡</span>
-- [Ballsdex-Team/BallsDex-DiscordBot](https://github.com/Ballsdex-Team/BallsDex-DiscordBot) - Collect and trade countryballs. <span title="Last activity 2026-10">⚡</span>
 - [poketwo/poketwo](https://github.com/poketwo/poketwo) - Pokémon catching and collecting, in the Pokécord style. <span title="Last activity 2025-02">🕰️</span>
 
 ### Specialized
 
 - [statch/gitbot](https://github.com/statch/gitbot) - GitHub notifications and developer tools. <span title="Last activity 2026-11">⚡</span>
 - [Hunter87ff/Spruce](https://github.com/Hunter87ff/Spruce) - Tournament and server management. <span title="Last activity 2026-11">⚡</span>
-- [Yuuzi261/Tweetcord](https://github.com/Yuuzi261/Tweetcord) - Posts new tweets from followed X/Twitter accounts to chosen channels. <span title="Last activity 2026-10">⚡</span>
+- [Yuuzi261/Tweetcord](https://github.com/Yuuzi261/Tweetcord) - Posts new tweets from followed X/Twitter accounts to chosen channels. <span title="Last activity 2026-11">⚡</span>
 - [mikeywhiston/ERM](https://github.com/mikeywhiston/ERM) - Staff tools aimed at Roblox communities. <span title="Last activity 2026-09">⚡</span>
 - [jakobdylanc/llmcord](https://github.com/jakobdylanc/llmcord) - LLM frontend for OpenAI-compatible APIs. <span title="Last activity 2026-08">⚡</span>
 - [cheran-senthil/TLE](https://github.com/cheran-senthil/TLE) - Competitive programming helper for Codeforces and similar sites. <span title="Last activity 2026-03">🕰️</span>
@@ -200,10 +200,10 @@ Last Activity: ⚡ within 6 months · 🕰️ 6–24 months · 💤 over 2 years
 ### Multipurpose
 
 - [Axobot-org/Axobot](https://github.com/Axobot-org/Axobot) - Multilingual general-purpose bot with moderation, XP, and Minecraft lookups. <span title="Last activity 2026-11">⚡</span>
+- [DTS-11/PizzaHat](https://github.com/DTS-11/PizzaHat) - General-purpose bot with a public website and AGPL source. <span title="Last activity 2026-11">⚡</span>
 - [joinemm/miso-bot](https://github.com/joinemm/miso-bot) - General-purpose bot with Last.fm and K-pop commands. <span title="Last activity 2026-10">⚡</span>
 - [Iapetus-11/Villager-Bot](https://github.com/Iapetus-11/Villager-Bot) - Minecraft-themed bot with server status checks, pixel art, and an economy game; sharded across clusters. <span title="Last activity 2026-10">⚡</span>
 - [wasi-master/wm_bot](https://github.com/wasi-master/wm_bot) - General-purpose bot with a large command set. <span title="Last activity 2026-07">⚡</span>
-- [DTS-11/PizzaHat](https://github.com/DTS-11/PizzaHat) - General-purpose bot with a public website and AGPL source. <span title="Last activity 2026-05">🕰️</span>
 - [Nirlep5252/EpicBot](https://github.com/Nirlep5252/EpicBot) - General-purpose bot with a large public command set. <span title="Last activity 2025-07">🕰️</span>
 
 ## Blog Posts, Guides and Tutorials
